@@ -320,6 +320,8 @@ button {
   background-color: var(--purple);
 }
 
+/*Workout plans*/
+
 .plan-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
