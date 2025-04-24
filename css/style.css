@@ -51,6 +51,26 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+  background-color: rgba(34, 93, 144, 0.01);
+  backdrop-filter: blur(0.3rem);
+  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
+  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
+  border-radius: 5rem;
+  border: 0px;
+  width: 20rem;
+  height: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: var(--text);
+}
+
+button:hover {
+  animation-name: button-animation;
+  animation-duration: 0.5s;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+}
+
 html,
 body {
   height: 100%;
@@ -148,20 +168,6 @@ footer {
 
 .titles {
   margin-bottom: 3rem;
-}
-
-button {
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-  border-radius: 5rem;
-  border: 0px;
-  width: 20rem;
-  height: 7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  color: var(--text);
 }
 
 .start-button {
@@ -320,4 +326,21 @@ button {
   height: 1rem;
   -webkit-appearance: none;
   background-color: var(--purple);
+}
+
+/*Body part selection page*/
+
+.body-parts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  width: 20rem;
+  height: 20rem;
 }
