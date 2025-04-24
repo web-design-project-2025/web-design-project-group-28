@@ -1,3 +1,5 @@
+let userData = [];
+
 async function loadUserData() {
   try {
     const response = await JSON.parse(localStorage.getItem("data"));
@@ -8,6 +10,9 @@ async function loadUserData() {
   }
 }
 
+loadUserData();
+
+const full = document.getElementById("full");
 const back = document.getElementById("spine");
 const chest = document.getElementById("chest");
 const abs = document.getElementById("abs");
@@ -16,25 +21,57 @@ const legs = document.getElementById("legs");
 const arms = document.getElementById("arms");
 
 back.addEventListener("click", () => {
-  console.log("back");
+  userData.forEach((e) => {
+    e.part = "back";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
 
 chest.addEventListener("click", () => {
-  console.log("back");
+  userData.forEach((e) => {
+    e.part = "chest";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
 
 abs.addEventListener("click", () => {
-  console.log("abs");
+  userData.forEach((e) => {
+    e.part = "abs";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
 
 shoulders.addEventListener("click", () => {
-  console.log("shoulders");
+  userData.forEach((e) => {
+    e.part = "shoulders";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
 
 legs.addEventListener("click", () => {
-  console.log("abs");
+  userData.forEach((e) => {
+    e.part = "legs";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
 
 arms.addEventListener("click", () => {
-  console.log("arms");
+  userData.forEach((e) => {
+    e.part = "arms";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
+});
+
+full.addEventListener("click", () => {
+  userData.forEach((e) => {
+    e.part = "full";
+    console.log(e.part);
+  });
+  localStorage.setItem("data", JSON.stringify(userData));
 });
