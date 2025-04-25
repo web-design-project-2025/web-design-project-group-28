@@ -73,17 +73,14 @@ button:hover {
 
 html,
 body {
-  html,
-  body {
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(../img/image.png);
-  }
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/image.png);
 }
 
 header {
@@ -217,6 +214,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   height: 25rem;
   width: 65rem;
   margin: 0px;
@@ -313,12 +311,10 @@ footer {
   width: 50%;
   height: 100%;
   height: 25rem;
-  margin: 0px;
-  padding: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-left: 20rem;
 }
 
 .range {
@@ -326,6 +322,7 @@ footer {
   height: 1rem;
   -webkit-appearance: none;
   background-color: var(--purple);
+  justify-content: center;
 }
 
 /*Workout plans*/
@@ -339,13 +336,13 @@ footer {
   width: 100%;
   max-width: 60rem;
   margin: 2rem auto;
-
+}
 /*Body part selection page*/
 
-.body-parts {
+.bodyparts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 5rem;
   grid-row-gap: 5rem;
   justify-content: center;
@@ -371,14 +368,19 @@ footer {
 }
 
 .full {
-  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-left: 32rem;
+  margin-top: -7rem;
 }
 
 #redirect {
   text-align: center;
   margin-top: -140px;
 }
-  
+
 .redirect-hello {
   display: inline-block;
   font-size: 3rem;
@@ -387,3 +389,4 @@ footer {
 .redirect-thankyou {
   display: inline-block;
   font-size: 1.5rem;
+}
