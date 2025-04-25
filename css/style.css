@@ -321,3 +321,19 @@ button {
   -webkit-appearance: none;
   background-color: var(--purple);
 }
+
+/*Redirect*/
+
+#redirect {
+  text-align: center;
+  margin-top: -140px;
+}
+.redirect-hello {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.redirect-thankyou {
+  display: inline-block;
+  font-size: 1.5rem;
+}
