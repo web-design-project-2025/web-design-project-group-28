@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: white;
-    background: url('../images/bgimage1.png') no-repeat center center / cover;
+    background: url('../img/image.png') no-repeat center center / cover;
   }
   
   .top-bar {
