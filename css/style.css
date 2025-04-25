@@ -51,6 +51,26 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+  background-color: rgba(34, 93, 144, 0.01);
+  backdrop-filter: blur(0.3rem);
+  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
+  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
+  border-radius: 5rem;
+  border: 0px;
+  width: 20rem;
+  height: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: var(--text);
+}
+
+button:hover {
+  animation-name: button-animation;
+  animation-duration: 0.5s;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+}
+
 html,
 body {
   html,
@@ -67,14 +87,16 @@ body {
 }
 
 header {
+  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(90deg, var(--blue), var(--orange));
-
   backdrop-filter: blur(0.3rem);
   min-height: 5rem;
   margin: 0px;
+  min-height: 5rem;
+  margin: 0rem;
   width: 100%;
 }
 
@@ -146,20 +168,6 @@ footer {
 
 .titles {
   margin-bottom: 3rem;
-}
-
-button {
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-  border-radius: 5rem;
-  border: 0px;
-  width: 20rem;
-  height: 7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  color: var(--text);
 }
 
 .start-button {
@@ -331,6 +339,15 @@ button {
   width: 100%;
   max-width: 60rem;
   margin: 2rem auto;
+
+/*Body part selection page*/
+
+.body-parts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
   justify-content: center;
   align-items: center;
 }
@@ -347,3 +364,26 @@ button {
   box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
   border-radius: 1rem;
 }
+
+.body {
+  width: 20rem;
+  height: 20rem;
+}
+
+.full {
+  margin-top: 5rem;
+}
+
+#redirect {
+  text-align: center;
+  margin-top: -140px;
+}
+  
+.redirect-hello {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.redirect-thankyou {
+  display: inline-block;
+  font-size: 1.5rem;

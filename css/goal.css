@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: url('../images/bgimage1.png') no-repeat center center / cover;
+  }
+  
+  .top-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #5336dc, #ed8939);
+    padding: 20px 40px;
+  }
+  
+  .top-bar h1 {
+    font-size: 24px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .profile-icon {
+    position: absolute;
+    right: 40px;
+  }
+  
+  .profile-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .main-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .arrow img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  
+  .goals {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .goal-btn {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: left;
+    gap: 15px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    color: white;
+    backdrop-filter: blur(10px);
+  }
+  
+  .goal-btn.selected {
+    border-color: orange !important;
+  }
+  
+  .goal-btn img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .goal-btn h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .goal-btn p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #eee;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: linear-gradient(90deg, #5336dc, #ed8939);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a,
+  .footer-section p {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
