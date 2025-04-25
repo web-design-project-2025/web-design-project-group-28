@@ -329,6 +329,7 @@ footer {
   background-color: var(--purple);
 }
 
+
 /*Body part selection page*/
 
 .body-parts {
@@ -349,3 +350,17 @@ footer {
 .full {
   margin-top: 5rem;
 }
+
+#redirect {
+  text-align: center;
+  margin-top: -140px;
+}
+.redirect-hello {
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.redirect-thankyou {
+  display: inline-block;
+  font-size: 1.5rem;
+
