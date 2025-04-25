@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "focus": "Chest",
+    "reps": 12,
+    "sets": 4,
+    "rest": 80,
+    "days": 5,
+    "description": "High-performance gaming PC with RTX 4090 and Intel i9 processor.",
+    "level": "Intermediate",
+    "image": "images/image1.png"
+  }
+]
