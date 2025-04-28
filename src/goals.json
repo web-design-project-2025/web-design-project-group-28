@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Build Muscle",
+      "description": "Focus on building muscle and strength."
+    },
+
+    {
+      "id": 2,
+      "title": "Lose Weight",
+      "description": "Focus on fat loss and achieving a leaner body."
+    },
+
+    {
+      "id": 3,
+      "title": "Increase Stamina",
+      "description": "Focus on cardio and endurance improvement."
+    },
+    
+    {
+      "id": 4,
+      "title": "Stay Fit",
+      "description": "Maintain general fitness and health."
+    }
+  ]
+  

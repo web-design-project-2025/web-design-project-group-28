@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "level": "Beginner",
+      "description": "Just starting out or new to fitness (You have been training for 6 to 12 months.)"
+    },
+
+    {
+      "id": 2,
+      "level": "Intermediate",
+      "description": "Have some experience and regular training habits (You have been training for 12 to 18 months.)"
+    },
+
+    {
+      "id": 3,
+      "level": "Advanced",
+      "description": "Training for years and seeking challenging workouts (You have been training for more than 18 months.)"
+    }
+  ]
+  
