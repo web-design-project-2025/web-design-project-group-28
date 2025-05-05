@@ -249,78 +249,17 @@ footer {
   margin-right: 0px;
 }
 
-/*Weight*/
-
-.weight-page {
-  width: 50%;
-
-  height: 25rem;
-}
-
-#weight-display {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 2rem;
-  height: 5rem;
-  width: 15rem;
-}
-
-#height-display {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 2rem;
-  height: 5rem;
-  width: 15rem;
-}
-
-#age-display {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 2rem;
-  height: 5rem;
-  width: 15rem;
-}
-
-.range {
-  width: 40rem;
-  height: 1rem;
-  -webkit-appearance: none;
-  background-color: var(--purple);
-  justify-content: center;
-}
-
 /*Workout plans*/
+
+.workouts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .plan-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 20rem;
   gap: 1rem;
   height: 100%;
