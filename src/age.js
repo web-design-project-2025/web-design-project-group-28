@@ -20,13 +20,13 @@ slider.addEventListener("input", (e) => {
   let color = slider.value * 2.5;
   if (vikt > 99) {
     vikt = "99 +";
-    displayWeight.innerHTML = `<h3 id="color-changer">${vikt} years</h3>`;
+    displayWeight.innerHTML = `<h3 id="color-changer">${vikt}</h3>`;
   }
   userData.forEach((e) => {
     e.age = vikt;
     console.log(e.age);
   });
-  displayWeight.innerHTML = `<h3 id="color-changer">${vikt} years</h3>`;
+  displayWeight.innerHTML = `<h3 id="color-changer">${vikt}</h3>`;
   let colorChanger = document.getElementById("color-changer");
   colorChanger.style.color = `rgb(255, 136, ${color})`;
   localStorage.setItem("data", JSON.stringify(userData));
