@@ -4,7 +4,7 @@ async function loadUserData() {
   try {
     const response = await JSON.parse(localStorage.getItem("data"));
     userData = response;
-    console.log("fungerar", userData);
+    console.log("working", userData);
   } catch (error) {
     console.log("error", error);
   }
