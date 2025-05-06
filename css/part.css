@@ -1,0 +1,44 @@
+/*Body part selection page*/
+
+.part-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyparts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  background-color: rgba(34, 93, 144, 0.01);
+  backdrop-filter: blur(0.3rem);
+  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
+  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
+  border-radius: 1rem;
+}
+
+.body {
+  width: 20rem;
+  height: 20rem;
+}
+
+.full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: -7rem;
+}
