@@ -1,0 +1,41 @@
+.gender-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gender-button {
+  width: 15rem;
+  height: 5rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.gender-button:hover {
+  animation-name: button-animation;
+  animation-duration: 0.5s;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+}
+
+.man {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.woman {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+  margin-left: 0px;
+  margin-right: 0px;
+}
