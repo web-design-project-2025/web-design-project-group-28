@@ -179,9 +179,13 @@ footer {
 
 .arrows {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  gap: 65rem;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+.left,
+.right {
+  width: 7rem;
 }
 
 #back {
