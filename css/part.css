@@ -42,3 +42,10 @@
   margin-bottom: 5rem;
   margin-top: -7rem;
 }
+
+.selected {
+  background-color: #6b2290;
+  color: white;
+  border: 2px solid #f9fbfd;
+}
+
