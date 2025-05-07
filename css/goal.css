@@ -1,26 +1,8 @@
-:root {
-  --blue: #0000ff;
-  --orange: rgb(255, 136, 0);
-  --text: rgba(255, 255, 255, 0.769);
-  --title: rgba(255, 255, 255, 0.883);
-  --purple: #4620f3;
-}
-
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  color: var(--text);
+  color: white;
   background: url("../img/image.png") no-repeat center center / cover;
-}
-
-@keyframes button-animation {
-  0% {
-    box-shadow: 0rem 0rem 0.2rem 0.2rem var(--text);
-  }
-
-  100% {
-    box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
-  }
 }
 
 .top-bar {
@@ -28,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, var(--purple), var(--orange));
+  background: linear-gradient(90deg, #5336dc, #ed8939);
   padding: 20px 40px;
 }
 
@@ -59,8 +41,8 @@ body {
 }
 
 .arrow img {
-  width: 5rem;
-  height: 5rem;
+  width: 40px;
+  height: 40px;
 }
 
 .left-arrow {
@@ -86,27 +68,20 @@ body {
 .goal-btn {
   display: flex;
   align-items: center;
-  border: 0px;
-  border-radius: 1rem;
-  padding: 2rem 20rem;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding: 15px 20px;
   text-align: left;
   gap: 15px;
   cursor: pointer;
   transition: border 0.3s ease;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-}
-
-.goal-btn:hover {
-  animation-name: button-animation;
-  animation-duration: 0.5s;
-  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+  color: white;
+  backdrop-filter: blur(10px);
 }
 
 .goal-btn.selected {
-  background-color: var(--orange);
+  border-color: orange !important;
 }
 
 .goal-btn img {
@@ -123,50 +98,5 @@ body {
 .goal-btn p {
   margin: 5px 0 0;
   font-size: 14px;
-  color: var(--text);
-}
-
-/* Footer Styles */
-footer {
-  background: linear-gradient(90deg, #5336dc, #ed8939);
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 60px;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.footer-section {
-  flex: 1;
-  min-width: 180px;
-}
-
-.footer-section h4 {
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section li {
-  margin-bottom: 5px;
-}
-
-.footer-section a,
-.footer-section p {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.social-icons img {
-  width: 24px;
-  height: 24px;
+  color: #eee;
 }
