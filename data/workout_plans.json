@@ -1,0 +1,35 @@
+{
+    "build muscle": {
+      "1": ["Full Body Strength"],
+      "2": ["Upper Body", "Lower Body"],
+      "3": ["Chest & Triceps", "Back & Biceps", "Legs & Shoulders"],
+      "4": ["Push", "Pull", "Legs", "Core"],
+      "5": ["Push", "Pull", "Legs", "Shoulders", "Core"],
+      "6": ["Chest", "Back", "Legs", "Shoulders", "Arms", "Full Body"]
+    },
+    "lose weight": {
+      "1": ["HIIT + Walk"],
+      "2": ["Cardio + Core", "Strength + Walk"],
+      "3": ["HIIT", "Strength Training", "Yoga"],
+      "4": ["HIIT", "Strength", "Cardio", "Mobility"],
+      "5": ["Cardio", "Strength", "Active Recovery", "HIIT", "Yoga"],
+      "6": ["HIIT", "Strength", "Cardio", "Pilates", "Mobility", "Stretch"]
+    },
+    "increase stamina": {
+      "1": ["Endurance Walk + Core"],
+      "2": ["Interval Running", "Cycling"],
+      "3": ["HIIT Cardio", "Endurance Run", "Strength + Core"],
+      "4": ["Run", "Bike", "Swim", "HIIT"],
+      "5": ["Cardio Mix", "Run", "Core", "Swim", "Stretch"],
+      "6": ["Cardio", "Strength", "HIIT", "Mobility", "Run", "Recovery"]
+    },
+    "just stay fit": {
+      "1": ["Full Body Circuit"],
+      "2": ["Bodyweight Training", "Stretching"],
+      "3": ["Strength", "Mobility", "Walk + Core"],
+      "4": ["Strength", "Cardio", "Stretch", "Yoga"],
+      "5": ["HIIT", "Strength", "Yoga", "Walk", "Mobility"],
+      "6": ["Strength", "Cardio", "Core", "Yoga", "Stretch", "Walk"]
+    }
+  }
+  

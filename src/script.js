@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       goalButtons.forEach(btn => btn.classList.remove("selected"));
       button.classList.add("selected");
 
-      const selectedGoal = button.getAttribute("data-goal");
+      const selectedGoal = button.getAttribute("data-goal").toLowerCase();
       localStorage.setItem("selectedGoal", selectedGoal);
       console.log("Selected Goal:", selectedGoal);
     });
