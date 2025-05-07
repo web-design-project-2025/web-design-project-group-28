@@ -7,6 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
     option.addEventListener("click", () => {
       dayOptions.forEach(opt => opt.classList.remove("selected"));
       option.classList.add("selected");
+
+      const selectedText = option.querySelector("strong").textContent;
+      const selectedDays = parseInt(selectedText);                      // Extracting the number from "1 day / week"
+      localStorage.setItem("daysPerWeek", selectedDays);
+      console.log("Selected Days per Week:", selectedDays);
     });
   });
 
