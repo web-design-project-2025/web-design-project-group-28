@@ -1,35 +1,35 @@
 {
     "build muscle": {
       "1": ["Full Body Strength"],
-      "2": ["Upper Body", "Lower Body"],
-      "3": ["Chest & Triceps", "Back & Biceps", "Legs & Shoulders"],
-      "4": ["Push", "Pull", "Legs", "Core"],
-      "5": ["Push", "Pull", "Legs", "Shoulders", "Core"],
-      "6": ["Chest", "Back", "Legs", "Shoulders", "Arms", "Full Body"]
+      "2": ["Full Body Circuit", "Rest Day", "Rest Day", "Rest Day", "Intense Cardio", "Rest Day"],
+      "3": ["Upper Body", "Rest Day", "Lower Body", "Rest Day", "Rest Day", "Intense Cardio", "Rest Day"],
+      "4": ["Push Day", "Rest Day", "Pull Day", "Rest Day", "Legs Day", "Rest Day", "Light Cardio"],
+      "5": ["Push Day", "Pull Day", "Legs Day", "Rest Day", "Upper Body", "Lower Body", "Rest Day"],
+      "6": ["Chest and Triceps", "Shoulders and Core", "Back and Biceps", "Legs and Core", "Rest and Recoup", "Cardio", "Full Body"]
     },
     "lose weight": {
-      "1": ["HIIT + Walk"],
-      "2": ["Cardio + Core", "Strength + Walk"],
-      "3": ["HIIT", "Strength Training", "Yoga"],
-      "4": ["HIIT", "Strength", "Cardio", "Mobility"],
-      "5": ["Cardio", "Strength", "Active Recovery", "HIIT", "Yoga"],
-      "6": ["HIIT", "Strength", "Cardio", "Pilates", "Mobility", "Stretch"]
+      "1": ["Strength Training + Cardio"],
+      "2": ["Full Body + Cardio", "Rest Day", "Rest Day", "Rest Day", "Intense Cardio Session", "Rest Day", "Rest Day"],
+      "3": ["Full Body Circuit", "Rest Day", "Lower Body + Core + Light Cardio", "Rest Day", "Intense Cardio", "Rest Day", "Rest Day"],
+      "4": ["Push Day + Light Cardio", "Pull Day + Light Cardio", "Rest Day", "Lower Body + Light Cardio", "Rest Day", "Intense Cardio Session", "Rest Day"],
+      "5": ["Lower Body + Core", "Push Day", "Core + Cardio", "Rest Day", "Pull Day", "Full Body + Conditioning", "Rest Day"],
+      "6": ["Lower Body + Cardio", "Push Day + Core", "Lower Body + HIIT", "Pull Day + Core", "Rest Day", "Full Body Circuit + Light Cardio", "Metabollic Circuit"]
     },
     "increase stamina": {
-      "1": ["Endurance Walk + Core"],
-      "2": ["Interval Running", "Cycling"],
-      "3": ["HIIT Cardio", "Endurance Run", "Strength + Core"],
-      "4": ["Run", "Bike", "Swim", "HIIT"],
-      "5": ["Cardio Mix", "Run", "Core", "Swim", "Stretch"],
-      "6": ["Cardio", "Strength", "HIIT", "Mobility", "Run", "Recovery"]
+      "1": ["Intense Cardio + HIIT Session"],
+      "2": ["Running Intervals + Incline Walking", "Rest Day", "Rest Day", "Rest Day", "Cycling Intervals + Stair Climbers", "Rest Day", "Rest Day"],
+      "3": ["Treadmill Jog Intervals", "Rest Day", "Stair Climbers + HIIT + Functional Circuit", "Rest Day", "Cycling Intervals + Incline Walking", "Rest Day", "Rest day"],
+      "4": ["Full Body Circuit", "Treadmill Jog Intervals", "Rest Day", "Stair Climber + Functional Cardio", "Rest Day", "Cycling Intervals + Incline Walk", "Rest Day"],
+      "5": ["Full Body Circuit", "Treadmill HIIT Intervals", "Cycling Intervals + Core Burn", "Rest Day", "Upper Body + Incline Walk", "Stair Climber + Functional Cardio", "Rest Day"],
+      "6": ["Full Body Circuit", "HIIT Treadmill Intervals", "Cycling Intervals + Core", "Incline Walking", "Rest Day", "Intense Jog Session", "Stair Climber + Sled Push Circuit"]
     },
     "just stay fit": {
-      "1": ["Full Body Circuit"],
-      "2": ["Bodyweight Training", "Stretching"],
-      "3": ["Strength", "Mobility", "Walk + Core"],
-      "4": ["Strength", "Cardio", "Stretch", "Yoga"],
-      "5": ["HIIT", "Strength", "Yoga", "Walk", "Mobility"],
-      "6": ["Strength", "Cardio", "Core", "Yoga", "Stretch", "Walk"]
+      "1": ["Full Body Strength"],
+      "2": ["Full Body Circuit", "Rest Day", "Rest Day", "Rest Day", "Intense Cardio", "Rest Day"],
+      "3": ["Upper Body", "Rest Day", "Lower Body", "Rest Day", "Rest Day", "Intense Cardio", "Rest Day"],
+      "4": ["Push Day", "Rest Day", "Pull Day", "Rest Day", "Legs Day", "Rest Day", "Light Cardio"],
+      "5": ["Push Day", "Pull Day", "Legs Day", "Rest Day", "Upper Body", "Lower Body", "Rest Day"],
+      "6": ["Chest and Triceps", "Shoulders and Core", "Back and Biceps", "Legs and Core", "Rest and Recoup", "Cardio", "Full Body"]
     }
   }
   
