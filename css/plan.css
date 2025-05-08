@@ -1,51 +1,50 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  .header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .main-content {
-    padding: 30px;
-  }
-  
-  .plan-container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .plan-container h2 {
-    margin-top: 0;
-    color: #444;
-  }
-  
-  .plan-container ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .plan-container li {
-    background-color: #eef;
-    padding: 12px;
-    margin-bottom: 10px;
-    border-radius: 6px;
-  }
-  
-  .footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-  }
-  
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+.plan-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan-container h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+.plan-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-container li {
+  background-color: #eef;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}

@@ -50,3 +50,36 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+
+@media (max-width: 768px) {
+  .arrows {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    max-width: 10rem;
+  }
+
+  .gender-page {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .gender-button {
+    width: 100%;
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .man,
+  .woman {
+    margin-bottom: 3rem;
+  }
+}

@@ -1,5 +1,16 @@
 /*Body part selection page*/
 
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+.left,
+.right {
+  width: 7rem;
+}
+
 .part-container {
   display: flex;
   flex-direction: column;
@@ -48,4 +59,3 @@
   color: white;
   border: 2px solid #f9fbfd;
 }
-
