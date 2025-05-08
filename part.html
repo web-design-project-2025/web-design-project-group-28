@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SweatZone</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/part.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -18,14 +18,18 @@
 
       <section class="header-profile"><h2>Profile</h2></section>
     </header>
-    <section class="arrows">
-      <a href="age.html"> <button id="back">BACK</button></a>
-      <a href="goal.html"> <button id="next">NEXT</button></a>
-    </section>
+    <div class="arrows">
+      <a href="age.html">
+        <img class="left" src="img/arrow_left.svg" alt=""
+      /></a>
+      <a href="goal.html">
+        <img class="right" src="img/arrow_right.svg" alt=""
+      /></a>
+    </div>
     <section class="part-container">
       <div class="bodyparts">
-        <button id="chest">Chest</button>
-        <button id="spine">Back</button>
+        <button class="part" id="chest">Chest</button>
+        <button class="part" id="spine">Back</button>
         <button id="shoulders">Shoulders</button>
         <button id="arms">Arms</button>
         <button id="legs">Legs</button>
