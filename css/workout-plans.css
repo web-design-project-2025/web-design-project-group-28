@@ -20,6 +20,31 @@ button {
   height: 4rem;
 }
 
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  position: relative;
+}
+
+.space {
+  flex: 1;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+  min-width: 40rem;
+  height: 100%;
+  margin: 1rem;
+}
+
+.header-profile {
+  flex: 1;
+  text-align: right;
+}
+
 .workouts {
   display: flex;
   justify-content: center;

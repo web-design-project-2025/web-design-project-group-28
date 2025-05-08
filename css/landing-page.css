@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 1.3rem;
+}
+
+.SweatZone {
+  padding-top: 4rem;
+}
+
+.page {
+  width: 100%;
+  height: 40rem;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(34, 93, 144, 0.01);
+  backdrop-filter: blur(0.3rem);
+  box-shadow: inset 0rem 0rem 0.2rem 0.2rem rgb(183, 183, 183);
+  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(122, 100, 134);
+  border-radius: 1rem;
+
+  margin: 4rem;
+  margin-top: 5rem;
+}
+
+.titles {
+  margin-bottom: 3rem;
+}
+
+.start-button {
+  background-color: var(--purple);
+}
+
+.start-button:hover {
+  animation-name: button-animation;
+  animation-duration: 0.5s;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+}

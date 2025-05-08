@@ -1,4 +1,13 @@
-html, body {
+:root {
+  --blue: #0000ff;
+  --orange: rgb(255, 136, 0);
+  --text: rgba(255, 255, 255, 0.769);
+  --title: rgba(255, 255, 255, 0.883);
+  --purple: #4620f3;
+}
+
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -19,7 +28,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #5336dc, #ed8939);
+  background: linear-gradient(90deg, var(--blue), var(--orange));
   padding: 20px 40px;
 }
 
@@ -30,7 +39,7 @@ html, body {
 }
 
 .main-section {
-  background-image: url('');
+  background-image: url("");
   background-size: cover;
   background-position: center;
   padding: 3rem 2rem;

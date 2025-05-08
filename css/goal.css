@@ -1,3 +1,11 @@
+:root {
+  --blue: #0000ff;
+  --orange: rgb(255, 136, 0);
+  --text: rgba(255, 255, 255, 0.769);
+  --title: rgba(255, 255, 255, 0.883);
+  --purple: #4620f3;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -10,7 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #5336dc, #ed8939);
+  background: linear-gradient(90deg, var(--blue), var(--orange));
   padding: 20px 40px;
 }
 
@@ -26,8 +34,8 @@ body {
 }
 
 .profile-icon img {
-  width: 32px;
-  height: 32px;
+  width: 4rem;
+  height: 4rem;
 }
 
 /*Arrows*/
