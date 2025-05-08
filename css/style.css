@@ -188,23 +188,6 @@ footer {
   width: 7rem;
 }
 
-/*Redirect page*/
-
-#redirect {
-  text-align: center;
-  margin-top: -140px;
-}
-
-.redirect-hello {
-  display: inline-block;
-  font-size: 3rem;
-}
-
-.redirect-thankyou {
-  display: inline-block;
-  font-size: 1.5rem;
-}
-
 /*Profile page*/
 
 .general-info,
@@ -308,6 +291,8 @@ footer {
 .get-started:hover {
   background-color: rgb(255, 136, 0);
 }
+<<<<<<< HEAD
+=======
 
 .explore-header {
   font-size: 1.2rem;
@@ -461,3 +446,4 @@ footer {
     font-size: 1rem;
   }
 }
+>>>>>>> 4873e3d61c4ef7ea82d12acf1a22c799956fb83e
