@@ -1,5 +1,11 @@
 /*Workout plans*/
 
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../img/3dSweatZone.png);
+}
+
 .workouts {
   display: flex;
   justify-content: center;

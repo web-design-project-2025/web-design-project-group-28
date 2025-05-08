@@ -59,3 +59,18 @@
   color: white;
   border: 2px solid #f9fbfd;
 }
+
+@media (max-width: 768px) {
+  .bodyparts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  .part {
+    width: 40rem;
+  }
+}

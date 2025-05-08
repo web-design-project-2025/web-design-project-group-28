@@ -30,6 +30,22 @@ body {
   height: 32px;
 }
 
+/*Arrows*/
+
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+  margin-top: 3rem;
+}
+.left,
+.right {
+  width: 7rem;
+}
+
+/*Main container*/
+
 .main-container {
   position: relative;
   display: flex;
@@ -38,23 +54,6 @@ body {
   padding: 60px 20px 40px;
   flex-wrap: wrap;
   gap: 20px;
-}
-
-.arrow img {
-  width: 40px;
-  height: 40px;
-}
-
-.left-arrow {
-  position: absolute;
-  top: 0;
-  left: 20px;
-}
-
-.right-arrow {
-  position: absolute;
-  top: 0;
-  right: 20px;
 }
 
 .goals {
@@ -99,4 +98,18 @@ body {
   margin: 5px 0 0;
   font-size: 14px;
   color: #eee;
+}
+
+@media (max-width: 768px) {
+  .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-top: 2rem;
+  }
+  .left,
+  .right {
+    width: 5rem;
+  }
 }
