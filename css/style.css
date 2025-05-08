@@ -94,12 +94,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  min-height: 10rem;
   flex: 2;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(90deg, var(--blue), var(--orange));
   backdrop-filter: blur(0.3rem);
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+footer p {
+  font-size: 1rem;
 }
 
 .footer-items {
