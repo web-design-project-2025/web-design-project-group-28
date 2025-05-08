@@ -44,6 +44,17 @@ body {
   border-radius: 6px;
 }
 
+.plan-container a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.plan-container a:hover {
+  text-decoration: underline;
+  color: #4f46e5;
+}
+
 .footer {
   background-color: #222;
   color: #fff;

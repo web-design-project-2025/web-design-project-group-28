@@ -1,0 +1,1096 @@
+{
+    "Chest and Triceps": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Pec Dec Fly",
+        "description": "Isolates the chest for enhanced muscle definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Pushdown",
+        "description": "Targets the lateral and medial heads of the triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Overhead Press",
+        "description": "Works the long head of the triceps and shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Shoulders and Core": [
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lateral Raises",
+        "description": "Focuses on the lateral deltoid for broader shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Front Raises",
+        "description": "Targets the front delts to improve shoulder aesthetics.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Reverse Pec Dec",
+        "description": "Isolates the rear delts for balanced shoulder development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Back and Biceps": [
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Low Row",
+        "description": "Engages mid-back muscles for a stronger posture.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Biceps Curl",
+        "description": "Focuses on the long head of the biceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Hammer Curls",
+        "description": "Targets the brachialis and biceps for thicker arms.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Legs": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Cardio": [
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Full Body": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Deadlifts",
+        "description": "Full-body lift that targets posterior chain.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Push Day": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lateral Raises",
+        "description": "Focuses on the lateral deltoid for broader shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Reverse Pec Dec",
+        "description": "Isolates the rear delts for balanced shoulder development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Overhead Press",
+        "description": "Works the long head of the triceps and shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Pushdown",
+        "description": "Targets the lateral and medial heads of the triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Pull Day": [
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Low Row",
+        "description": "Engages mid-back muscles for a stronger posture.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Biceps Curl",
+        "description": "Focuses on the long head of the biceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Hammer Curls",
+        "description": "Targets the brachialis and biceps for thicker arms.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Upper Body": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Lower Body": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Lower Body + Cardio": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Push Day + Core": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lateral Raises",
+        "description": "Focuses on the lateral deltoid for broader shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Reverse Pec Dec",
+        "description": "Isolates the rear delts for balanced shoulder development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Overhead Press",
+        "description": "Works the long head of the triceps and shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Pushdown",
+        "description": "Targets the lateral and medial heads of the triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Raises",
+        "description": "Engages lower abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Lower Body + HIIT": [
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Pushups",
+        "description": "Upper body push exercise engaging chest and triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Mountain Climbers",
+        "description": "High-intensity move for core and cardio.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Pull Day + Core": [
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Low Row",
+        "description": "Engages mid-back muscles for a stronger posture.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Biceps Curl",
+        "description": "Focuses on the long head of the biceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Hammer Curls",
+        "description": "Targets the brachialis and biceps for thicker arms.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Raises",
+        "description": "Engages lower abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Full Body + Light Cardio": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Deadlifts",
+        "description": "Full-body lift that targets posterior chain.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Metabollic Circuit": [
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Stair Climbers",
+        "description": "High-intensity cardio focusing on glutes and thighs.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Core + Cardio": [
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Raises",
+        "description": "Engages lower abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Flutter kicks",
+        "description": "Targets lower abs and core stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Push Day + Light Cardio": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lateral Raises",
+        "description": "Focuses on the lateral deltoid for broader shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Reverse Pec Dec",
+        "description": "Isolates the rear delts for balanced shoulder development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Overhead Press",
+        "description": "Works the long head of the triceps and shoulders.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Pushdown",
+        "description": "Targets the lateral and medial heads of the triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Pull Day + Light Cardio": [
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Low Row",
+        "description": "Engages mid-back muscles for a stronger posture.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Biceps Curl",
+        "description": "Focuses on the long head of the biceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Hammer Curls",
+        "description": "Targets the brachialis and biceps for thicker arms.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Lower Body + Light Cardio": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Lower Body + Core + Light Cardio": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Intense Cardio + HIIT Session": [
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Pushups",
+        "description": "Upper body push exercise engaging chest and triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Jumping Jacks",
+        "description": "Full-body warm-up or cardio finisher.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Mountain Climbers",
+        "description": "High-intensity move for core and cardio.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Running Intervals + Incline Walking": [
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Cycling Intervals + Stair Climbers": [
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Stair Climbers",
+        "description": "High-intensity cardio focusing on glutes and thighs.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Treadmill Jog Intervals": [
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Stair Climbers + HIIT": [
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Pushups",
+        "description": "Upper body push exercise engaging chest and triceps.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Jumping Jacks",
+        "description": "Full-body warm-up or cardio finisher.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Mountain Climbers",
+        "description": "High-intensity move for core and cardio.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Stair Climbers",
+        "description": "High-intensity cardio focusing on glutes and thighs.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Cycling Intervals": [
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Incline Walking": [
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ]
+  }

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: white;
+  }
+  
+  .header {
+    background: linear-gradient(to right, #4f46e5, #ec4899);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .user-icon {
+    font-size: 1.5rem;
+  }
+  
+  main {
+    padding: 2rem;
+    background: url('background.jpg') no-repeat center center / cover;
+    min-height: 90vh;
+    position: relative;
+  }
+  
+  #workout-name {
+    margin-top: 0.5rem;
+    color: #f97316;
+  }
+  
+  .exercise-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .exercise-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    backdrop-filter: blur(8px);
+  }
+  
+  .exercise-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .edit-btn {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    background-color: #6366f1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #4f46e5, #ec4899);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
