@@ -21,36 +21,6 @@
   }
 }
 
-h1 {
-  color: var(--title);
-  font-size: 3rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-  color: var(--title);
-  font-size: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h3 {
-  font-size: 3rem;
-  color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  color: var(--text);
-  font-size: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 button {
   background-color: rgba(34, 93, 144, 0.01);
   backdrop-filter: blur(0.3rem);
@@ -177,37 +147,6 @@ footer {
   box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
 }
 
-.arrows {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 65rem;
-}
-
-#back {
-  width: 7rem;
-  margin: 3rem;
-  background-color: var(--purple);
-}
-
-#back:hover {
-  animation-name: button-animation;
-  animation-duration: 0.5s;
-  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
-}
-
-#next {
-  width: 7rem;
-  margin: 3rem;
-  background-color: var(--purple);
-}
-
-#next:hover {
-  animation-name: button-animation;
-  animation-duration: 0.5s;
-  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
-}
-
 /*Weight*/
 
 .weight-container {
@@ -278,4 +217,68 @@ footer {
   -webkit-appearance: none;
   background-color: var(--purple);
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  button {
+    width: 100%;
+    max-width: 16rem;
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .header-titles {
+    padding-left: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-profile {
+    padding-right: 1rem;
+  }
+
+  .footer-items {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .footer-links {
+    position: static;
+    align-items: center;
+    width: auto;
+  }
+
+  .page {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content {
+    margin: 2rem 1rem;
+    width: auto;
+  }
+
+  .weight-page {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+
+  .range {
+    width: 100%;
+    max-width: 20rem;
+  }
 }
