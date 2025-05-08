@@ -71,11 +71,12 @@ document.addEventListener("DOMContentLoaded", () => {
           <h3>${daysPerWeek} Days/Week Plan</h3>
           <ul>
           ${weeklyPlan
-            .map((day, index) => (
-              <li>
+            .map(
+              (day, index) =>
+                `<li>
                 <strong>Day ${index + 1}:</strong> ${day}
-              </li>
-            ))
+              </li>`
+            )
             .join("")}
           </ul>
         `;
