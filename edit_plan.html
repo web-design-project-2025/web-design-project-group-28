@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Edit Workout Plan</title>
+  <link rel="stylesheet" href="../css/edit_plan.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Edit Your Workout Plan</h1>
+  </header>
+
+  <main class="main-content">
+    <h2 id="day-title">Loading...</h2>
+    
+    <div id="exercise-list" class="exercise-list"></div>
+
+    <div class="add-section">
+      <input type="text" id="new-exercise-name" placeholder="Exercise Name" />
+      <button id="add-btn">Add Exercise</button>
+    </div>
+
+    <div class="action-buttons">
+      <button id="save-btn">Save Plan</button>
+      <button onclick="window.location.href='plan.html'">Cancel</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Sweat Zone</p>
+  </footer>
+
+  <script src="../src/edit.js"></script>
+</body>
+</html>
