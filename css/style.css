@@ -81,10 +81,6 @@ body {
 }
 
 header {
-  background-color: red;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-image: linear-gradient(90deg, var(--blue), var(--orange));
   backdrop-filter: blur(0.3rem);
   min-height: 5rem;
@@ -98,12 +94,21 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  min-height: 10rem;
   flex: 2;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(90deg, var(--blue), var(--orange));
   backdrop-filter: blur(0.3rem);
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+footer p {
+  font-size: 1rem;
 }
 
 .footer-items {
@@ -125,53 +130,13 @@ footer {
 .header-titles {
   padding-left: 3rem;
   display: flex;
-  gap: 5rem;
+  align-items: center;
+  gap: 0rem;
 }
 
 .header-profile {
   padding-right: 3rem;
-}
-
-.SweatZone {
-  padding-top: 4rem;
-}
-
-.page {
-  width: 100%;
-  height: 40rem;
-
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.2rem 0.2rem rgb(183, 183, 183);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(122, 100, 134);
-  border-radius: 1rem;
-
-  margin: 4rem;
-  margin-top: 5rem;
-}
-
-.titles {
-  margin-bottom: 3rem;
-}
-
-.start-button {
-  background-color: var(--purple);
-}
-
-.start-button:hover {
-  animation-name: button-animation;
-  animation-duration: 0.5s;
-  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+  width: 15rem;
 }
 
 /*Arrows*/
@@ -291,159 +256,3 @@ footer {
 .get-started:hover {
   background-color: rgb(255, 136, 0);
 }
-<<<<<<< HEAD
-=======
-
-.explore-header {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  text-align: Center;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.explore-text {
-  font-size: 0.8rem;
-  text-align: left;
-  margin: 0.2rem;
-}
-
-.explore-page {
-  width: 50%;
-  height: 100%;
-  height: 25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 20rem;
-}
-
-@media (max-width: 768px) {
-  h1,
-  h2,
-  h3,
-  p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: center;
-  }
-
-  .arrows {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-  .left,
-  .right {
-    width: 5rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  button {
-    width: 100%;
-    max-width: 15rem;
-    height: 5rem;
-    font-size: 1.5rem;
-  }
-
-  .gender-page {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .gender-button {
-    width: 100%;
-    max-width: 12rem;
-    height: 4rem;
-    font-size: 1.2rem;
-  }
-
-  .header-titles {
-    flex-direction: column;
-    padding-left: 1rem;
-    gap: 1rem;
-  }
-
-  .header-profile {
-    padding-right: 1rem;
-  }
-
-  .footer-items {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .footer-links {
-    position: static;
-    align-items: center;
-    width: auto;
-  }
-
-  .page {
-    flex-direction: column-reverse;
-    height: auto;
-  }
-
-  .content {
-    margin: 2rem 1rem;
-  }
-
-  .titles {
-    margin-bottom: 2rem;
-  }
-
-  .profile-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #profile,
-  .profile-buttons {
-    width: 100%;
-    padding: 1rem;
-    align-items: center;
-  }
-
-  .profile-buttons {
-    align-items: center;
-  }
-
-  .startbutton {
-    width: 100%;
-    padding: 1rem;
-    justify-content: center;
-  }
-
-  .get-started {
-    width: 80%;
-  }
-
-  .explore-page {
-    width: 90%;
-    margin: 2rem auto;
-    height: auto;
-  }
-
-  .redirect-hello {
-    font-size: 2rem;
-  }
-
-  .redirect-thankyou {
-    font-size: 1rem;
-  }
-}
->>>>>>> 4873e3d61c4ef7ea82d12acf1a22c799956fb83e

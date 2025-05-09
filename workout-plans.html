@@ -6,51 +6,85 @@
     <title>SweatZone</title>
 
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="workout-plans.css" />
+    <link rel="stylesheet" href="css/workout-plans.css" />
   </head>
   <body>
     <header>
-      <section class="header-titles">
-        <h2>Logo</h2>
-        <h2>Home</h2>
-        <h2>About us</h2>
-        <h2>Explore</h2>
-      </section>
-
-      <section class="header-profile"><h2>Profile</h2></section>
+      <div class="header-wrapper">
+        <div class="space"></div>
+        <div class="header-center">
+          <h2>Your workout plan is down below...</h2>
+        </div>
+        <div class="header-profile">
+          <img width="15%" src="img/profile_icon.svg" alt="" />
+        </div>
+      </div>
     </header>
+    <div class="arrows">
+      <a href="day_selction.html">
+        <img class="left" src="img/arrow_left.svg" alt=""
+      /></a>
+      <a href="plan.html">
+        <img class="right" src="img/arrow_right.svg" alt=""
+      /></a>
+    </div>
     <section class="workouts">
       <div class="plan-container">
-        <div id="1" class="plan">
-          <h3>Day 1</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 1</button> </a>
+
+          <div id="1" class="plan">
+            <h3>Chest and Triceps</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div id="2" class="plan">
-          <h3>Day 2</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 2</button> </a>
+          <div id="2" class="plan">
+            <h3>Shoulder and Core</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div id="3" class="plan">
-          <h3>Day 3</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 3</button> </a>
+
+          <div id="3" class="plan">
+            <h3>Back and Triceps</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div id="4" class="plan">
-          <h3>Day 4</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 4</button> </a>
+
+          <div id="4" class="plan">
+            <h3>Legs and Core</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div id="5" class="plan">
-          <h3>Day 5</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 5</button> </a>
+
+          <div id="5" class="plan">
+            <h3>Rest and Recoup</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div id="6" class="plan">
-          <h3>Day 6</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 6</button> </a>
+
+          <div id="6" class="plan">
+            <h3>Just Cardio</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div></div>
-        <div id="7" class="plan">
-          <h3>Day 7</h3>
-          <p>Bla bla bla</p>
+        <div class="plan-wrapper">
+          <a href="plan.html"> <button>Day 7</button> </a>
+
+          <div id="7" class="plan">
+            <h3>Full Body</h3>
+            <p>Bla bla bla</p>
+          </div>
         </div>
-        <div></div>
       </div>
     </section>
 
@@ -75,5 +109,4 @@
       </section>
     </footer>
   </body>
-  <script src="src/workout-plans.js"></script>
 </html>
