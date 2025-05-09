@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Chest and Triceps": ["Bench Press", "Chest Press", "Pec Dec Fly", "Triceps Pushdown", "Overhead Press", "Triceps Press"],
       "Shoulders and Core": ["Shoulder Press", "Lateral Raises", "Front Raises", "Reverse Pec Dec", "Abdominal Press", "Rotary Torso"],
       "Back and Biceps": ["Lat Pull Down", "Low Row", "Lat Pull Overs", "Incline Biceps Curl", "Hammer Curls", "Barbell Curls"],
-      // Add other mappings as needed...
+      // I will add other workouts as needed...
     };
     return all[title] || [];
   }
