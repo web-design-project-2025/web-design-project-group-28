@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 */
-
+/*
 document.addEventListener("DOMContentLoaded", () => {
   const selectedGoal = localStorage.getItem("selectedGoal");
   const daysPerWeek = localStorage.getItem("daysPerWeek");
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
       planContainer.innerHTML = "<p>Failed to load workout plan.</p>";
     });
 });
-
+*/
 /*
 document.addEventListener("DOMContentLoaded", () => {
   const selectedGoal = localStorage.getItem("selectedGoal");
@@ -152,3 +152,58 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 */
+
+document.addEventListener("DOMContentLoaded", () => {
+    const selectedGoal = localStorage.getItem("selectedGoal");
+    const daysPerWeek = localStorage.getItem("daysPerWeek");
+    const planContainer = document.getElementById("plan-container");
+  
+    if (!selectedGoal || !daysPerWeek) {
+      planContainer.innerHTML = "<p>Please go back and select your goal and training days.</p>";
+      return;
+    }
+  
+    // Normalize keys to match JSON keys
+    const goalKey = selectedGoal.trim().toLowerCase();
+  
+    fetch("../data/workout_plans.json")
+      .then(response => response.json())
+      .then(plans => {
+        const goalPlan = plans[goalKey];
+        const weeklyPlan = goalPlan?.[daysPerWeek];
+  
+        if (!weeklyPlan) {
+          planContainer.innerHTML = "<p>No plan found for your selection.</p>";
+          return;
+        }
+  
+        // Create interactive list
+        const listItems = weeklyPlan.map((dayTitle, index) => {
+          return `
+            <li>
+              <a href="specific_day_plan.html" class="day-link" data-title="${dayTitle}">
+                <strong>Day ${index + 1}:</strong> ${dayTitle}
+              </a>
+            </li>
+          `;
+        }).join("");
+  
+        planContainer.innerHTML = `
+          <h2>Goal: ${selectedGoal}</h2>
+          <h3>${daysPerWeek} Days/Week Plan</h3>
+          <ul>${listItems}</ul>
+        `;
+  
+        // Attach event listeners to each link
+        document.querySelectorAll(".day-link").forEach(link => {
+          link.addEventListener("click", (e) => {
+            const title = e.currentTarget.dataset.title;
+            localStorage.setItem("selectedWorkoutTitle", title);
+          });
+        });
+      })
+      .catch(error => {
+        console.error("Error loading plan:", error);
+        planContainer.innerHTML = "<p>Failed to load workout plan.</p>";
+      });
+  });

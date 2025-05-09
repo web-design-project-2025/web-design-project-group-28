@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   function getDefaultExercises(title) {
-    // You can refine this using a master lookup in future
     const all = {
       "Chest and Triceps": ["Bench Press", "Chest Press", "Pec Dec Fly", "Triceps Pushdown", "Overhead Press", "Triceps Press"],
       "Shoulders and Core": ["Shoulder Press", "Lateral Raises", "Front Raises", "Reverse Pec Dec", "Abdominal Press", "Rotary Torso"],
