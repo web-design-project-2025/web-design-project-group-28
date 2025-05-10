@@ -1,7 +1,7 @@
 {
     "build muscle": {
       "1": ["Full Body"],
-      "2": ["Full Body", "Rest Day", "Rest Day", "Rest Day", "Cardio", "Rest Day"],
+      "2": ["Full Body", "Rest Day", "Rest Day", "Rest Day", "Cardio", "Rest Day", "Rest Day"],
       "3": ["Upper Body", "Rest Day", "Lower Body", "Rest Day", "Rest Day", "Cardio", "Rest Day"],
       "4": ["Push Day", "Rest Day", "Pull Day", "Rest Day", "Legs Day", "Rest Day", "Cardio"],
       "5": ["Push Day", "Pull Day", "Legs Day", "Rest Day", "Upper Body", "Lower Body", "Rest Day"],

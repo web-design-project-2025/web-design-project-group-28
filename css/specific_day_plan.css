@@ -7,20 +7,32 @@ body {
 
 .header {
   background: linear-gradient(to right, #4f46e5, #ec4899);
-  padding: 20px 40px;
+  padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
   font-weight: bold;
-  letter-spacing: 0.5px;
+  color: white;
+  flex: 1;
+  text-align: left;
+}
+
+nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav a {
-  margin: 0 1rem;
   color: white;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 nav a:hover {
@@ -29,52 +41,81 @@ nav a:hover {
 
 .user-icon {
   font-size: 1.6rem;
+  color: white;
+  flex: 1;
+  text-align: right;
 }
 
 main {
-  padding: 40px;
-  background: url("../img/specificDayBg.jpg") no-repeat center center / cover;
+  padding: 3rem 2rem;
+  background: url("../img/image.png") no-repeat center center / cover;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#workout-name {
-  margin-top: 1rem;
-  color: #f97316;
-  font-size: 2rem;
-  font-weight: 600;
   text-align: center;
 }
 
+#day-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+#workout-name {
+  color: #f97316;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
 .exercise-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin-top: 3rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1100px;
+  margin-bottom: 3rem;
 }
 
 .exercise-card {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 16px;
-  padding: 1rem;
-  width: 300px;
-  backdrop-filter: blur(12px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+
+.exercise-card:hover {
+  transform: translateY(-5px);
+}
+
+.exercise-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.exercise-card p {
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  margin-bottom: 0.4rem;
 }
 
 .exercise-card img {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
 }
 
 .edit-btn {
-  margin-top: 2rem;
   padding: 0.75rem 2.5rem;
   border: none;
   background-color: #6366f1;
@@ -83,7 +124,7 @@ main {
   border-radius: 12px;
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .edit-btn:hover {
@@ -92,10 +133,21 @@ main {
 
 footer {
   background: linear-gradient(to right, #4f46e5, #ec4899);
-  padding: 1.5rem 3rem;
+  padding: 2rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   color: white;
   font-size: 0.95rem;
+}
+
+.footer-links > div {
+  margin: 1rem;
+  min-width: 150px;
+}
+
+.footer-links strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
