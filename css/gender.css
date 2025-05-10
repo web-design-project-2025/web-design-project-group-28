@@ -30,16 +30,21 @@
 }
 
 .gender-button {
-  width: 15rem;
-  height: 5rem;
-  justify-content: center;
-  align-items: center;
+  background-color: #4620f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1.5rem 0;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  height: 60px;
 }
 
 .gender-button:hover {
-  animation-name: button-animation;
-  animation-duration: 0.5s;
-  box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+  background-color: rgb(255, 136, 0);
 }
 
 .gender-button-link {
