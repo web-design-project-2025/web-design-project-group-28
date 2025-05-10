@@ -2,34 +2,41 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-attachment: fixed;
-  background-size: cover;
   background-image: url(../img/3dSweatZone.png);
-
-  color: #333;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1f2937;
 }
 
 .header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #f3f4f6;
+  padding: 24px;
   text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .main-content {
-  padding: 30px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .plan-container {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffffdd;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
 }
 
 .plan-container h2 {
   margin-top: 0;
-  color: #444;
+  font-size: 1.8rem;
+  color: #111827;
+  margin-bottom: 20px;
 }
 
 .plan-container ul {
@@ -38,27 +45,30 @@ body {
 }
 
 .plan-container li {
-  background-color: #eef;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 6px;
+  background-color: #e0f2fe;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.plan-container li:hover {
+  background-color: #bae6fd;
 }
 
 .plan-container a {
   text-decoration: none;
-  color: #333;
+  color: #1e3a8a;
+  font-weight: 500;
+  font-size: 1.1rem;
   display: block;
 }
 
-.plan-container a:hover {
-  text-decoration: underline;
-  color: #4f46e5;
-}
-
 .footer {
-  background-color: #222;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #f3f4f6;
   text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+  padding: 20px;
+  font-size: 0.95rem;
+  margin-top: 60px;
 }
