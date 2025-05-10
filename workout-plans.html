@@ -1,118 +1,3 @@
-<!--
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SweatZone</title>
-
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/workout-plans.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-wrapper">
-        <div class="space"></div>
-        <div class="header-center">
-          <h2>Your workout plan is down below...</h2>
-        </div>
-        <div class="header-profile">
-          <img width="15%" src="img/profile_icon.svg" alt="" />
-        </div>
-      </div>
-    </header>
-    <div class="arrows">
-      <a href="day_selction.html">
-        <img class="left" src="img/arrow_left.svg" alt=""
-      /></a>
-      <a href="plan.html">
-        <img class="right" src="img/arrow_right.svg" alt=""
-      /></a>
-    </div>
-    <section class="workouts">
-      <div class="plan-container">
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 1</button> </a>
-
-          <div id="1" class="plan">
-            <h3>Chest and Triceps</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 2</button> </a>
-          <div id="2" class="plan">
-            <h3>Shoulder and Core</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 3</button> </a>
-
-          <div id="3" class="plan">
-            <h3>Back and Triceps</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 4</button> </a>
-
-          <div id="4" class="plan">
-            <h3>Legs and Core</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 5</button> </a>
-
-          <div id="5" class="plan">
-            <h3>Rest and Recoup</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 6</button> </a>
-
-          <div id="6" class="plan">
-            <h3>Just Cardio</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 7</button> </a>
-
-          <div id="7" class="plan">
-            <h3>Full Body</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <section class="footer-items">
-        <div class="footer-elements">
-          <h2>Quick Links</h2>
-          <p>About us</p>
-          <p>Explore</p>
-        </div>
-        <div class="footer-elements">
-          <h2>Contact Us</h2>
-          <p>thesweatzone@gmail.com</p>
-          <p>073 439 34 43</p>
-        </div>
-        <div class="footer-elements">
-          <h2>Follow Us</h2>
-          <img width="10%" src="img/image.png" alt="" />
-          <img width="10%" src="img/image.png" alt="" />
-          <img width="10%" src="img/image.png" alt="" />
-        </div>
-      </section>
-    </footer>
-  </body>
-</html>
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,24 +6,21 @@
   <title>Workout Plan Summary</title>
   <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/workout-plans.css" />
-  <script defer src="../src/workout-plans.js"></script>
 </head>
 <body>
-  <header>
-    <div class="header-wrapper">
-      <div class="space"></div>
-      <div class="header-center">
-        <h2>Your Weekly Workout Plan</h2>
-      </div>
-      <div class="header-profile">
-        <img src="img/profile_icon.svg" alt="Profile" />
-      </div>
-    </div>
+  <header class="header">
+    <div class="logo">Logo</div>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Workout Guide</a>
+      <a href="#">Nutrition Guide</a>
+    </nav>
+    <div class="user-icon">👤</div>
   </header>
 
   <div class="arrows">
-    <a href="day_selction.html"><img class="arrow left" src="img/arrow_left.svg" alt="Previous" /></a>
-    <a href="plan.html"><img class="arrow right" src="img/arrow_right.svg" alt="Next" /></a>
+    <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
+    <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
   </div>
 
   <main class="plan-container" id="plan-container">
@@ -146,24 +28,23 @@
   </main>
 
   <footer>
-    <div class="footer-content">
+    <div class="footer-links">
       <div>
-        <h3>Quick Links</h3>
+        <strong>Quick Links</strong>
         <p>About Us</p>
         <p>Explore</p>
       </div>
       <div>
-        <h3>Contact Us</h3>
+        <strong>Contact Us</strong>
         <p>thesweatzone@gmail.com</p>
-        <p>073 439 34 43</p>
+        <p>045456767</p>
       </div>
       <div>
-        <h3>Follow Us</h3>
-        <img src="img/image.png" alt="Social Icon" />
-        <img src="img/image.png" alt="Social Icon" />
-        <img src="img/image.png" alt="Social Icon" />
+        <strong>Follow Us</strong>
+        <p>📷 🎵 👍</p>
       </div>
     </div>
   </footer>
+  <script src="../src/workout-plans.js"></script>
 </body>
 </html>
