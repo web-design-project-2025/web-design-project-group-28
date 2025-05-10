@@ -32,7 +32,6 @@
 .gender-button {
   width: 15rem;
   height: 5rem;
-  margin-top: 3rem;
   justify-content: center;
   align-items: center;
 }
@@ -41,6 +40,10 @@
   animation-name: button-animation;
   animation-duration: 0.5s;
   box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
+}
+
+.gender-button-link {
+  margin-top: 3rem;
 }
 
 .man {
@@ -96,4 +99,8 @@
   .woman {
     margin-bottom: 3rem;
   }
+}
+
+.gender-icon {
+  width: 250px;
 }
