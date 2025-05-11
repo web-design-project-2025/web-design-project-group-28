@@ -13,6 +13,18 @@ header {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: var(--orange);
+  font-size: larger;
+}
+
+.login-phrase-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 .submit {
   margin-top: 4rem;
   background-color: var(--purple);
@@ -71,6 +83,10 @@ form label {
   background-color: var(--purple);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
+}
+
+.incorrect label {
+  background-color: red;
 }
 
 form input {
