@@ -1,4 +1,5 @@
 const form = document.getElementById("form");
+const errorMessage = document.getElementById("error-message");
 const firstName = document.getElementById("first-name-input");
 const email = document.getElementById("email-input");
 const password = document.getElementById("password-input");
@@ -13,6 +14,7 @@ form.addEventListener("submit", (e) => {
   }
   if (errors.length > 0) {
     e.preventDefault(); //prevent from submitting if there are any errors
+    errorMessage.innerText = errors.join(", ");
   }
 });
 
@@ -41,5 +43,23 @@ function signUpErrors(firstName, email, password, passwordRepeat) {
     passwordRepeat.parentElement.classList.add("incorrect");
   }
 
+  if (passwordRepeat.value !== password.value) {
+    //checks that both passwords match
+    errors.push("password do not match");
+    password.parentElement.classList.add("incorrect");
+    passwordRepeat.parentElement.classList.add("incorrect");
+  }
+
   return errors;
 }
+
+const inputs = [firstName, email, password, passwordRepeat]; //removes the errors when the user types something again
+
+inputs.forEach((input) => {
+  input.addEventListener("input", () => {
+    if (input.parentElement.classList.contains("incorrect")) {
+      input.parentElement.classList.remove("incorrect");
+      errorMessage.innerText = "";
+    }
+  });
+});
