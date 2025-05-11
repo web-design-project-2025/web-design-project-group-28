@@ -1,0 +1,147 @@
+{
+  "build muscle": {
+    "1": [
+      { "day": 1, "title": "Full Body", "description": "A complete full-body strength session targeting all major muscle groups." }
+    ],
+    "2": [
+      { "day": 1, "title": "Full Body", "description": "A full-body workout to stimulate hypertrophy across all muscle groups." },
+      { "day": 5, "title": "Cardio", "description": "Light cardio to aid recovery and boost endurance." }
+    ],
+    "3": [
+      { "day": 1, "title": "Upper Body", "description": "Focus on chest, back, shoulders, and arms." },
+      { "day": 3, "title": "Lower Body", "description": "Strengthen glutes, hamstrings, and quads." },
+      { "day": 6, "title": "Cardio", "description": "Low-impact cardio for active recovery." }
+    ],
+    "4": [
+      { "day": 1, "title": "Push Day", "description": "Chest, shoulders, and triceps workout." },
+      { "day": 3, "title": "Pull Day", "description": "Back and biceps hypertrophy session." },
+      { "day": 5, "title": "Legs Day", "description": "Target lower body with squats, lunges, and hamstring curls." },
+      { "day": 7, "title": "Cardio", "description": "Steady-state cardio for conditioning." }
+    ],
+    "5": [
+      { "day": 1, "title": "Push Day", "description": "Chest, shoulders, and triceps workout." },
+      { "day": 2, "title": "Pull Day", "description": "Back and biceps training." },
+      { "day": 3, "title": "Legs Day", "description": "Focus on quads, hamstrings, and calves." },
+      { "day": 5, "title": "Upper Body", "description": "Comprehensive upper body day." },
+      { "day": 6, "title": "Lower Body", "description": "Target glutes, hamstrings, and quads." }
+    ],
+    "6": [
+      { "day": 1, "title": "Chest and Triceps", "description": "Push-focused workout emphasizing chest and triceps." },
+      { "day": 2, "title": "Shoulders and Core", "description": "Overhead work and core stabilizers." },
+      { "day": 3, "title": "Back and Biceps", "description": "Pull day with upper-back and arm isolation." },
+      { "day": 4, "title": "Legs and Core", "description": "Lower-body strength with abs." },
+      { "day": 5, "title": "Rest and Recoup", "description": "Recovery day with stretching and foam rolling." },
+      { "day": 6, "title": "Cardio", "description": "Moderate-intensity cardio for endurance." },
+      { "day": 7, "title": "Full Body", "description": "Compound moves for total body engagement." }
+    ]
+  },
+
+  "lose weight": {
+    "1": [
+      { "day": 1, "title": "Full Body + Light Cardio", "description": "Blend of strength training and cardio for fat burn." }
+    ],
+    "2": [
+      { "day": 1, "title": "Full Body + Light Cardio", "description": "Workout to promote fat loss and muscle tone." },
+      { "day": 5, "title": "Cardio", "description": "Heart-rate focused session to boost metabolism." }
+    ],
+    "3": [
+      { "day": 1, "title": "Full Body", "description": "Full-body resistance workout." },
+      { "day": 3, "title": "Lower Body + Core + Light Cardio", "description": "Legs and core focus with a cardio finish." },
+      { "day": 5, "title": "Cardio", "description": "Interval cardio session to burn calories." }
+    ],
+    "4": [
+      { "day": 1, "title": "Push Day + Light Cardio", "description": "Strength training for chest and shoulders with cardio." },
+      { "day": 2, "title": "Pull Day + Light Cardio", "description": "Back and arms with added cardio." },
+      { "day": 4, "title": "Lower Body + Light Cardio", "description": "Focus on glutes and quads with light cardio." },
+      { "day": 6, "title": "Cardio", "description": "Fat-burning cardio session." }
+    ],
+    "5": [
+      { "day": 1, "title": "Lower Body + Core", "description": "Leg strength and abs." },
+      { "day": 2, "title": "Push Day", "description": "Chest, triceps, and shoulder burn." },
+      { "day": 3, "title": "Core + Cardio", "description": "Abs and cardio combo for fat burn." },
+      { "day": 5, "title": "Pull Day", "description": "Back and biceps routine." },
+      { "day": 6, "title": "Full Body", "description": "Burnout full-body session." }
+    ],
+    "6": [
+      { "day": 1, "title": "Lower Body + Cardio", "description": "Leg training plus HIIT cardio." },
+      { "day": 2, "title": "Push Day + Core", "description": "Upper body push plus abs." },
+      { "day": 3, "title": "Lower Body + HIIT", "description": "Strength plus interval bursts." },
+      { "day": 4, "title": "Pull Day + Core", "description": "Upper back, arms and abs." },
+      { "day": 6, "title": "Full Body + Light Cardio", "description": "Whole body movement with cardio finisher." },
+      { "day": 7, "title": "Metabollic Circuit", "description": "High-intensity circuit for max fat burn." }
+    ]
+  },
+
+  "increase stamina": {
+    "1": [
+      { "day": 1, "title": "Intense Cardio + HIIT Session", "description": "Sweat-dripping high-intensity workout to boost stamina." }
+    ],
+    "2": [
+      { "day": 1, "title": "Running Intervals + Incline Walking", "description": "Build endurance with paced running and incline walks." },
+      { "day": 5, "title": "Cycling Intervals + Stair Climbers", "description": "Leg-intensive cardio for stamina." }
+    ],
+    "3": [
+      { "day": 1, "title": "Treadmill Jog Intervals", "description": "Interval jogs for improved heart health." },
+      { "day": 3, "title": "Stair Climbers + HIIT", "description": "Burn through calories with explosive cardio." },
+      { "day": 5, "title": "Cycling Intervals + Incline Walking", "description": "Build aerobic base and muscle endurance." }
+    ],
+    "4": [
+      { "day": 1, "title": "Full Body", "description": "Total body workout to support endurance." },
+      { "day": 2, "title": "Treadmill Jog Intervals", "description": "Increase running stamina." },
+      { "day": 4, "title": "Cardio", "description": "General cardio training." },
+      { "day": 6, "title": "Cycling Intervals + Incline Walking", "description": "Steady cardio to develop endurance." }
+    ],
+    "5": [
+      { "day": 1, "title": "Full Body", "description": "Functional movement and cardio blend." },
+      { "day": 2, "title": "Treadmill Intervals", "description": "Improve aerobic output." },
+      { "day": 3, "title": "Cycling Intervals + Core Burn", "description": "Heart rate booster with abs." },
+      { "day": 5, "title": "Upper Body + Incline Walking", "description": "Light weights and brisk walking combo." },
+      { "day": 6, "title": "Cardio", "description": "Endurance-focused cardio." }
+    ],
+    "6": [
+      { "day": 1, "title": "Full Body", "description": "Compound movements for stamina." },
+      { "day": 2, "title": "Treadmill Intervals", "description": "Build aerobic capacity." },
+      { "day": 3, "title": "Cycling Intervals + Core", "description": "Combining core engagement and cardio." },
+      { "day": 4, "title": "Incline Walking", "description": "Low-impact steady pace incline cardio." },
+      { "day": 6, "title": "Treadmill Jog Intervals", "description": "Tempo runs for cardiovascular endurance." },
+      { "day": 7, "title": "Stair Climber + Sled Push Circuit", "description": "Leg burn finisher with intensity." }
+    ]
+  },
+
+  "just stay fit": {
+    "1": [
+      { "day": 1, "title": "Full Body", "description": "A simple whole-body routine to maintain fitness." }
+    ],
+    "2": [
+      { "day": 1, "title": "Full Body", "description": "Light full-body workout for general wellness." },
+      { "day": 5, "title": "Intense Cardio", "description": "Heart-pumping cardio session." }
+    ],
+    "3": [
+      { "day": 1, "title": "Upper Body", "description": "Maintain muscle tone in chest, arms, and back." },
+      { "day": 3, "title": "Lower Body", "description": "Strengthen legs and glutes." },
+      { "day": 6, "title": "Intense Cardio", "description": "Elevate your heart rate and endurance." }
+    ],
+    "4": [
+      { "day": 1, "title": "Push Day", "description": "Push movement focus with moderate intensity." },
+      { "day": 3, "title": "Pull Day", "description": "Back and biceps light workout." },
+      { "day": 5, "title": "Legs Day", "description": "Balanced lower-body training." },
+      { "day": 7, "title": "Light Cardio", "description": "Easy cardio for recovery and energy." }
+    ],
+    "5": [
+      { "day": 1, "title": "Push Day", "description": "Maintain upper-body strength." },
+      { "day": 2, "title": "Pull Day", "description": "Back and biceps tone-up." },
+      { "day": 3, "title": "Legs Day", "description": "Keep your lower half strong." },
+      { "day": 5, "title": "Upper Body", "description": "General upper body focus." },
+      { "day": 6, "title": "Lower Body", "description": "Maintain lower-body tone and mobility." }
+    ],
+    "6": [
+      { "day": 1, "title": "Chest and Triceps", "description": "Push session for chest and arms." },
+      { "day": 2, "title": "Shoulders and Core", "description": "Stability and overhead strength." },
+      { "day": 3, "title": "Back and Biceps", "description": "Functional pulling movements." },
+      { "day": 4, "title": "Legs and Core", "description": "Leg strength with core work." },
+      { "day": 5, "title": "Rest and Recoup", "description": "Focus on stretching and rest." },
+      { "day": 6, "title": "Cardio", "description": "Light cardio to stay energized." },
+      { "day": 7, "title": "Full Body", "description": "Total-body workout for general health." }
+    ]
+  }
+}

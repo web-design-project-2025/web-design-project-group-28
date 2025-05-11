@@ -1,64 +1,154 @@
 body {
-  font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url(../img/3dSweatZone.png);
-
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
   color: #333;
 }
 
-.header {
-  background-color: #222;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.site-header {
+  background: linear-gradient(to right, #0066ff, #ff6600);
+  padding: 1rem 0;
+}
+
+.header-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  flex: 1;
+  text-align: left;
+}
+
+.nav-links {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.profile-icon {
+  font-size: 1.5rem;
+  flex: 1;
+  text-align: right;
+  color: white;
+}
+
+.background-wrapper {
+  background: url('../img/image.png') no-repeat center center / cover;
+  min-height: calc(100vh - 160px); 
+  padding: 2rem 0;
 }
 
 .main-content {
-  padding: 30px;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+} 
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: white;
 }
 
-.plan-container {
-  background: white;
-  padding: 20px;
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.plan-card {
+  background: rgba(255, 255, 255, 0.1); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 1.5rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
-.plan-container h2 {
-  margin-top: 0;
-  color: #444;
+
+.plan-card-content {
+  flex: 1;
 }
 
-.plan-container ul {
-  list-style: none;
-  padding: 0;
+.plan-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
 }
 
-.plan-container li {
-  background-color: #eef;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 6px;
+.plan-card p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
 }
 
-.plan-container a {
+.start-btn {
+  background-color: #a259ff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.start-btn:hover {
+  background-color: #8a3ffc;
+}
+
+.site-footer {
+  background: linear-gradient(to right, #0066ff, #ff6600);
+  color: white;
+  padding: 2rem 1rem 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  margin: 1rem;
+  min-width: 150px;
+}
+
+.footer-column h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a, .footer-column p {
+  color: white;
   text-decoration: none;
-  color: #333;
+  margin: 0.2rem 0;
   display: block;
 }
 
-.plan-container a:hover {
-  text-decoration: underline;
-  color: #4f46e5;
-}
-
-.footer {
-  background-color: #222;
-  color: #fff;
+.footer-bottom {
   text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
