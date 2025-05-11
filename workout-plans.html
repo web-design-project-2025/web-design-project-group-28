@@ -8,24 +8,32 @@
   <link rel="stylesheet" href="../css/workout-plans.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="logo">Logo</div>
-    <nav>
-      <a href="#">Dashboard</a>
-      <a href="#">Workout Guide</a>
-      <a href="#">Nutrition Guide</a>
-    </nav>
-    <div class="user-icon">👤</div>
-  </header>
 
-  <div class="arrows">
-    <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
-    <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+  <!-- Spinner -->
+  <div id="loader" class="loader-wrapper">
+    <div class="spinner"></div>
   </div>
 
-  <main class="plan-container" id="plan-container">
-    <!-- Dynamic workout plan will be inserted here -->
-  </main>
+  <!-- Main Content -->
+  <div id="content" style="display: none;">
+    <header class="header">
+      <div class="logo">Logo</div>
+      <nav>
+        <a href="#">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="#">Nutrition Guide</a>
+      </nav>
+      <div class="user-icon">👤</div>
+    </header>
+
+    <div class="arrows">
+      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
+      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+    </div>
+
+    <main class="plan-container" id="plan-container">
+      <!-- Our workout plan summaries will be loaded here -->
+    </main>
 
   <footer>
     <div class="footer-links">
@@ -45,6 +53,18 @@
       </div>
     </div>
   </footer>
+
+  </div>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }, 2000);
+    });
+  </script>
+
   <script src="../src/workout-plans.js"></script>
 </body>
 </html>

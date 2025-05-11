@@ -1,74 +1,43 @@
 document.addEventListener("DOMContentLoaded", () => {
   const goal = (localStorage.getItem("selectedGoal") || "build muscle").toLowerCase();
   const days = localStorage.getItem("daysPerWeek") || "6";
-
-  const plans = {
-    "build muscle": {
-      "6": [
-        "Chest and Triceps",
-        "Shoulders and Core",
-        "Back and Biceps",
-        "Legs and Core",
-        "Rest and Recoup",
-        "Cardio",
-        "Full Body"
-      ]
-    },
-    "lose weight": {
-      "6": [
-        "Lower Body + Cardio",
-        "Push Day + Core",
-        "Lower Body + HIIT",
-        "Pull Day + Core",
-        "Rest Day",
-        "Full Body + Light Cardio",
-        "Metabollic Circuit"
-      ]
-    },
-    "increase stamina": {
-      "6": [
-        "Full Body",
-        "Treadmill Intervals",
-        "Cycling Intervals + Core",
-        "Incline Walking",
-        "Rest Day",
-        "Treadmill Jog Intervals",
-        "Stair Climber + Sled Push Circuit"
-      ]
-    },
-    "just stay fit": {
-      "6": [
-        "Chest and Triceps",
-        "Shoulders and Core",
-        "Back and Biceps",
-        "Legs and Core",
-        "Rest and Recoup",
-        "Cardio",
-        "Full Body"
-      ]
-    }
-  };
-
   const planContainer = document.getElementById("plan-container");
 
-  const weeklyPlan = plans[goal]?.[days];
+  fetch("../data/workout_exercises.json")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to load workout data.");
+      }
+      return response.json();
+    })
+    .then(data => {
+      const goalPlans = data[goal];
+      if (!goalPlans) {
+        planContainer.innerHTML = `<p>No plans available for goal: <strong>${goal}</strong>.</p>`;
+        return;
+      }
 
-  if (!weeklyPlan) {
-    planContainer.innerHTML = `<p>No workout plan found for goal <strong>${goal}</strong> with <strong>${days}</strong> days/week.</p>`;
-    return;
-  }
+      const dailyPlans = goalPlans[days];
+      if (!dailyPlans || dailyPlans.length === 0) {
+        planContainer.innerHTML = `<p>No plans available for <strong>${goal}</strong> with <strong>${days}</strong> days/week.</p>`;
+        return;
+      }
 
-  weeklyPlan.forEach((activity, index) => {
-    const dayNum = index + 1;
+      // Sort by day number (in case they are not in order)
+      dailyPlans.sort((a, b) => a.day - b.day);
 
-    const card = document.createElement("div");
-    card.classList.add("plan-card");
-
-    card.innerHTML = `
-      <h3>Day ${dayNum}</h3>
-      <p>${activity}</p>
-    `;
-
-    planContainer.appendChild(card);
-  });
+      dailyPlans.forEach(plan => {
+        const card = document.createElement("div");
+        card.classList.add("plan-card");
+        card.innerHTML = `
+          <h3>Day ${plan.day}: ${plan.title}</h3>
+          <p>${plan.description}</p>
+        `;
+        planContainer.appendChild(card);
+      });
+    })
+    .catch(error => {
+      console.error("Error loading workout plan:", error);
+      planContainer.innerHTML = `<p>There was an error loading your workout plan. Please try again later.</p>`;
+    });
 });
