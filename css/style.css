@@ -248,11 +248,9 @@ footer p {
 }
 
 .startbutton {
-  width: 30%;
   display: flex;
-  flex-direction: center;
-  align-items: flex-end;
-  padding: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
 .get-started {
   background-color: #4620f3;
