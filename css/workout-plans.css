@@ -117,25 +117,40 @@ main.plan-container {
   font-size: 1.25rem;
 }
 
-footer {
-  background: linear-gradient(to right, #4f46e5, #ec4899);
-  padding: 2rem;
+.site-footer {
+  background: linear-gradient(to right, #0066ff, #ff6600);
+  color: white;
+  padding: 2rem 1rem 1rem;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: white;
-  font-size: 0.95rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.footer-links > div {
+.footer-column {
   margin: 1rem;
   min-width: 150px;
 }
 
-.footer-links strong {
-  display: block;
+.footer-column h4 {
   margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+}
+
+.footer-column a, .footer-column p {
+  color: white;
+  text-decoration: none;
+  margin: 0.2rem 0;
+  display: block;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
 
 /* Spinner */

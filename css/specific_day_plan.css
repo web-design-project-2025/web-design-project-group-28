@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right, #4f46e5, #ec4899);
+  background: linear-gradient(to right, #0066ff, #ff6600);
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -132,7 +132,7 @@ main {
 }
 
 footer {
-  background: linear-gradient(to right, #4f46e5, #ec4899);
+  background: linear-gradient(to right, #0066ff, #ff6600);
   padding: 2rem;
   display: flex;
   justify-content: space-around;
