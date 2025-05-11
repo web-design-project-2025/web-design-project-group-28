@@ -96,6 +96,7 @@ form input {
   min-width: 0;
   height: 3rem;
   padding: 1rem;
+  color: var(--text);
 
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -107,6 +108,11 @@ form label img {
   height: 100%;
   width: 50%;
   margin-left: 1rem;
+}
+
+form label img:hover {
+  border: 2px;
+  border-color: var;
 }
 
 form input:hover {

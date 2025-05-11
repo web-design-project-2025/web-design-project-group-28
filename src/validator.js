@@ -15,6 +15,10 @@ form.addEventListener("submit", (e) => {
   if (errors.length > 0) {
     e.preventDefault(); //prevent from submitting if there are any errors
     errorMessage.innerText = errors.join(", ");
+  } else {
+    localStorage.setItem("firstname", firstName.value);
+    localStorage.setItem("email", email.value);
+    localStorage.setItem("password", password.value);
   }
 });
 
