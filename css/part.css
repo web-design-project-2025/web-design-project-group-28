@@ -75,11 +75,26 @@
   margin-bottom: 5rem;
   margin-top: -7rem;
 }
+.part,
+.full {
+  background-color: #4620f3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.part:hover,
+.full:hover {
+  background-color: #4620f3;
+  outline-color: rgb(255, 136, 0);
+}
 
 .selected {
-  background-color: #6b2290;
+  background-color: rgb(255, 136, 0);
   color: white;
-  border: 2px solid #f9fbfd;
+}
+.selected:hover {
+  background-color: rgb(255, 136, 0);
+  outline-color: #4620f3;
 }
 
 @media (max-width: 768px) {

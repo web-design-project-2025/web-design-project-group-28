@@ -150,7 +150,7 @@ footer p {
 }
 .left,
 .right {
-  width: 7rem;
+  width: 5rem;
 }
 
 /*Profile page*/
@@ -223,36 +223,5 @@ footer p {
 }
 
 .profilebutton:hover {
-  background-color: rgb(255, 136, 0);
-}
-
-/*About page*/
-
-.about-text {
-  font-size: 0.8rem;
-  text-align: center;
-  margin: 0.2rem;
-}
-.startbutton {
-  width: 30%;
-  display: flex;
-  flex-direction: center;
-  align-items: flex-end;
-  padding: 1rem;
-}
-.get-started {
-  background-color: #4620f3;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin: 1.5rem 0;
-  transition: background-color 0.3s ease;
-  width: 200px;
-  height: 60px;
-}
-.get-started:hover {
   background-color: rgb(255, 136, 0);
 }
