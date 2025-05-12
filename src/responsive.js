@@ -38,6 +38,24 @@ function checkPage() {
         <img class="right" src="img/arrow_right.svg" alt=""
       /></a>`;
   }
+
+  if (currentPage === "/part.html") {
+    arrowhtml = `<a href="age.html">
+        <img class="left" src="img/arrow_left.svg" alt=""
+      /></a>
+      <a href="goal.html">
+        <img class="right" src="img/arrow_right.svg" alt=""
+      /></a>`;
+  }
+
+  if (currentPage === "/goal.html") {
+    arrowhtml = `<a href="part.html">
+        <img class="left" src="img/arrow_left.svg" alt=""
+      /></a>
+      <a href="day_selction.html">
+        <img class="right" src="img/arrow_right.svg" alt=""
+      /></a>`;
+  }
 }
 
 checkPage();
