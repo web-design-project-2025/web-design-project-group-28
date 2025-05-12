@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #3a0ca3, #7209b7);
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.guide-card {
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.guide-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.guide-card h2 {
+  text-align: center;
+}
+
+.guide-card button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background: linear-gradient(to right, #3a0ca3, #f72585);
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
