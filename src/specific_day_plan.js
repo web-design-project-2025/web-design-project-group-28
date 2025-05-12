@@ -109,6 +109,11 @@ document.addEventListener("DOMContentLoaded", () => {
     exercises.forEach((exercise) => {
       const card = document.createElement("div");
       card.className = "exercise-card";
+      card.style.cursor = "pointer";
+      card.addEventListener("click", () => {
+        const encodedName = encodeURIComponent(exercise.name);
+        window.location.href = `how_to_guide.html?exercise=${encodedName}`;
+      });
 
       card.innerHTML = `
         <h3>${exercise.name}</h3>
