@@ -113,14 +113,59 @@
 /*tablet*/
 
 @media (min-width: 600px) and (max-width: 899px) {
+  .gender-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .man,
+  .woman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .gender-icon {
+    width: 300px;
+    max-width: 100%;
+  }
+
+  .gender-button {
+    width: 16rem;
+    height: 8rem;
+    font-size: 1.2rem;
+  }
 }
 
 /*laptop*/
 
 @media (min-width: 900px) and (max-width: 1199px) {
+  .gender-icon {
+    width: 250px;
+    max-width: 100%;
+  }
+
+  .gender-button {
+    width: 16rem;
+    height: 8rem;
+    font-size: 1.2rem;
+  }
 }
 
 /*big screen*/
 
 @media (min-width: 1200px) {
+  .gender-icon {
+    width: 350px;
+    max-width: 100%;
+  }
+  .gender-button {
+    width: 16rem;
+    height: 8rem;
+    font-size: 1.2rem;
+  }
 }
