@@ -81,6 +81,7 @@ body {
 }
 
 header {
+  display: flex;
   background-image: linear-gradient(90deg, var(--blue), var(--orange));
   backdrop-filter: blur(0.3rem);
   min-height: 5rem;
