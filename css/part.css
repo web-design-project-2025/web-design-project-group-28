@@ -94,6 +94,7 @@
 }
 .selected:hover {
   background-color: #4620f3;
+  outline-color: rgb(255, 136, 0);
 }
 
 @media (max-width: 768px) {
