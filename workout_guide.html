@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How To Guide</title>
+  <link rel="stylesheet" href="../css/workout_guide.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Logo</div>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Workout Guide</a>
+      <a href="#">Nutrition Guide</a>
+    </nav>
+    <div class="profile-icon">&#128100;</div>
+  </header>
+
+  <main class="container">
+    <div class="guide-card">
+      <h2>Instructions</h2>
+      <img id="exercise-image" src="" alt="Exercise Image" />
+      <h3 id="exercise-name"></h3>
+      <p><strong>FOCUS AREA:</strong> <span id="focus-area"></span></p>
+      <p><strong>EQUIPMENT:</strong> <span id="equipment"></span></p>
+
+      <section>
+        <h4>PREPARATION</h4>
+        <p id="preparation"></p>
+      </section>
+
+      <section>
+        <h4>EXECUTION</h4>
+        <p id="execution"></p>
+      </section>
+
+      <section>
+        <h4>Key Tips</h4>
+        <p id="key-tips"></p>
+      </section>
+
+      <button onclick="goBack()">Done</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <div>Quick Links</div>
+      <div>Contact Us</div>
+      <div class="socials">
+        <a href="#">📷</a>
+        <a href="#">🚀</a>
+        <a href="#">🎵</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../src/script.js"></script>
+</body>
+</html>
