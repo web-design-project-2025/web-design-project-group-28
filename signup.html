@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <script src="src/validator.js" defer></script>
+  </head>
+  <header>
+    <section class="header-titles">
+      <img width="5%" src="img/logo_sweatzone.svg" alt="" />
+      <a href="index.html"> <h2>Home</h2></a>
+
+      <a href="about.html"> <h2>About us</h2></a>
+      <a href="explore.html"> <h2>Explore</h2></a>
+    </section>
+
+    <section class="header-profile">
+      <img width="30%" src="img/profile_icon.svg" alt="" />
+    </section>
+  </header>
+  <body>
+    <div class="form-centerer">
+      <h1>Signup</h1>
+      <p id="error-message"></p>
+      <div class="sign-up">
+        <form id="form">
+          <div>
+            <label for="first-name-input">
+              <img src="img/person.svg" alt="profile icon" />
+            </label>
+            <input
+              type="text"
+              name="First name"
+              id="first-name-input"
+              placeholder="firstname"
+            />
+          </div>
+
+          <div>
+            <label for="email-input">
+              <img src="img/mail.svg" alt="letter icon" />
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              placeholder="email"
+            />
+          </div>
+
+          <div>
+            <label for="password-input">
+              <img src="img/lock.svg" alt="lock icon" />
+            </label>
+            <input
+              type="password"
+              name="password"
+              id="password-input"
+              placeholder="password"
+            />
+          </div>
+
+          <div>
+            <label for="repeat-password-input">
+              <img src="img/lock.svg" alt="lock icon" />
+            </label>
+            <input
+              type="password"
+              name="repeat-password"
+              id="repeat-password-input"
+              placeholder="repeat-password"
+            />
+          </div>
+          <div class="login-phrase-container">
+            <p class="login-phrase">
+              Already have an account? <a href="login.html">Login</a>
+            </p>
+          </div>
+
+          <button class="submit" type="submit">Signup</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
