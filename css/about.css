@@ -1,0 +1,52 @@
+/*About page*/
+
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  border: 2px solid rgba(0, 0, 0);
+}
+
+.about-container p {
+  margin-bottom: 1.2rem;
+}
+
+.startbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.get-started {
+  background-color: #4620f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1.5rem 0;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  height: 60px;
+}
+.get-started:hover {
+  background-color: rgb(255, 136, 0);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 1.3rem;
+}
