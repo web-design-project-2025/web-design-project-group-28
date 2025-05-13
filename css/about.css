@@ -1,22 +1,36 @@
 /*About page*/
 
 .about-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 1.5rem;
-  text-align: center;
-  line-height: 1.7;
-  font-size: 1rem;
-  color: #333;
   font-family: "Arial", sans-serif;
-  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
-  backdrop-filter: blur(6px);
-  border: 2px solid rgba(0, 0, 0);
 }
 
-.about-container p {
-  margin-bottom: 1.2rem;
+.about-box p {
+  text-align: left;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.about-text {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 500px;
+  padding: 1.5rem;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
 }
 
 .startbutton {
