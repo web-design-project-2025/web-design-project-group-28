@@ -16,6 +16,9 @@ form.addEventListener("submit", (e) => {
   if (errors.length > 0) {
     e.preventDefault(); //prevent from submitting if there are any errors
     errorMessage.innerText = errors.join(", ");
+  } else {
+    e.preventDefault();
+    window.location.href = "profile.html";
   }
 });
 

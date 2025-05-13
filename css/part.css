@@ -96,18 +96,3 @@
   background-color: rgb(255, 136, 0);
   outline-color: #4620f3;
 }
-
-@media (max-width: 768px) {
-  .bodyparts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.4rem;
-    align-items: center;
-    margin-bottom: 10rem;
-  }
-
-  .part {
-    width: 40rem;
-  }
-}

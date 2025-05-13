@@ -6,21 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/landing-page.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <header>
-      <section class="header-titles">
-        <img width="5%" src="img/logo_sweatzone.svg" alt="" />
-        <a href="index.html"> <h2>Home</h2></a>
-
-        <a href="about.html"> <h2>About us</h2></a>
-        <a href="explore.html"> <h2>Explore</h2></a>
-      </section>
-
-      <section class="header-profile">
-        <img width="30%" src="img/profile_icon.svg" alt="" />
-      </section>
-    </header>
     <section class="page">
       <section class="content">
         <a href="gender.html">
@@ -56,5 +44,13 @@
     </footer>
 
     <script src="src/main.js"></script>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>

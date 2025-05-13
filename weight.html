@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/sliderpages.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="src/responsive.js" defer></script>
   </head>
   <body>
     <header>
@@ -20,7 +22,7 @@
         </div>
       </div>
     </header>
-    <div class="arrows">
+    <div id="arrows" class="arrows">
       <a href="gender.html">
         <img class="left" src="img/arrow_left.svg" alt=""
       /></a>
@@ -30,7 +32,7 @@
     </div>
     <section class="weight-container">
       <div class="weight-page">
-        <div id="weight-display"><h1>30 Kg</h1></div>
+        <div id="weight-display" class="slider-display"><h1>30 Kg</h1></div>
         <input
           class="range"
           id="weight-slider"
@@ -41,6 +43,7 @@
         />
       </div>
     </section>
+    <div id="isResponsive" class="arrows"></div>
 
     <footer>
       <section class="footer-items">

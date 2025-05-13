@@ -16,6 +16,8 @@ form.addEventListener("submit", (e) => {
     e.preventDefault(); //prevent from submitting if there are any errors
     errorMessage.innerText = errors.join(", ");
   } else {
+    e.preventDefault();
+    window.location.href = "login.html";
     localStorage.setItem("firstname", firstName.value);
     localStorage.setItem("email", email.value);
     localStorage.setItem("password", password.value);
