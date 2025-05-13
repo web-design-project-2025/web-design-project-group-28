@@ -20,30 +20,6 @@
   }
 
   /* Header */
-  header {
-    min-height: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .header-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 0.5rem;
-  }
-
-  .header-center h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 0;
-  }
-
-  .header-profile img {
-    width: 3rem;
-  }
 
   /* Footer */
   footer {
@@ -169,6 +145,8 @@
 /*tablet*/
 
 @media (min-width: 600px) and (max-width: 899px) {
+  /*header*/
+
   /*Gender page*/
 
   .gender-page {
