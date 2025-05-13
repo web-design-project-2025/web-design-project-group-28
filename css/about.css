@@ -13,7 +13,6 @@
   line-height: 1.7;
   font-size: 1.1rem;
   margin: 0;
-  text-align: center;
 }
 
 .about-text {
@@ -21,17 +20,6 @@
   gap: 2rem;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.about-box {
-  flex: 1;
-  min-width: 300px;
-  padding: 1.5rem;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(6px);
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
 
 .startbutton {
@@ -73,15 +61,19 @@ header h2 {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: left;
+  justify-content: left;
 }
 
-.hero-container p {
-  text-align: center;
+.hero-text p {
+  text-align: left;
   margin-left: 5rem;
-  padding-top: 5rem;
+  padding-top: 7rem;
   color: white;
   max-width: 350px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: bold;
   line-height: 1.4;
 }
@@ -90,4 +82,30 @@ header h2 {
   background-color: rgb(50, 50, 50);
   background-size: cover;
   padding: 5px;
+}
+
+@media (max-width: 599px) {
+  .hero-container {
+    background-image: url("../img/dark-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 50vh;
+    display: block;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .hero-container {
+    background-image: url("../img/dark-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh;
+    display: block;
+  }
 }
