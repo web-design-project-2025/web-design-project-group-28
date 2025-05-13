@@ -152,3 +152,107 @@ body {
   margin-top: 1rem;
   font-size: 0.9rem;
 }
+
+/* 2. Tablet */
+@media (min-width: 600px) and (max-width: 899px) {
+  .nav-links {
+    flex: 1 1 100%;
+    justify-content: space-around;
+  }
+
+  .logo,
+  .profile-icon {
+    flex: 1 1 50%;
+  }
+
+  .plan-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 3. Laptop */
+@media (min-width: 900px) and (max-width: 1199px) {
+  .header-content {
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    flex: 1;
+    text-align: left;
+  }
+
+  .nav-links {
+    flex: 2;
+    justify-content: center;
+  }
+
+  .profile-icon {
+    flex: 1;
+    text-align: right;
+  }
+
+  .plan-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 4. Large Desktop */
+@media (min-width: 1200px) {
+  .plan-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* --- Mobile Menu Dropdown --- */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hidden mobile nav by default */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  top: 70px; /* Adjust depending on header height */
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.mobile-nav a {
+  color: white;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.mobile-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive override: small screens */
+@media (max-width: 599px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo,
+  .profile-icon {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  .header-content {
+    position: relative;
+  }
+}
