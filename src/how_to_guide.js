@@ -1,6 +1,6 @@
 // Function to normalize strings for comparison
 function normalize(str) {
-  return str.toLowerCase().replace(/\s+/g, '');
+  return str.toLowerCase().replace(/\s+/g, '_');
 }
 
 // Function to load exercise data from JSON and update the DOM
@@ -14,7 +14,7 @@ async function loadExerciseData() {
     const response = await fetch("../data/exercise_data.json");
     const exercises = await response.json();
 
-    // Find matching exercise (case-insensitive, ignores spaces)
+    // Finding the matching exercise (case-insensitive, ignores spaces)
     const matchedExercise = exercises.find(
       (ex) => normalize(ex["Exercise Name"]) === normalize(exerciseName)
     );
@@ -27,9 +27,15 @@ async function loadExerciseData() {
       document.getElementById("execution").innerText = matchedExercise["Execution"];
       document.getElementById("key-tips").innerText = matchedExercise["Key Tips"];
 
-      // Optional image loading (make sure filenames match normalized name format)
+      // Loading the images
       const imageName = normalize(matchedExercise["Exercise Name"]);
-      document.getElementById("exercise-image").src = `images/${imageName}.jpg`;
+      const imgEl = document.getElementById("exercise-image");
+      imgEl.src = `../exercise_images/${imageName}.png`;
+      imgEl.onerror = () => {
+        imgEl.onerror = null;
+        imgEl.src = "../exercise_images/placeholder.png";
+      };
+
     } else {
       document.querySelector(".guide-card").innerHTML = `<p>Exercise not found: ${exerciseName}</p>`;
       console.warn("Exercise not found:", exerciseName);
