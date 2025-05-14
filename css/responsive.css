@@ -148,6 +148,48 @@
 @media (min-width: 600px) and (max-width: 899px) {
   /*header*/
 
+  body {
+    max-width: 100%;
+  }
+
+  header {
+    max-width: 100%;
+  }
+
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    width: 4rem;
+  }
+
+  header h2 {
+    white-space: nowrap;
+    font-size: 1.4rem;
+    color: blue;
+  }
+
+  .header-titles img {
+    width: 7%;
+  }
+
+  .header-profile img {
+    width: 200%;
+  }
+
+  .header-titles {
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .header-profile {
+    width: 5rem;
+    margin-right: 2rem;
+  }
+
   /*Gender page*/
 
   .gender-page {
@@ -202,11 +244,62 @@
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
   }
+
+  /*footer*/
+  .footer-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  #middle {
+    margin-bottom: 1rem;
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
 }
 
 /*laptop*/
 
 @media (min-width: 900px) and (max-width: 1199px) {
+  /*header*/
+
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    width: 4rem;
+  }
+
+  header h2 {
+    white-space: nowrap;
+    font-size: 1.4rem;
+    color: red;
+  }
+
+  .header-titles img {
+    width: 5%;
+  }
+
+  .header-profile img {
+    width: 89%;
+  }
+
+  .header-titles {
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .header-profile {
+    width: 5rem;
+  }
+
+  /*gender pages*/
   .gender-icon {
     width: 200px;
     max-width: 100%;
@@ -241,6 +334,16 @@
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
+  }
+  /*footer*/
+
+  footer {
+    overflow-x: hidden;
+    gap: 1rem;
+  }
+
+  .footer-items {
+    gap: 1rem;
   }
 }
 
