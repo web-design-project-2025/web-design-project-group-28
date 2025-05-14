@@ -56,16 +56,24 @@
   align-items: center;
   width: 20rem;
   height: 20rem;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
   border-radius: 1rem;
 }
 
 .body {
   width: 20rem;
   height: 20rem;
+}
+
+.part {
+  border-radius: 1rem;
+}
+
+.part {
+  border-radius: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
 }
 
 .full {

@@ -56,6 +56,15 @@ function checkPage() {
         <img class="right" src="img/arrow_right.svg" alt=""
       /></a>`;
   }
+
+  if (currentPage === "/day_selection.html") {
+    arrowhtml = `<a href="goal.html">
+        <img class="left" src="img/arrow_left.svg" alt=""
+      /></a>
+      <a href="workout-plans.html">
+        <img class="right" src="img/arrow_right.svg" alt=""
+      /></a>`;
+  }
 }
 
 checkPage();

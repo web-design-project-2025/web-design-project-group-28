@@ -90,51 +90,6 @@ body {
 
 /*header*/
 
-.header {
-  background: linear-gradient(to right, #0066ff, #ff6600);
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
-  flex: 1;
-  text-align: left;
-}
-
-nav {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.user-icon {
-  font-size: 1.6rem;
-  color: white;
-  flex: 1;
-  text-align: right;
-}
-
-.mobile-nav {
-  display: none;
-}
-
 /*footer*/
 
 footer {
@@ -168,20 +123,37 @@ footer p {
 .footer-links {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   width: 5rem;
   position: absolute;
 }
 
+.social-container {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social-container img {
+  width: 48px;
+  height: 48px;
+}
+
+.footer-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /*Arrows*/
 
 .arrows {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 3rem;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .left,
 .right {

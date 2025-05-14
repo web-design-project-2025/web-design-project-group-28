@@ -75,10 +75,7 @@ body {
 .goal-btn {
   display: flex;
   align-items: center;
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid transparent;
   border-radius: 15px;
   padding: 2rem 10rem;
@@ -86,7 +83,7 @@ body {
   gap: 15px;
   cursor: pointer;
   transition: border 0.3s ease;
-  color: white;
+  color: var(--title);
 }
 
 .goal-btn.selected {

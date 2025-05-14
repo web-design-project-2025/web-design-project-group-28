@@ -38,8 +38,9 @@
     text-align: center;
   }
 
-  .footer-elements img {
-    width: 20%;
+  .social-container img {
+    width: 32px;
+    height: 32px;
   }
 
   /* Arrows */
@@ -207,13 +208,12 @@
 
 @media (min-width: 900px) and (max-width: 1199px) {
   .gender-icon {
-    width: 250px;
+    width: 200px;
     max-width: 100%;
   }
-
   .gender-button {
-    width: 16rem;
-    height: 8rem;
+    width: 10rem;
+    height: 5rem;
     font-size: 1.2rem;
   }
 
@@ -248,12 +248,12 @@
 
 @media (min-width: 1200px) {
   .gender-icon {
-    width: 350px;
+    width: 200px;
     max-width: 100%;
   }
   .gender-button {
-    width: 16rem;
-    height: 8rem;
+    width: 8rem;
+    height: 4rem;
     font-size: 1.2rem;
   }
   /*part*/
@@ -266,6 +266,6 @@
   }
 
   .part {
-    width: 20rem;
+    width: 12rem;
   }
 }
