@@ -6,11 +6,12 @@
   --purple: #4620f3;
 }
 
-html,
+/* Base */
 body {
-  height: 100%;
   margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: url("../img/image.png") no-repeat center center / cover;
 }
 
 .page-wrapper {
@@ -19,10 +20,7 @@ body {
   min-height: 100vh;
 }
 
-.main-section {
-  flex: 1;
-}
-
+/* Header */
 .header {
   position: relative;
   display: flex;
@@ -38,20 +36,66 @@ body {
   flex: 1;
 }
 
-.main-section {
-  background-image: url("");
-  background-size: cover;
-  background-position: center;
-  padding: 3rem 2rem;
-  position: relative;
+.profile-icon {
+  position: absolute;
+  right: 40px;
 }
 
+.profile-icon img {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* Layout Rows */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+/* Arrows - Desktop */
+.arrows-desktop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 6rem;
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+}
+
+.left,
+.right {
+  width: 6rem;
+}
+
+/* Arrows - Mobile (hidden by default) */
+.arrows-mobile {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+}
+
+/* Main Section */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Options Grid */
 .options-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
+  gap: 20px;
   max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .day-option {
@@ -61,12 +105,169 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: border 0.3s ease;
+  color: white;
+  backdrop-filter: blur(10px);
 }
 
 .day-option:hover {
-  border-color: #555;
+  border-color: #888;
 }
 
 .day-option.selected {
   border-color: orange !important;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, #5336dc, #ed8939);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a,
+.footer-section p {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive: Arrows & Layout */
+@media (max-width: 1024px) {
+  .main-section {
+    padding: 40px 20px;
+  }
+
+  .left,
+  .right {
+    width: 5.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide desktop arrows and show mobile version */
+  .arrows-desktop {
+    display: none;
+  }
+
+  .arrows-mobile {
+    display: flex;
+  }
+
+  .main-section {
+    padding: 30px 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .footer-section {
+    min-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .header h1 {
+    font-size: 16px;
+    margin-right: 3rem;
+  }
+
+  .left,
+  .right {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 10px;
+    margin-right: 3rem;
+  }
+}
+
+/* Stack day options vertically on mobile */
+@media (max-width: 768px) {
+  .options-grid {
+    grid-template-columns: 1fr; /* one column */
+    gap: 16px;
+  }
+
+  /* More padding for arrows on small screens */
+  .arrows-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin: 1.5rem 0;
+  }
+
+  .arrows-mobile .left,
+  .arrows-mobile .right {
+    width: 5rem;
+  }
+}
+
+/* Default behavior for arrows (desktop) */
+.arrows-desktop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 4rem;
+  margin: 1.5rem auto;
+}
+
+.arrows-mobile {
+  display: none; /* hidden by default */
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .arrows-desktop {
+    display: none;
+  }
+
+  .arrows-mobile {
+    display: flex;
+  }
 }

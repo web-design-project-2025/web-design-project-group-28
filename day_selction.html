@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Training Days Selection</title>
-  <link rel="stylesheet" href="../css/goal.css" />
   <link rel="stylesheet" href="../css/selection.css" />
 </head>
 <body>
@@ -18,46 +17,60 @@
     </a>
   </header>
 
-  <div class="arrows">
-    <a href="goal.html">
-      <img class="left" src="img/arrow_left.svg" alt=""
-    /></a>
-    <a href="workout-plans.html">
-      <img class="right" src="img/arrow_right.svg" alt=""
-    /></a>
-  </div>
+  <!-- Main Content Container -->
+  <div class="content-container">
 
-  <!-- Training Options -->
-  <main class="main-section">
-
-    <div class="options-grid">
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>1 day / week</strong>
-        <p>Intense training with light cardio.</p>
-      </div>
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>2 days / week</strong>
-        <p>Both cardio and strength training.</p>
-      </div>
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>3 days / week</strong>
-        <p>More focus on strength training.</p>
-      </div>
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>4 days / week</strong>
-        <p>Both cardio and strength training.</p>
-      </div>
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>5 days / week</strong>
-        <p>Both cardio and strength training.</p>
-      </div>
-      <div class="day-option" onclick="selectOption(this)">
-        <strong>6 days / week</strong>
-        <p>More focus on strength training.</p>
-      </div>
+    <!-- Arrows (Desktop only) -->
+    <div class="arrows-desktop">
+      <a href="goal.html">
+        <img class="left" src="img/arrow_left.svg" alt="Left Arrow" />
+      </a>
+      <a href="workout-plans.html">
+        <img class="right" src="img/arrow_right.svg" alt="Right Arrow" />
+      </a>
     </div>
 
-  </main>
+    <!-- Main Section with Training Options -->
+    <main class="main-section">
+      <div class="options-grid">
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>1 day / week</strong>
+          <p>Intense training with light cardio.</p>
+        </div>
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>2 days / week</strong>
+          <p>Both cardio and strength training.</p>
+        </div>
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>3 days / week</strong>
+          <p>More focus on strength training.</p>
+        </div>
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>4 days / week</strong>
+          <p>Both cardio and strength training.</p>
+        </div>
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>5 days / week</strong>
+          <p>Both cardio and strength training.</p>
+        </div>
+        <div class="day-option" onclick="selectOption(this)">
+          <strong>6 days / week</strong>
+          <p>More focus on strength training.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Arrows (Mobile only) -->
+    <div class="arrows-mobile">
+      <a href="goal.html">
+        <img class="left" src="img/arrow_left.svg" alt="Left Arrow" />
+      </a>
+      <a href="workout-plans.html">
+        <img class="right" src="img/arrow_right.svg" alt="Right Arrow" />
+      </a>
+    </div>
+
+  </div>
 
   <!-- Footer -->
   <footer>
@@ -84,6 +97,8 @@
       </div>
     </div>
   </footer>
+
+</div>
 
   <script src="../src/script.js"></script>
 </body>
