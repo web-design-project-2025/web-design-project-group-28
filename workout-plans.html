@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Workout Plan Summary</title>
-  <link rel="stylesheet" href="../css/style.css" />
   <link rel="stylesheet" href="../css/workout-plans.css" />
 </head>
 <body>
@@ -14,27 +13,48 @@
     <div class="spinner"></div>
   </div>
 
-  <!-- Main Content -->
-  <div id="content" style="display: none;">
-    <header class="header">
-      <div class="logo">Logo</div>
-      <nav>
+  <header class="site-header">
+    <div class="header-content">
+      <div class="logo">SweatZone</div>
+
+      <nav class="nav-links">
         <a href="#">Dashboard</a>
         <a href="#">Workout Guide</a>
         <a href="#">Nutrition Guide</a>
       </nav>
-      <div class="user-icon">👤</div>
-    </header>
 
-    <div class="arrows">
+      <div class="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
+
+      <div class="mobile-nav" id="mobileMenu">
+        <a href="#">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="#">Nutrition Guide</a>
+      </div>
+
+      <div class="profile-icon">👤</div>
+    </div>
+  </header>
+  
+<div id="content" style="display: none;">
+    <!-- Top Arrows (Visible on large screens) -->
+    <div class="arrows arrows-top">
       <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
       <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
     </div>
 
+    <!-- Main Section -->
     <main class="plan-container" id="plan-container">
-      <!-- Our workout plan summaries will be loaded here -->
+      <!-- Workout plan summaries will load here -->
     </main>
 
+    <!-- Bottom Arrows (Visible on small screens) -->
+    <div class="arrows arrows-bottom">
+      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
+      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+    </div>
+  </div>
+
+    <!-- Footer -->
     <footer class="site-footer">
       <div class="footer-content">
         <div class="footer-column">
@@ -49,19 +69,28 @@
         </div>
         <div class="footer-column">
           <h4>Follow Us</h4>
-          <p>📷 🎵 👍</p>
+          <div class="social-icons">
+            <span>📷</span>
+            <span>🎵</span>
+            <span>👍</span>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
     </footer>
-  
-  </div>
+    
+  <!-- Page loader script -->
   <script>
     window.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
         document.getElementById("loader").style.display = "none";
         document.getElementById("content").style.display = "block";
       }, 2000);
+    });
+
+    // Mobile nav toggle
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('show');
     });
   </script>
 

@@ -296,6 +296,13 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = "edit_plan.html";
     });
   }
+    // Mobile nav toggle
+  const menuToggle = document.querySelector(".menu-toggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.style.display = mobileMenu.style.display === "flex" ? "none" : "flex";
+  });
 });
 
   

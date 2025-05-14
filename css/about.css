@@ -1,22 +1,25 @@
 /*About page*/
 
 .about-container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 2rem auto;
   padding: 1.5rem;
-  text-align: center;
-  line-height: 1.7;
-  font-size: 1rem;
-  color: #333;
   font-family: "Arial", sans-serif;
-  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
-  backdrop-filter: blur(6px);
-  border: 2px solid rgba(0, 0, 0);
 }
 
-.about-container p {
-  margin-bottom: 1.2rem;
+.about-box p {
+  text-align: left;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.about-text {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .startbutton {
@@ -49,4 +52,76 @@ header {
 
 header h2 {
   font-size: 1.3rem;
+}
+
+.hero-container {
+  background-image: url("../img/dark-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.hero-text p {
+  text-align: left;
+  margin-left: 5rem;
+  padding-top: 7rem;
+  color: white;
+  max-width: 350px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.hero-text-2-background {
+  display: none;
+}
+
+.hero-text-2 p {
+  display: none;
+}
+
+.about-page {
+  background-color: rgb(50, 50, 50);
+  background-size: cover;
+  padding: 5px;
+}
+
+@media (max-width: 899px) {
+  .hero-container {
+    background-image: url("../img/dark-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display: block;
+  }
+  .hero-text p {
+    display: none;
+  }
+
+  .hero-text-2-background {
+    display: block;
+    background-color: rgb(50, 50, 50);
+    background-size: cover;
+    padding: 5px;
+  }
+
+  .hero-text-2 p {
+    display: block;
+    text-align: left;
+    margin-left: 5rem;
+    padding-top: 7rem;
+    color: white;
+    max-width: 350px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
 }

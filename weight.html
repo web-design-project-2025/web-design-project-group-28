@@ -7,6 +7,9 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/sliderpages.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="src/responsive.js" defer></script>
+    <script src="src/weight.js" defer></script>
   </head>
   <body>
     <header>
@@ -16,21 +19,21 @@
           <h2>What is your weight?</h2>
         </div>
         <div class="header-profile">
-          <img width="15%" src="img/profile_icon.svg" alt="" />
+          <img width="15%" src="img/profile_icon.svg" alt="profile" />
         </div>
       </div>
     </header>
-    <div class="arrows">
+    <div id="arrows" class="arrows">
       <a href="gender.html">
-        <img class="left" src="img/arrow_left.svg" alt=""
+        <img class="left" src="img/arrow_left.svg" alt="arrow left"
       /></a>
       <a href="height.html">
-        <img class="right" src="img/arrow_right.svg" alt=""
+        <img class="right" src="img/arrow_right.svg" alt="arrow right"
       /></a>
     </div>
     <section class="weight-container">
       <div class="weight-page">
-        <div id="weight-display"><h1>30 Kg</h1></div>
+        <div id="weight-display" class="slider-display"><h3>30Kg</h3></div>
         <input
           class="range"
           id="weight-slider"
@@ -41,6 +44,7 @@
         />
       </div>
     </section>
+    <div id="isResponsive" class="arrows"></div>
 
     <footer>
       <section class="footer-items">
@@ -62,6 +66,5 @@
         </div>
       </section>
     </footer>
-    <script src="src/weight.js"></script>
   </body>
 </html>
