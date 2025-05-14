@@ -76,20 +76,19 @@ body {
 .goal-btn {
   display: flex;
   align-items: center;
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid transparent;
   border-radius: 15px;
-  padding: 15px 20px;
+  padding: 2rem 10rem;
   text-align: left;
   gap: 15px;
   cursor: pointer;
   transition: border 0.3s ease;
-  color: white;
-  backdrop-filter: blur(10px);
+  color: var(--title);
 }
 
 .goal-btn.selected {
-  border-color: orange !important;
+  border-color: var(--orange) !important;
 }
 
 .goal-btn img {
@@ -111,7 +110,7 @@ body {
 
 /* Footer */
 footer {
-  background: linear-gradient(90deg, #5336dc, #ed8939);
+  background: linear-gradient(90deg, var(--blue), var(--orange));
   display: flex;
   justify-content: space-between;
   padding: 30px 60px;
