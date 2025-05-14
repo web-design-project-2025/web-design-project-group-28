@@ -51,3 +51,13 @@
   background-color: var(--purple);
   justify-content: center;
 }
+
+.range::-webkit-slider-thumb {
+  transform: scale(1.7);
+  background-color: var(--orange);
+  transition: 100ms ease;
+}
+
+.range::-webkit-slider-thumb:hover {
+  transform: scale(2);
+}

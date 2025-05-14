@@ -11,6 +11,17 @@
   padding: 0px;
 }
 
+/*animations*/
+@keyframes arrow-animation {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 @keyframes button-animation {
   0% {
     box-shadow: 0rem 0rem 0.2rem 0.2rem var(--text);
@@ -131,6 +142,14 @@ header h2 {
   gap: 0rem;
 }
 
+.header-titles a h2 {
+  transition: transform 200ms ease;
+}
+
+.header-titles a h2:hover {
+  transform: scale(1.1);
+}
+
 .header-profile {
   width: 5rem;
 }
@@ -209,6 +228,12 @@ footer p {
 .left,
 .right {
   width: 5rem;
+  transition: transform 0.3s ease;
+}
+
+.left:hover,
+.right:hover {
+  transform: scale(1.1);
 }
 
 /*Profile page*/
