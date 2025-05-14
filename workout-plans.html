@@ -1,112 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SweatZone</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workout Plan Summary</title>
+  <link rel="stylesheet" href="../css/workout-plans.css" />
+</head>
+<body>
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/workout-plans.css" />
-  </head>
-  <body>
-    <header>
-      <div class="header-wrapper">
-        <div class="space"></div>
-        <div class="header-center">
-          <h2>Your workout plan is down below...</h2>
-        </div>
-        <div class="header-profile">
-          <img width="15%" src="img/profile_icon.svg" alt="profile" />
-        </div>
+  <!-- Spinner -->
+  <div id="loader" class="loader-wrapper">
+    <div class="spinner"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-content">
+      <div class="logo">SweatZone</div>
+
+      <nav class="nav-links">
+        <a href="#">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="#">Nutrition Guide</a>
+      </nav>
+
+      <div class="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
+
+      <div class="mobile-nav" id="mobileMenu">
+        <a href="#">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="#">Nutrition Guide</a>
       </div>
-    </header>
-    <div class="arrows">
-      <a href="day_selction.html">
-        <img class="left" src="img/arrow_left.svg" alt="arrow left"
-      /></a>
-      <a href="plan.html">
-        <img class="right" src="img/arrow_right.svg" alt="arrow right"
-      /></a>
+
+      <div class="profile-icon">👤</div>
     </div>
-    <section class="workouts">
-      <div class="plan-container">
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 1</button> </a>
+  </header>
+  
+<div id="content" style="display: none;">
+    <!-- Top Arrows (Visible on large screens) -->
+    <div class="arrows arrows-top">
+      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
+      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+    </div>
 
-          <div id="1" class="plan">
-            <h3>Chest and Triceps</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 2</button> </a>
-          <div id="2" class="plan">
-            <h3>Shoulder and Core</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 3</button> </a>
+    <!-- Main Section -->
+    <main class="plan-container" id="plan-container">
+      <!-- Workout plan summaries will load here -->
+    </main>
 
-          <div id="3" class="plan">
-            <h3>Back and Triceps</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 4</button> </a>
+    <!-- Bottom Arrows (Visible on small screens) -->
+    <div class="arrows arrows-bottom">
+      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
+      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+    </div>
+  </div>
 
-          <div id="4" class="plan">
-            <h3>Legs and Core</h3>
-            <p>Bla bla bla</p>
-          </div>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="#">About Us</a>
+          <a href="#">Explore</a>
         </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 5</button> </a>
-
-          <div id="5" class="plan">
-            <h3>Rest and Recoup</h3>
-            <p>Bla bla bla</p>
-          </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>thesweatzone@gmail.com</p>
+          <p>045456767</p>
         </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 6</button> </a>
-
-          <div id="6" class="plan">
-            <h3>Just Cardio</h3>
-            <p>Bla bla bla</p>
-          </div>
-        </div>
-        <div class="plan-wrapper">
-          <a href="plan.html"> <button>Day 7</button> </a>
-
-          <div id="7" class="plan">
-            <h3>Full Body</h3>
-            <p>Bla bla bla</p>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <span>📷</span>
+            <span>🎵</span>
+            <span>👍</span>
           </div>
         </div>
       </div>
-    </section>
-
-    <footer>
-      <section class="footer-items">
-        <div class="footer-elements">
-          <h2>Quick Links</h2>
-          <p>About us</p>
-          <p>Explore</p>
-        </div>
-        <div class="footer-elements">
-          <h2>Contact Us</h2>
-          <p>thesweatzone@gmail.com</p>
-          <p>073 439 34 43</p>
-        </div>
-        <div class="footer-elements">
-          <h2>Follow Us</h2>
-          <img width="10%" src="img/image.png" alt="tiktok icon" />
-          <img width="10%" src="img/image.png" alt="facebook icon" />
-          <img width="10%" src="img/image.png" alt="instagram icon" />
-        </div>
-      </section>
+      <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
     </footer>
-  </body>
+    
+  <!-- Page loader script -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      setTimeout(() => {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }, 2000);
+    });
+
+    // Mobile nav toggle
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('show');
+    });
+  </script>
+
+  <script src="../src/workout-plans.js"></script>
+</body>
 </html>

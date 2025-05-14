@@ -1,32 +1,43 @@
-let userData = [];
-async function loadUserData() {
-  try {
-    const response = await JSON.parse(localStorage.getItem("data"));
-    userData = response;
-    console.log("fungerar", userData);
-  } catch (error) {
-    console.log("error", error);
-  }
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const goal = (localStorage.getItem("selectedGoal") || "build muscle").toLowerCase();
+  const days = localStorage.getItem("daysPerWeek") || "6";
+  const planContainer = document.getElementById("plan-container");
 
-loadUserData();
+  fetch("../data/workout_exercises.json")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Failed to load workout data.");
+      }
+      return response.json();
+    })
+    .then(data => {
+      const goalPlans = data[goal];
+      if (!goalPlans) {
+        planContainer.innerHTML = `<p>No plans available for goal: <strong>${goal}</strong>.</p>`;
+        return;
+      }
 
-const day1 = document.getElementById("1");
-const day2 = document.getElementById("2");
-const day3 = document.getElementById("3");
-const day4 = document.getElementById("4");
-const day5 = document.getElementById("5");
-const day6 = document.getElementById("6");
-const day7 = document.getElementById("7");
+      const dailyPlans = goalPlans[days];
+      if (!dailyPlans || dailyPlans.length === 0) {
+        planContainer.innerHTML = `<p>No plans available for <strong>${goal}</strong> with <strong>${days}</strong> days/week.</p>`;
+        return;
+      }
 
-//example how we will get the right workoutplan for the goal selected
+      // Sort by day number (in case they are not in order)
+      dailyPlans.sort((a, b) => a.day - b.day);
 
-userData.forEach((e) => {
-  if (e.gender === false) {
-    day1.innerHTML = `<h1>Day 1</h1>
-        <p>Build muscle</p>`;
-  } else {
-    `<h1>Day 1</h1>
-        <p>Dont build muscle</p>`;
-  }
+      dailyPlans.forEach(plan => {
+        const card = document.createElement("div");
+        card.classList.add("plan-card");
+        card.innerHTML = `
+          <h3>Day ${plan.day}: ${plan.title}</h3>
+          <p>${plan.description}</p>
+        `;
+        planContainer.appendChild(card);
+      });
+    })
+    .catch(error => {
+      console.error("Error loading workout plan:", error);
+      planContainer.innerHTML = `<p>There was an error loading your workout plan. Please try again later.</p>`;
+    });
 });

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="src/login.js" defer></script>
+  </head>
+  <header>
+    <section class="header-titles">
+      <img width="5%" src="img/logo_sweatzone.svg" alt="" />
+      <a href="index.html"> <h2>Home</h2></a>
+
+      <a href="about.html"> <h2>About us</h2></a>
+      <a href="explore.html"> <h2>Explore</h2></a>
+    </section>
+
+    <section class="header-profile">
+      <img src="img/profile_icon.svg" alt="" />
+    </section>
+  </header>
+  <body>
+    <div class="form-centerer">
+      <h1>Login</h1>
+      <p id="error-message"></p>
+      <div class="sign-up">
+        <form id="form">
+          <div>
+            <label for="email-input">
+              <img src="img/mail.svg" alt="letter icon" />
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email-input"
+              placeholder="email"
+            />
+          </div>
+
+          <div>
+            <label for="password-input">
+              <img src="img/lock.svg" alt="lock icon" />
+            </label>
+            <input
+              type="password"
+              name="password"
+              id="password-input"
+              placeholder="password"
+            />
+          </div>
+
+          <div class="login-phrase-container">
+            <p class="login-phrase">
+              No account? <a href="signup.html">Signup</a>
+            </p>
+          </div>
+
+          <button class="submit" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <section class="footer-items">
+      <div class="footer-elements">
+        <h2>Quick Links</h2>
+        <p>About us</p>
+        <p>Explore</p>
+      </div>
+      <div class="footer-elements">
+        <h2>Contact Us</h2>
+        <p>thesweatzone@gmail.com</p>
+        <p>073 439 34 43</p>
+      </div>
+      <div class="footer-elements">
+        <h2>Follow Us</h2>
+        <img width="10%" src="img/tiktok.svg" alt="TikTok Icon" />
+        <img width="10%" src="img/facebook.svg" alt="Facebook Icon" />
+        <img width="10%" src="img/instagram.svg" alt="Instagram Icon" />
+      </div>
+    </section>
+  </footer>
+</html>

@@ -26,7 +26,7 @@ slider.addEventListener("input", (e) => {
     e.weight = vikt;
     console.log(e.weight);
   });
-  displayWeight.innerHTML = `<h3 id="color-changer">${vikt} Kg</h3>`;
+  displayWeight.innerHTML = `<h3 id="color-changer">${vikt}kg</h3>`;
   let colorChanger = document.getElementById("color-changer");
   colorChanger.style.color = `rgb(255, 136, ${color})`;
   localStorage.setItem("data", JSON.stringify(userData));

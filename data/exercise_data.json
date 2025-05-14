@@ -1,0 +1,314 @@
+[
+  {
+    "Exercise Name": "Bench Press",
+    "Focus Area": "Chest, Shoulder, and Triceps",
+    "Equipment": "Barbell, Flat Bench, and Weights",
+    "Preparation": "Lie flat on a bench with your eyes directly under the barbell. Plant your feet firmly on the ground, slightly wider than hip-width. Grip the bar with hands slightly wider than shoulder-width apart, and keep your shoulder blades retracted and tight against the bench to stabilize your upper body.",
+    "Execution": "1. Lower the Bar: Unlock the bar and slowly lower it to your mid-chest, keeping your elbows at about a 45-degree angle from your torso.\n2. Press Up: Push the bar back up by driving through your chest and arms until your arms are fully extended, then repeat.",
+    "Key Tips": "1. Keep Your Wrists Straight: Avoid bending your wrists back to maintain proper force transfer and avoid strain.\n2. Control the Bar Path: Lower the bar in a controlled manner and keep the movement smooth to avoid injury and improve muscle engagement."
+  },
+  {
+    "Exercise Name": "Chest Press",
+    "Focus Area": "Chest, Shoulders, and Triceps",
+    "Equipment": "Machine or Dumbbells",
+    "Preparation": "Sit down on the machine or bench with your back flat against the pad. Grasp the handles with a firm grip or hold dumbbells at chest level with elbows bent at about 90 degrees.",
+    "Execution": "1. Press: Push the handles or dumbbells forward and upward until your arms are fully extended.\n2. Return: Slowly return to the starting position under control and repeat.",
+    "Key Tips": "1. Do not lock out elbows at the top to maintain tension on the muscles.\n2. Exhale as you push and inhale as you return."
+  },
+  {
+    "Exercise Name": "Pec Dec Fly",
+    "Focus Area": "Chest",
+    "Equipment": "Pec Dec Machine",
+    "Preparation": "Sit on the machine with your back firmly against the pad. Adjust the handles so your arms are slightly bent and at shoulder height.",
+    "Execution": "1. Squeeze: Bring the handles together in a wide arc motion in front of your chest.\n2. Return: Slowly allow your arms to return to the starting position while maintaining control.",
+    "Key Tips": "1. Focus on squeezing your chest at the peak contraction.\n2. Avoid swinging or using momentum."
+  },
+  {
+    "Exercise Name": "Triceps Pushdown",
+    "Focus Area": "Triceps",
+    "Equipment": "Cable Machine with Bar or Rope",
+    "Preparation": "Stand facing the cable machine. Grasp the bar or rope with an overhand grip and keep your elbows close to your body.",
+    "Execution": "1. Push Down: Extend your arms downward until fully straightened.\n2. Return: Slowly allow the bar/rope to return to starting position.",
+    "Key Tips": "1. Avoid letting your elbows flare out.\n2. Focus on squeezing your triceps at the bottom."
+  },
+  {
+    "Exercise Name": "Triceps Overhead Press",
+    "Focus Area": "Triceps",
+    "Equipment": "Dumbbell or Cable Machine",
+    "Preparation": "Hold a dumbbell or cable handle with both hands behind your head. Keep your elbows pointing up.",
+    "Execution": "1. Press: Extend your arms to lift the weight overhead.\n2. Lower: Bring the weight back down behind your head with control.",
+    "Key Tips": "1. Keep elbows stable and avoid flaring.\n2. Maintain a strong core to prevent back strain."
+  },
+  {
+    "Exercise Name": "Triceps Press",
+    "Focus Area": "Triceps",
+    "Equipment": "Machine",
+    "Preparation": "Sit with your back against the pad and hands gripping the handles beside your head.",
+    "Execution": "1. Push: Extend your arms forward.\n2. Return: Slowly allow arms to come back beside your head.",
+    "Key Tips": "1. Use slow, controlled movements.\n2. Do not lock elbows completely at the top."
+  },
+  {
+    "Exercise Name": "Shoulder Press",
+    "Focus Area": "Shoulders",
+    "Equipment": "Machine or Dumbbells",
+    "Preparation": "Sit or stand with your back straight. Hold dumbbells or machine handles at shoulder height with your palms facing forward.",
+    "Execution": "1. Press: Push the weights upward until your arms are fully extended above your head.\n2. Lower: Slowly return the weights to shoulder height and repeat.",
+    "Key Tips": "1. Avoid arching your back.\n2. Keep your movements controlled and steady."
+  },
+  {
+    "Exercise Name": "Lateral Raises",
+    "Focus Area": "Shoulders",
+    "Equipment": "Dumbbells",
+    "Preparation": "Stand with a dumbbell in each hand, arms at your sides, palms facing your body.",
+    "Execution": "1. Raise: Lift the dumbbells out to the sides until they are at shoulder level.\n2. Lower: Slowly bring them back to your sides.",
+    "Key Tips": "1. Do not use momentum.\n2. Slight bend in elbows for joint safety."
+  },
+  {
+    "Exercise Name": "Front Raises",
+    "Focus Area": "Shoulders",
+    "Equipment": "Dumbbells or Weight Plate",
+    "Preparation": "Stand upright holding dumbbells or a weight plate in front of your thighs with palms facing toward you.",
+    "Execution": "1. Raise: Lift the weight straight in front of you to shoulder height.\n2. Lower: Slowly lower back down and repeat.",
+    "Key Tips": "1. Keep your arms straight but not locked.\n2. Avoid swinging or leaning backward."
+  },
+  {
+    "Exercise Name": "Reverse Pec Dec",
+    "Focus Area": "Rear Deltoids (Shoulders)",
+    "Equipment": "Pec Dec Machine (reverse position)",
+    "Preparation": "Sit facing the machine, chest against the pad, and grasp the handles with arms slightly bent.",
+    "Execution": "1. Pull: Move your arms outward and backward in an arc.\n2. Return: Slowly return to starting position.",
+    "Key Tips": "1. Focus on contracting your rear delts.\n2. Avoid shrugging shoulders during the movement."
+  },
+  {
+    "Exercise Name": "Abdominal Press",
+    "Focus Area": "Core",
+    "Equipment": "Abdominal Crunch Machine",
+    "Preparation": "Sit on the machine with your back against the pad. Grasp the handles or position the pads according to the machine's instructions.",
+    "Execution": "1. Crunch: Contract your abs and bring your upper body forward.\n2. Return: Slowly return to the starting position.",
+    "Key Tips": "1. Focus on engaging your core.\n2. Do not pull with your arms."
+  },
+  {
+    "Exercise Name": "Rotary Torso",
+    "Focus Area": "Obliques (Core)",
+    "Equipment": "Rotary Torso Machine",
+    "Preparation": "Sit in the machine, securing your lower body, and grasp the handles.",
+    "Execution": "1. Rotate: Twist your torso from side to side in a controlled motion.\n2. Repeat: Alternate directions for a full set.",
+    "Key Tips": "1. Move slowly for maximum core engagement.\n2. Avoid jerky or fast movements."
+  },
+  {
+    "Exercise Name": "Lat Pull Down",
+    "Focus Area": "Back (Latissimus Dorsi), Biceps",
+    "Equipment": "Lat Pulldown Machine",
+    "Preparation": "Sit at the machine with your knees secured. Grasp the bar with a wide overhand grip.",
+    "Execution": "1. Pull: Bring the bar down to your upper chest while keeping your torso upright.\n2. Return: Slowly allow the bar to rise back to the starting position.",
+    "Key Tips": "1. Avoid leaning back excessively.\n2. Focus on squeezing your lats at the bottom of the movement."
+  },
+  {
+    "Exercise Name": "Low Row",
+    "Focus Area": "Back (Middle and Lower), Biceps",
+    "Equipment": "Seated Row Machine or Cable Row",
+    "Preparation": "Sit with your feet on the platform and grasp the handles with both hands.",
+    "Execution": "1. Pull: Draw the handles toward your torso, squeezing your shoulder blades together.\n2. Return: Extend your arms slowly and repeat.",
+    "Key Tips": "1. Keep your back straight throughout.\n2. Avoid using momentum to pull."
+  },
+  {
+    "Exercise Name": "Lat Pull Overs",
+    "Focus Area": "Back (Lats), Chest",
+    "Equipment": "Dumbbell or Cable Machine",
+    "Preparation": "Lie on a flat bench holding a dumbbell or stand using a cable machine with arms extended overhead.",
+    "Execution": "1. Lower: Slowly bring the weight behind your head in a controlled arc.\n2. Raise: Return to the starting position by engaging your lats.",
+    "Key Tips": "1. Don’t let the weight go too far beyond your head.\n2. Engage your core and lats throughout the motion."
+  },
+  {
+    "Exercise Name": "Incline Biceps Curl",
+    "Focus Area": "Biceps",
+    "Equipment": "Dumbbells and Incline Bench",
+    "Preparation": "Sit back on an incline bench with a dumbbell in each hand and arms fully extended.",
+    "Execution": "1. Curl: Lift the weights by bending your elbows.\n2. Lower: Slowly lower the dumbbells to the starting position.",
+    "Key Tips": "1. Keep your elbows fixed.\n2. Do not swing the weights."
+  },
+  {
+    "Exercise Name": "Hammer Curls",
+    "Focus Area": "Biceps, Forearms",
+    "Equipment": "Dumbbells",
+    "Preparation": "Stand holding dumbbells with palms facing your torso.",
+    "Execution": "1. Curl: Bend your elbows to lift the dumbbells while keeping palms facing each other.\n2. Lower: Slowly return to starting position.",
+    "Key Tips": "1. Maintain strict form.\n2. Do not rock your body."
+  },
+  {
+    "Exercise Name": "Barbell Curls",
+    "Focus Area": "Biceps",
+    "Equipment": "Barbell",
+    "Preparation": "Stand holding a barbell with an underhand grip, hands shoulder-width apart.",
+    "Execution": "1. Curl: Lift the bar by bending at the elbows.\n2. Lower: Slowly lower it back down.",
+    "Key Tips": "1. Keep your elbows close to your body.\n2. Avoid swinging the bar."
+  },
+  {
+    "Exercise Name": "Squats",
+    "Focus Area": "Quadriceps, Hamstrings, Glutes",
+    "Equipment": "Barbell or Bodyweight",
+    "Preparation": "Stand with feet shoulder-width apart, barbell on upper back (if using).",
+    "Execution": "1. Lower: Bend your knees and hips to squat down until thighs are parallel to the floor.\n2. Lift: Push through your heels to return to standing.",
+    "Key Tips": "1. Keep chest upright.\n2. Do not let knees go past your toes."
+  },
+  {
+    "Exercise Name": "Lunges",
+    "Focus Area": "Quads, Glutes, Hamstrings",
+    "Equipment": "Bodyweight or Dumbbells",
+    "Preparation": "Stand upright with feet hip-width apart, holding dumbbells at your sides if desired.",
+    "Execution": "1. Step Forward: Lower your body until both knees are bent at about 90 degrees.\n2. Push Back: Return to standing and repeat on the other leg.",
+    "Key Tips": "1. Keep front knee aligned with the ankle.\n2. Maintain an upright torso."
+  },
+  {
+    "Exercise Name": "Leg Press",
+    "Focus Area": "Quads, Glutes, Hamstrings",
+    "Equipment": "Leg Press Machine",
+    "Preparation": "Sit in the machine and place your feet shoulder-width apart on the platform.",
+    "Execution": "1. Press: Extend your legs to push the platform away.\n2. Return: Slowly bend knees to return the platform toward you.",
+    "Key Tips": "1. Do not lock your knees.\n2. Keep your feet flat on the platform."
+  },
+  {
+    "Exercise Name": "Leg Extension",
+    "Focus Area": "Quadriceps",
+    "Equipment": "Leg Extension Machine",
+    "Preparation": "Sit on the machine with legs under the pad and adjust the backrest for proper posture.",
+    "Execution": "1. Extend: Straighten your legs to lift the pad.\n2. Lower: Return to starting position.",
+    "Key Tips": "1. Control the motion.\n2. Avoid jerky movements."
+  },
+  {
+    "Exercise Name": "Leg Curls",
+    "Focus Area": "Hamstrings",
+    "Equipment": "Leg Curl Machine",
+    "Preparation": "Lie face down on the machine with ankles under the pads.",
+    "Execution": "1. Curl: Bend your knees to pull the pad toward your glutes.\n2. Lower: Return to starting position.",
+    "Key Tips": "1. Keep hips flat on the pad.\n2. Use full range of motion."
+  },
+  {
+    "Exercise Name": "Calf Raises",
+    "Focus Area": "Calves",
+    "Equipment": "Bodyweight, Dumbbells, or Machine",
+    "Preparation": "Stand upright with feet hip-width apart, optionally holding dumbbells or on a calf raise machine.",
+    "Execution": "1. Raise: Push through the balls of your feet to lift your heels.\n2. Lower: Slowly bring your heels back to the ground.",
+    "Key Tips": "1. Use full range of motion.\n2. Pause at the top for better contraction."
+  },
+  {
+    "Exercise Name": "Treadmill Run",
+    "Focus Area": "Cardiovascular Endurance",
+    "Equipment": "Treadmill",
+    "Preparation": "Wear proper running shoes and set treadmill to desired speed.",
+    "Execution": "1. Run: Begin jogging or running at your set pace.\n2. Continue: Maintain speed for the desired time or distance.",
+    "Key Tips": "1. Use a slight incline for more intensity.\n2. Keep a natural running posture."
+  },
+  {
+    "Exercise Name": "Cycling",
+    "Focus Area": "Cardiovascular, Legs",
+    "Equipment": "Stationary Bike",
+    "Preparation": "Adjust seat height and handlebar position for comfort.",
+    "Execution": "1. Pedal: Start pedaling at a comfortable pace.\n2. Intensify: Adjust resistance for more challenge.",
+    "Key Tips": "1. Maintain proper posture.\n2. Use intervals for variety and fat burning."
+  },
+  {
+    "Exercise Name": "Incline Walking",
+    "Focus Area": "Cardiovascular, Glutes, Hamstrings",
+    "Equipment": "Treadmill",
+    "Preparation": "Set treadmill to a walking speed and raise incline.",
+    "Execution": "1. Walk: Begin walking uphill.\n2. Maintain: Continue for your desired time.",
+    "Key Tips": "1. Do not hold onto the rails.\n2. Lean slightly forward to maintain balance."
+  },
+  {
+    "Exercise Name": "Pushups",
+    "Focus Area": "Chest, Shoulders, Triceps, Core",
+    "Equipment": "Bodyweight",
+    "Preparation": "Get into a high plank position with your hands placed slightly wider than shoulder-width apart and your body forming a straight line.",
+    "Execution": "1. Lower: Bend your elbows to lower your chest toward the floor.\n2. Push: Press through your palms to return to starting position.",
+    "Key Tips": "1. Keep your core tight and back flat.\n2. Avoid flaring your elbows out too wide."
+  },
+  {
+    "Exercise Name": "Pullups",
+    "Focus Area": "Back, Biceps, Shoulders",
+    "Equipment": "Pullup Bar",
+    "Preparation": "Grip the bar with palms facing away from you (overhand grip), hands slightly wider than shoulder-width.",
+    "Execution": "1. Pull: Engage your back and arms to pull your chin above the bar.\n2. Lower: Slowly lower yourself back down with control.",
+    "Key Tips": "1. Avoid swinging.\n2. Use full range of motion."
+  },
+  {
+    "Exercise Name": "Leg Raises",
+    "Focus Area": "Lower Abdominals, Hip Flexors",
+    "Equipment": "Mat or Bench (optional)",
+    "Preparation": "Lie flat on your back with legs extended and hands by your sides or under your glutes for support.",
+    "Execution": "1. Raise: Lift your legs up together until they are vertical.\n2. Lower: Slowly bring them down just above the floor and repeat.",
+    "Key Tips": "1. Keep your lower back pressed to the ground.\n2. Avoid using momentum."
+  },
+  {
+    "Exercise Name": "Deadlifts",
+    "Focus Area": "Hamstrings, Glutes, Lower Back, Core",
+    "Equipment": "Barbell or Dumbbells",
+    "Preparation": "Stand with feet hip-width apart and the barbell over mid-foot. Bend at the hips and knees to grip the bar.",
+    "Execution": "1. Lift: Drive through your heels and extend your hips to stand up.\n2. Lower: Reverse the motion to return the bar to the floor.",
+    "Key Tips": "1. Keep your spine neutral.\n2. Engage your lats and core."
+  },
+  {
+    "Exercise Name": "Stair Climbers",
+    "Focus Area": "Cardio, Glutes, Quads, Calves",
+    "Equipment": "Stair Climber Machine",
+    "Preparation": "Stand on the machine and grasp the handrails lightly for balance.",
+    "Execution": "1. Climb: Begin stepping rhythmically as the machine moves.\n2. Maintain: Continue climbing at a steady pace.",
+    "Key Tips": "1. Avoid leaning heavily on the rails.\n2. Use your legs to push, not your arms."
+  },
+  {
+    "Exercise Name": "Situps",
+    "Focus Area": "Abdominals",
+    "Equipment": "Mat",
+    "Preparation": "Lie on your back with knees bent, feet flat, and hands behind your head or crossed on chest.",
+    "Execution": "1. Lift: Contract your abs to lift your torso up to your thighs.\n2. Lower: Slowly return to the floor.",
+    "Key Tips": "1. Avoid pulling your neck.\n2. Use controlled movement."
+  },
+  {
+    "Exercise Name": "Flutter Kicks",
+    "Focus Area": "Lower Abs, Hip Flexors",
+    "Equipment": "Mat",
+    "Preparation": "Lie on your back with legs extended and hands under your glutes.",
+    "Execution": "1. Kick: Raise both legs slightly off the floor and alternate kicking them up and down.",
+    "Key Tips": "1. Keep your legs straight.\n2. Do not let your heels touch the ground."
+  },
+  {
+    "Exercise Name": "Crunches",
+    "Focus Area": "Upper Abdominals",
+    "Equipment": "Mat",
+    "Preparation": "Lie on your back with knees bent and feet flat. Cross arms over your chest or place behind your head.",
+    "Execution": "1. Crunch: Lift your shoulders off the floor using your abs.\n2. Lower: Return to the starting position slowly.",
+    "Key Tips": "1. Keep your lower back on the ground.\n2. Avoid jerking your neck."
+  },
+  {
+    "Exercise Name": "Plank",
+    "Focus Area": "Core, Shoulders, Glutes",
+    "Equipment": "Mat",
+    "Preparation": "Lie face down, then lift your body onto your forearms and toes, forming a straight line.",
+    "Execution": "1. Hold: Keep your core tight and body in a straight line from head to heels.\n2. Maintain: Hold the position for the desired duration.",
+    "Key Tips": "1. Do not let hips sag.\n2. Focus on breathing steadily."
+  },
+  {
+    "Exercise Name": "Jumping Jacks",
+    "Focus Area": "Cardiovascular, Full Body Warm-Up",
+    "Equipment": "Bodyweight",
+    "Preparation": "Stand upright with feet together and arms at your sides.",
+    "Execution": "1. Jump: Simultaneously raise arms above your head and spread your legs.\n2. Return: Jump back to starting position.",
+    "Key Tips": "1. Land softly on the balls of your feet.\n2. Keep a steady rhythm."
+  },
+  {
+    "Exercise Name": "Russian Twists",
+    "Focus Area": "Obliques, Abdominals, Core",
+    "Equipment": "Bodyweight or Medicine Ball (optional)",
+    "Preparation": "Sit on the floor with knees bent and feet lifted slightly off the ground. Hold your hands together or grip a medicine ball, and lean back slightly to engage your core.",
+    "Execution": "1. Twist: Rotate your torso to the right, bringing your hands or the ball beside your hip.\n2. Alternate: Twist to the left side in the same motion and continue alternating sides.",
+    "Key Tips": "1. Keep your back straight and core engaged.\n2. Move with control to avoid using momentum."
+  },
+  {
+    "Exercise Name": "Mountain Climbers",
+    "Focus Area": "Cardio, Core, Shoulders, Legs",
+    "Equipment": "Bodyweight",
+    "Preparation": "Start in a high plank position with your hands directly under your shoulders and body in a straight line.",
+    "Execution": "1. Drive: Quickly drive your right knee toward your chest.\n2. Switch: Immediately switch and bring your left knee forward while extending the right leg back. Continue alternating rapidly.",
+    "Key Tips": "1. Maintain a steady pace without letting your hips rise too high.\n2. Keep your shoulders stacked above your wrists for stability."
+  }
+]

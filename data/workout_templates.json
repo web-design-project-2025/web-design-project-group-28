@@ -113,7 +113,7 @@
         "reps": "8-12 reps"
       }
     ],
-    "Legs": [
+    "Legs Day": [
       {
         "name": "Squats",
         "description": "Total lower body strength and mass builder.",
@@ -1091,6 +1091,268 @@
         "description": "Elevates heart rate while reducing joint stress.",
         "sets": "3 sets",
         "reps": "10-20 minutes"
+      }
+    ],
+    "Lower Body + Core": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Legs and Core": [
+      {
+        "name": "Squats",
+        "description": "Total lower body strength and mass builder.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lunges",
+        "description": "Improves leg balance and unilateral strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Press",
+        "description": "Targets quads, hamstrings, and glutes efficiently.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Extension",
+        "description": "Isolates the quadriceps for definition.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Curls",
+        "description": "Works the hamstrings to balance leg development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Calf Raises",
+        "description": "Builds calf size and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Cycling Intervals + Incline Walking": [
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Cycling Intervals + Core Burn": [
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Mountain Climbers",
+        "description": "High-intensity move for core and cardio.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Raises",
+        "description": "Engages lower abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+    "Treadmill Intervals": [
+      {
+        "name": "Treadmill Run",
+        "description": "Improves cardiovascular endurance and leg strength.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Upper Body + Incline Walking": [
+      {
+        "name": "Bench Press",
+        "description": "Targets the entire chest and helps build upper body strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Chest Press",
+        "description": "Works on the chest muscles for increased pushing strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Shoulder Press",
+        "description": "Strengthens the deltoids and improves shoulder stability.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Down",
+        "description": "Builds width in the back by targeting the lats.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Lat Pull Overs",
+        "description": "Stretches and strengthens the lats and chest.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Triceps Press",
+        "description": "Targets all three heads of the triceps for mass and strength.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Barbell Curls",
+        "description": "Classic biceps builder for peak development.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Incline Walking",
+        "description": "Elevates heart rate while reducing joint stress.",
+        "sets": "1 set",
+        "reps": "10-20 minutes"
+      }
+    ],
+    "Cycling Intervals + Core": [
+      {
+        "name": "Cycling",
+        "description": "Low impact cardio for legs and endurance.",
+        "sets": "3 sets",
+        "reps": "10-20 minutes"
+      },
+      {
+        "name": "Abdominal Press",
+        "description": "Engages the core and strengthens abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Rotary Torso",
+        "description": "Improves oblique strength and core rotation control.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Plank",
+        "description": "Core stabilizing exercise to build endurance.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Mountain Climbers",
+        "description": "High-intensity move for core and cardio.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      },
+      {
+        "name": "Leg Raises",
+        "description": "Engages lower abdominal muscles.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
+      }
+    ],
+     "Stair Climbers + Sled Push Circuit": [
+      {
+        "name": "Stair Climbers",
+        "description": "High-intensity cardio focusing on glutes and thighs.",
+        "sets": "3 sets",
+        "reps": "8-12 reps"
       }
     ]
   }
