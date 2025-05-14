@@ -38,32 +38,32 @@ body {
   height: 4rem;
 }
 
-/*Arrows*/
+/* Main container with stacked layout */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px 40px;
+  gap: 30px;
+}
 
+/* Arrows container */
 .arrows {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 0 3rem;
-  margin-top: 3rem;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 3rem;
+  margin-bottom: none;
+  margin-top: -1rem;
 }
+
 .left,
 .right {
   width: 7rem;
 }
 
-/*Main container*/
-
-.main-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 60px 20px 40px;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
+/* Goals section */
 .goals {
   display: flex;
   flex-direction: column;
@@ -72,6 +72,7 @@ body {
   width: 100%;
 }
 
+/* Goal button styles */
 .goal-btn {
   display: flex;
   align-items: center;
@@ -107,21 +108,7 @@ body {
   color: #eee;
 }
 
-@media (max-width: 768px) {
-  .arrows {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 1rem;
-    margin-top: 2rem;
-  }
-  .left,
-  .right {
-    width: 5rem;
-  }
-}
-
-/* Footer Styles */
+/* Footer */
 footer {
   background: linear-gradient(90deg, var(--blue), var(--orange));
   display: flex;
@@ -164,4 +151,76 @@ footer {
 .social-icons img {
   width: 24px;
   height: 24px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .main-container {
+    padding: 40px 20px;
+  }
+
+  .arrows {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .left,
+  .right {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 30px 20px;
+  }
+
+  .arrows {
+    order: 2;
+    margin-top: 20px;
+    padding: 0 1.5rem;
+  }
+
+  .goals {
+    order: 1;
+  }
+
+  .left,
+  .right {
+    width: 5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .footer-section {
+    min-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar h1 {
+    font-size: 18px;
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar h1 {
+    font-size: 16px;
+    margin-right: 3rem;
+  }
 }

@@ -160,3 +160,83 @@ footer {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
+
+/* Responsive Header and Mobile Menu */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background: #1e293b;
+  padding: 1rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%; 
+  max-width: 100%;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  border-bottom: 1px solid #374151;
+}
+
+.mobile-nav a:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .user-icon {
+    order: 1;
+  }
+
+  .menu-toggle {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .header {
+  position: relative; /* This ensures that the children can be absolutely positioned */
+  }
+
+  .menu-toggle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  order: 0; /* This will override earlier mobile order */
+  margin-left: 0;
+  }
+
+.user-icon {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+}
