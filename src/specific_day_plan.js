@@ -277,8 +277,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       card.innerHTML = `
         <h3>${name}</h3>
-        <p><strong>Sets:</strong> -</p>
-        <p><strong>Reps:</strong> -</p>
+        <p><strong>Sets:</strong> 3</p>
+        <p><strong>Reps:</strong> 8-12</p>
         <img src="https://via.placeholder.com/300" alt="${name}" />
       `;
       exerciseContainer.appendChild(card);
