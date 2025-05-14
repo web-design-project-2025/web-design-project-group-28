@@ -107,7 +107,9 @@ header h2 {
   }
 
   .hero-text-2-background {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(50, 50, 50);
     background-size: cover;
     padding: 5px;
@@ -115,13 +117,13 @@ header h2 {
 
   .hero-text-2 p {
     display: block;
-    text-align: left;
-    margin-left: 5rem;
-    padding-top: 7rem;
+    text-align: center;
+    padding-top: 4rem;
     color: white;
-    max-width: 350px;
-    font-size: 1.6rem;
+    max-width: 600px;
+    font-size: 1.3rem;
     font-weight: bold;
+    line-height: 1.2;
     line-height: 1.4;
   }
 }
