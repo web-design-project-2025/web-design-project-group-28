@@ -198,6 +198,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   titleElement.textContent = workoutTitle;
 
+  // Helper to generate image path based on exercise name
+  function getImagePath(name) {
+    const formattedName = name.toLowerCase().replace(/\s+/g, "_");
+    return `../exercise_images/${formattedName}.png`;
+  }
+  
   // Custom plan key
   const customKey = `customPlan-${goal}-${days}-${workoutTitle}`;
   const customPlan = localStorage.getItem(customKey);
@@ -257,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>${exercise.description || "No description available."}</p>
         <p><strong>Sets:</strong> ${exercise.sets || "-"}</p>
         <p><strong>Reps:</strong> ${exercise.reps || "-"}</p>
-        <img src="https://via.placeholder.com/300" alt="${exercise.name}" />
+        <img src="${getImagePath(exercise.name)}" alt="${exercise.name}" onerror="this.onerror=null; this.src='https://via.placeholder.com/300'" />
       `;
       exerciseContainer.appendChild(card);
     });
@@ -279,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3>${name}</h3>
         <p><strong>Sets:</strong> 3</p>
         <p><strong>Reps:</strong> 8-12</p>
-        <img src="https://via.placeholder.com/300" alt="${name}" />
+        <img src="${getImagePath(name)}" alt="${name}" onerror="this.onerror=null; this.src='https://via.placeholder.com/300'" />
       `;
       exerciseContainer.appendChild(card);
     });
