@@ -21,6 +21,17 @@
 
   /* Header */
 
+  .header-profile img {
+    width: 300%;
+    min-width: 30px;
+    height: auto;
+    margin-right: 100px;
+  }
+
+  .header-titles img {
+    min-width: 30px;
+  }
+
   /* Footer */
   footer {
     width: 100%;
