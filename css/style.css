@@ -135,6 +135,21 @@ header h2 {
   width: 5rem;
 }
 
+/*Header for questions*/
+
+.question-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.question-titles a img {
+  width: 50px;
+  height: auto;
+}
+
 /*footer*/
 footer {
   display: flex;

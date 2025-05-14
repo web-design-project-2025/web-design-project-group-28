@@ -143,6 +143,8 @@
   width: 15rem;
 }
 
+/*footer*/
+
 /*tablet*/
 
 @media (min-width: 600px) and (max-width: 899px) {
@@ -154,6 +156,7 @@
 
   header {
     max-width: 100%;
+    justify-content: center;
   }
 
   header a {
@@ -176,7 +179,7 @@
   }
 
   .header-profile img {
-    width: 200%;
+    width: 135%;
   }
 
   .header-titles {
