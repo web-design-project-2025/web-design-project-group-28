@@ -78,34 +78,50 @@ header h2 {
   line-height: 1.4;
 }
 
+.hero-text-2-background {
+  display: none;
+}
+
+.hero-text-2 p {
+  display: none;
+}
+
 .about-page {
   background-color: rgb(50, 50, 50);
   background-size: cover;
   padding: 5px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 899px) {
   .hero-container {
     background-image: url("../img/dark-background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
     width: 100%;
     height: 50vh;
     display: block;
   }
-}
+  .hero-text p {
+    display: none;
+  }
 
-@media (min-width: 600px) and (max-width: 899px) {
-  .hero-container {
-    background-image: url("../img/dark-background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    height: 50vh;
+  .hero-text-2-background {
     display: block;
+    background-color: rgb(50, 50, 50);
+    background-size: cover;
+    padding: 5px;
+  }
+
+  .hero-text-2 p {
+    display: block;
+    text-align: left;
+    margin-left: 5rem;
+    padding-top: 7rem;
+    color: white;
+    max-width: 350px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.4;
   }
 }
