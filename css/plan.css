@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f9f9f9;
   color: #333;
 }
 
+/* Header */
 .site-header {
   background: linear-gradient(to right, #0066ff, #ff6600);
   padding: 1rem 0;
@@ -47,9 +48,10 @@ body {
   color: white;
 }
 
+/* Background & Main Content */
 .background-wrapper {
   background: url('../img/image.png') no-repeat center center / cover;
-  min-height: calc(100vh - 160px); 
+  min-height: calc(100vh - 160px);
   padding: 2rem 0;
 }
 
@@ -58,7 +60,7 @@ body {
   margin: 2rem auto;
   padding: 0 1rem;
   text-align: center;
-} 
+}
 
 .page-title {
   font-size: 2rem;
@@ -66,6 +68,7 @@ body {
   color: white;
 }
 
+/* Plan Cards */
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -73,20 +76,17 @@ body {
 }
 
 .plan-card {
-  background: rgba(255, 255, 255, 0.1); 
+  background: rgba(255, 255, 255, 0);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
   padding: 1.5rem;
-  text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
 }
-
 
 .plan-card-content {
   flex: 1;
@@ -117,6 +117,7 @@ body {
   background-color: #8a3ffc;
 }
 
+/* Footer */
 .site-footer {
   background: linear-gradient(to right, #0066ff, #ff6600);
   color: white;
@@ -140,11 +141,30 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.footer-column a, .footer-column p {
+.footer-column a,
+.footer-column p {
   color: white;
   text-decoration: none;
   margin: 0.2rem 0;
   display: block;
+}
+
+/* === Social Icons === */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
 }
 
 .footer-bottom {
@@ -153,57 +173,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* 2. Tablet */
-@media (min-width: 600px) and (max-width: 899px) {
-  .nav-links {
-    flex: 1 1 100%;
-    justify-content: space-around;
-  }
-
-  .logo,
-  .profile-icon {
-    flex: 1 1 50%;
-  }
-
-  .plan-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* 3. Laptop */
-@media (min-width: 900px) and (max-width: 1199px) {
-  .header-content {
-    flex-wrap: nowrap;
-  }
-
-  .logo {
-    flex: 1;
-    text-align: left;
-  }
-
-  .nav-links {
-    flex: 2;
-    justify-content: center;
-  }
-
-  .profile-icon {
-    flex: 1;
-    text-align: right;
-  }
-
-  .plan-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* 4. Large Desktop */
-@media (min-width: 1200px) {
-  .plan-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* --- Mobile Menu Dropdown --- */
+/* Mobile & Responsive */
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
@@ -211,13 +181,12 @@ body {
   cursor: pointer;
 }
 
-/* Hidden mobile nav by default */
 .mobile-nav {
   display: none;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.85);
   position: absolute;
-  top: 70px; /* Adjust depending on header height */
+  top: 70px;
   width: 100%;
   left: 0;
   z-index: 1000;
@@ -236,7 +205,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive override: small screens */
+/* Media Queries */
 @media (max-width: 599px) {
   .nav-links {
     display: none;
@@ -248,11 +217,45 @@ body {
 
   .logo,
   .profile-icon {
-    flex: 1 1 auto;
     text-align: center;
   }
 
   .header-content {
     position: relative;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .nav-links {
+    flex: 1 1 100%;
+    justify-content: space-around;
+  }
+
+  .plan-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .plan-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .plan-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin: 1rem 0;
   }
 }

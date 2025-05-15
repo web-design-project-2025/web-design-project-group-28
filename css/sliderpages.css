@@ -61,3 +61,10 @@
 .range::-webkit-slider-thumb:hover {
   transform: scale(2);
 }
+
+.slider-instruction {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0.8rem; 
+  color: #FFF;
+}

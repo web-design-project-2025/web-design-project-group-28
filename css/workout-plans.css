@@ -10,6 +10,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,8 +22,6 @@ body {
   background-attachment: fixed;
   background-position: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
   color: var(--text);
   min-height: 100vh;
   display: flex;
@@ -32,8 +32,8 @@ body {
 .site-header {
   background: linear-gradient(to right, #0066ff, #ff6600);
   padding: 1rem 0;
-  z-index: 1000;
   position: relative;
+  z-index: 1000;
 }
 
 .header-content {
@@ -53,10 +53,10 @@ body {
 }
 
 .nav-links {
-  flex: 2;
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex: 2;
 }
 
 .nav-links a {
@@ -145,7 +145,6 @@ main.plan-container {
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  z-index: 0;
 }
 
 .plan-card {
@@ -154,9 +153,9 @@ main.plan-container {
   padding: 1.5rem;
   border-radius: var(--border-radius);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   transition: transform 0.3s ease;
-  color: var(--text);
 }
 
 .plan-card:hover {
@@ -180,10 +179,7 @@ main.plan-container {
   position: relative;
 }
 
-.arrows-top {
-  display: none;
-}
-
+.arrows-top,
 .arrows-bottom {
   display: none;
 }
@@ -198,12 +194,12 @@ main.plan-container {
 .arrow:hover {
   transform: scale(1.1);
 }
+
 .site-footer {
   background: linear-gradient(to right, #0066ff, #ff6600);
   color: white;
   padding: 2rem 1rem 1rem;
   position: relative;
-  z-index: 0;
 }
 
 .footer-content {
@@ -237,28 +233,42 @@ main.plan-container {
   font-size: 0.9rem;
 }
 
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Media Queries */
 @media (min-width: 1200px) {
   .arrows-top {
     display: flex;
     margin-top: 1rem;
-    margin-bottom: 0;
     padding: 0 3rem;
-  }
-
-  .arrows-bottom {
-    display: none;
   }
 }
 
 @media (max-width: 1199px) {
-  .arrows-top {
-    display: none;
-  }
-
   .arrows-bottom {
     display: flex;
     margin: 2rem auto;
     padding: 0 2rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .mobile-nav.show {
+    display: flex;
   }
 }
 
@@ -281,34 +291,11 @@ main.plan-container {
 
 @media (max-width: 599px) {
   .arrow {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-/*base desktop first*/
-.nav-links {
-  display: flex;
-}
-
-.menu-toggle {
-  display: none;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-@media (max-width: 899px) {
-  .nav-links {
-    display: none;
+    width: 60px;
+    height: 60px;
   }
 
-  .menu-toggle {
-    display: block;
-  }
-
-  .mobile-nav.show {
-    display: flex;
+  .social-icons {
+    justify-content: center;
   }
 }
