@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
     errorMessage.innerText = errors.join(", ");
   } else {
     e.preventDefault();
-    window.location.href = "profile.html";
+    window.location.href = "gender.html";
   }
 });
 
