@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
     errorMessage.innerText = errors.join(", ");
   } else {
     e.preventDefault();
-    window.location.href = "login.html";
+    window.location.href = "gender.html";
     localStorage.setItem("firstname", firstName.value);
     localStorage.setItem("email", email.value);
     localStorage.setItem("password", password.value);

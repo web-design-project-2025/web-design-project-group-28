@@ -29,7 +29,7 @@
   }
 
   .header-titles img {
-    min-width: 30px;
+    display: none;
   }
 
   /* Footer */
