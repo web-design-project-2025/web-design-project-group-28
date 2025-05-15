@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchBtn = document.getElementById("search-btn");
   const searchInput = document.getElementById("search-input");
   const resultsContainer = document.getElementById("results-container");
-
+  
   searchBtn.addEventListener("click", async () => {
     const query = searchInput.value.trim();
     if (!query) {
@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const ingredientId = data.suggestions[0].data.id;
-
       const nutritionResponse = await fetch(`https://wger.de/api/v2/ingredient/${ingredientId}/`);
       const nutrition = await nutritionResponse.json();
 
@@ -40,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // ADDING TO FAVORITES
   function addToFavorites(name, protein, carbs, fat) {
     const favorites = JSON.parse(localStorage.getItem("favoriteMeals")) || [];
     if (!favorites.find(f => f.name === name)) {
@@ -50,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // RENDERING THE FAVORITE MEALS
   function renderFavorites() {
     const favorites = JSON.parse(localStorage.getItem("favoriteMeals")) || [];
     const favContainer = document.getElementById("favorite-meals");
@@ -73,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // LOADING WEEKLY MEAL PLAN 
   let weeklyPlans = {};
 
   async function loadWeeklyMealPlans() {
@@ -111,7 +107,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // HIGHLIGHTING ACTIVE TAB
   function highlightActiveTab(activeId) {
     const tabs = ["category-vegan", "category-vegetarian", "category-nonveg"];
     tabs.forEach(id => {
@@ -120,7 +115,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById(activeId).classList.add("active-tab");
   }
 
-  // SETTING UP CATEGORY BUTTONS
   document.getElementById("category-vegan").addEventListener("click", () => {
     showMealPlan("vegan");
     highlightActiveTab("category-vegan");
@@ -136,7 +130,13 @@ document.addEventListener("DOMContentLoaded", () => {
     highlightActiveTab("category-nonveg");
   });
 
-  // INITIALIZING PAGE
   renderFavorites();
   loadWeeklyMealPlans();
+
+  const menuToggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("header nav");
+
+  menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
 });

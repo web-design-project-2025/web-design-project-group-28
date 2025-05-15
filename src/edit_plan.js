@@ -115,6 +115,4 @@ document.addEventListener("DOMContentLoaded", () => {
       renderExercises();
     }
   });
-
-  saveBtn.addEventListener("click", saveCustomPlan);
 });
