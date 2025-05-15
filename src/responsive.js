@@ -3,7 +3,9 @@ const up = document.getElementById("arrows");
 const currentPage = window.location.pathname;
 const isMobile = window.innerWidth < 600;
 
-let arrowhtml = `<a href="index.html">
+//arrows html
+
+let arrowhtml = `<a href="index.html"> 
       <img class="left" src="img/arrow_left.svg" alt=""
     /></a>
     <a href="weight.html">
