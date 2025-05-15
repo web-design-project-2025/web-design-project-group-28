@@ -1,27 +1,54 @@
+const currentPage = window.location.pathname;
+
 function updateHeader() {
   const header = document.getElementById("inserter"); //gets the header
 
-  const isMobile = window.innerWidth < 600; // checks if the screen is small
+  const isMobile = window.innerWidth < 800; // checks if the screen is small
+
+  //checks what page the user is on
+
+  let currentMessage = "";
+
+  if (currentPage === "/gender.html") {
+    currentMessage = "What do you identify as?";
+  }
+
+  if (currentPage === "/weight.html") {
+    currentMessage = "What is your weight?";
+  }
+
+  if (currentPage === "/height.html") {
+    currentMessage = "How tall are you?";
+  }
+
+  if (currentPage === "/age.html") {
+    currentMessage = "How old are you?";
+  }
+
+  if (currentPage === "/part.html") {
+    currentMessage = "What are would like to focus?";
+  }
 
   //HTML for normal header
-  const normalHTML = `      <section class="header-titles">
-            <img src="img/logo_sweatzone.svg" alt="logo of sweatzone" />
-            <a href="index.html"> <h2>Home</h2></a>
-    
-            <a href="about.html"> <h2>About us</h2></a>
-            <a href="explore.html"> <h2>Explore</h2></a>
-          </section>
-    
-          <section class="header-profile">
-            <a class="a-profile" href="profile.html">
-              <img src="../img/profile_icon.svg" alt="profile icon"
-            /></a>
-          </section>`;
+  const normalHTML = `          
+      <section class="question-titles">
+        <a href="index.html">
+          <img src="img/logo_sweatzone.svg" alt="logo of sweatzone"
+        /></a>
+
+        <h2>${currentMessage}</h2>
+
+        <a href="profile.html"
+          ><img src="img/profile_icon.svg" alt="profile icon"
+        /></a>
+      </section>
+    `;
 
   //HTML for hamburger button "three lines"
   const hamburgerHTML = `    
-           <div class="three-container">
-      <button id="toggle"><div class="three-lines">☰</div></button>
+           <div class="hamburger-slider-container">
+             <h2 class="message-middle">${currentMessage}</h2>
+      <button class="right-burger" id="toggle"><div class="three-lines">☰</div></button>
     </div>
   
     `;

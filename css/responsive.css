@@ -21,7 +21,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/image2.png);
+    background-image: url(../img/image.png);
   }
 
   /* Header */
@@ -31,10 +31,6 @@
     min-width: 30px;
     height: auto;
     margin-right: 100px;
-  }
-
-  .header-titles img {
-    display: none;
   }
 
   /* Footer */
@@ -187,7 +183,7 @@
   header h2 {
     white-space: nowrap;
     font-size: 1.4rem;
-    color: blue;
+    color: var(--title);
   }
 
   .header-titles img {
@@ -296,7 +292,7 @@
   header h2 {
     white-space: nowrap;
     font-size: 1.4rem;
-    color: red;
+    color: var(--title);
   }
 
   .header-titles img {
