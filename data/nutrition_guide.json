@@ -1,0 +1,113 @@
+{
+  "vegan": {
+    "Monday": {
+      "Breakfast": { "name": "Tofu Scramble", "protein": 18, "carbs": 10, "fat": 8 },
+      "Lunch": { "name": "Lentil Salad", "protein": 22, "carbs": 40, "fat": 10 },
+      "Dinner": { "name": "Vegan Stir Fry", "protein": 25, "carbs": 50, "fat": 12 }
+    },
+    "Tuesday": {
+      "Breakfast": { "name": "Chia Pudding", "protein": 8, "carbs": 20, "fat": 10 },
+      "Lunch": { "name": "Quinoa Bowl", "protein": 20, "carbs": 45, "fat": 14 },
+      "Dinner": { "name": "Sweet Potato & Beans", "protein": 22, "carbs": 40, "fat": 10 }
+    },
+    "Wednesday": {
+      "Breakfast": { "name": "Vegan Pancakes", "protein": 10, "carbs": 35, "fat": 7 },
+      "Lunch": { "name": "Grilled Veg Sandwich", "protein": 15, "carbs": 38, "fat": 9 },
+      "Dinner": { "name": "Chickpea Curry", "protein": 24, "carbs": 45, "fat": 13 }
+    },
+    "Thursday": {
+      "Breakfast": { "name": "Smoothie Bowl", "protein": 12, "carbs": 25, "fat": 9 },
+      "Lunch": { "name": "Tofu Wrap", "protein": 20, "carbs": 42, "fat": 11 },
+      "Dinner": { "name": "Vegan Chili", "protein": 23, "carbs": 48, "fat": 10 }
+    },
+    "Friday": {
+      "Breakfast": { "name": "Avocado Toast", "protein": 10, "carbs": 25, "fat": 14 },
+      "Lunch": { "name": "Lentil Soup", "protein": 18, "carbs": 30, "fat": 8 },
+      "Dinner": { "name": "Baked Tempeh", "protein": 25, "carbs": 20, "fat": 15 }
+    },
+    "Saturday": {
+      "Breakfast": { "name": "Vegan Protein Shake", "protein": 20, "carbs": 10, "fat": 5 },
+      "Lunch": { "name": "Stuffed Bell Peppers", "protein": 22, "carbs": 30, "fat": 10 },
+      "Dinner": { "name": "Cauliflower Tacos", "protein": 18, "carbs": 35, "fat": 12 }
+    },
+    "Sunday": {
+      "Breakfast": { "name": "Almond Butter Oatmeal", "protein": 12, "carbs": 30, "fat": 14 },
+      "Lunch": { "name": "Falafel Bowl", "protein": 20, "carbs": 40, "fat": 11 },
+      "Dinner": { "name": "Eggplant Stir Fry", "protein": 22, "carbs": 38, "fat": 13 }
+    }
+  },
+  "vegetarian": {
+    "Monday": {
+      "Breakfast": { "name": "Greek Yogurt with Berries", "protein": 15, "carbs": 20, "fat": 5 },
+      "Lunch": { "name": "Paneer Wrap", "protein": 25, "carbs": 35, "fat": 15 },
+      "Dinner": { "name": "Vegetable Pasta", "protein": 20, "carbs": 45, "fat": 10 }
+    },
+    "Tuesday": {
+      "Breakfast": { "name": "Vegetarian Omelet", "protein": 14, "carbs": 10, "fat": 8 },
+      "Lunch": { "name": "Chickpea Sandwich", "protein": 22, "carbs": 35, "fat": 9 },
+      "Dinner": { "name": "Mushroom Risotto", "protein": 18, "carbs": 50, "fat": 12 }
+    },
+    "Wednesday": {
+      "Breakfast": { "name": "Cottage Cheese Toast", "protein": 16, "carbs": 25, "fat": 7 },
+      "Lunch": { "name": "Mixed Bean Salad", "protein": 20, "carbs": 30, "fat": 10 },
+      "Dinner": { "name": "Palak Paneer with Rice", "protein": 26, "carbs": 40, "fat": 15 }
+    },
+    "Thursday": {
+      "Breakfast": { "name": "Milk & Oats", "protein": 12, "carbs": 30, "fat": 6 },
+      "Lunch": { "name": "Veggie Pizza", "protein": 18, "carbs": 45, "fat": 15 },
+      "Dinner": { "name": "Rajma with Brown Rice", "protein": 20, "carbs": 50, "fat": 10 }
+    },
+    "Friday": {
+      "Breakfast": { "name": "Moong Dal Chilla", "protein": 14, "carbs": 18, "fat": 6 },
+      "Lunch": { "name": "Cheese Grilled Sandwich", "protein": 22, "carbs": 32, "fat": 12 },
+      "Dinner": { "name": "Veggie Biryani", "protein": 20, "carbs": 55, "fat": 14 }
+    },
+    "Saturday": {
+      "Breakfast": { "name": "Banana Shake", "protein": 10, "carbs": 35, "fat": 5 },
+      "Lunch": { "name": "Veg Cutlet with Quinoa", "protein": 24, "carbs": 30, "fat": 11 },
+      "Dinner": { "name": "Paneer Tikka", "protein": 28, "carbs": 15, "fat": 18 }
+    },
+    "Sunday": {
+      "Breakfast": { "name": "Cornflakes & Milk", "protein": 10, "carbs": 28, "fat": 4 },
+      "Lunch": { "name": "Veg Burrito", "protein": 22, "carbs": 45, "fat": 13 },
+      "Dinner": { "name": "Dal Makhani & Rice", "protein": 25, "carbs": 50, "fat": 16 }
+    }
+  },
+  "non_vegetarian": {
+    "Monday": {
+      "Breakfast": { "name": "Egg White Omelet", "protein": 20, "carbs": 5, "fat": 7 },
+      "Lunch": { "name": "Chicken Salad", "protein": 30, "carbs": 10, "fat": 12 },
+      "Dinner": { "name": "Grilled Fish with Rice", "protein": 35, "carbs": 40, "fat": 15 }
+    },
+    "Tuesday": {
+      "Breakfast": { "name": "Boiled Eggs & Toast", "protein": 18, "carbs": 20, "fat": 8 },
+      "Lunch": { "name": "Tuna Sandwich", "protein": 28, "carbs": 30, "fat": 10 },
+      "Dinner": { "name": "Chicken Curry & Rice", "protein": 35, "carbs": 45, "fat": 20 }
+    },
+    "Wednesday": {
+      "Breakfast": { "name": "Chicken Sausage Wrap", "protein": 22, "carbs": 25, "fat": 12 },
+      "Lunch": { "name": "Egg Fried Rice", "protein": 24, "carbs": 38, "fat": 14 },
+      "Dinner": { "name": "Fish Tikka & Veggies", "protein": 30, "carbs": 20, "fat": 13 }
+    },
+    "Thursday": {
+      "Breakfast": { "name": "Oats & Eggs", "protein": 22, "carbs": 28, "fat": 10 },
+      "Lunch": { "name": "Chicken Wrap", "protein": 30, "carbs": 35, "fat": 12 },
+      "Dinner": { "name": "Beef Stir Fry", "protein": 40, "carbs": 25, "fat": 20 }
+    },
+    "Friday": {
+      "Breakfast": { "name": "Turkey Sandwich", "protein": 24, "carbs": 30, "fat": 10 },
+      "Lunch": { "name": "Grilled Chicken Breast", "protein": 35, "carbs": 20, "fat": 8 },
+      "Dinner": { "name": "Fish Curry & Rice", "protein": 33, "carbs": 42, "fat": 16 }
+    },
+    "Saturday": {
+      "Breakfast": { "name": "Egg & Cheese Muffin", "protein": 20, "carbs": 22, "fat": 11 },
+      "Lunch": { "name": "Chicken Caesar Salad", "protein": 32, "carbs": 15, "fat": 14 },
+      "Dinner": { "name": "Beef Burger (lean)", "protein": 38, "carbs": 30, "fat": 17 }
+    },
+    "Sunday": {
+      "Breakfast": { "name": "Scrambled Eggs & Toast", "protein": 18, "carbs": 20, "fat": 9 },
+      "Lunch": { "name": "Chicken Biryani", "protein": 35, "carbs": 50, "fat": 18 },
+      "Dinner": { "name": "Grilled Salmon & Quinoa", "protein": 40, "carbs": 35, "fat": 16 }
+    }
+  }
+}
