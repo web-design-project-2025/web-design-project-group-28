@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function loadWeeklyMealPlans() {
     try {
-      const response = await fetch("nutrition_guide.json");
+      const response = await fetch("../data/nutrition_guide.json");
       weeklyPlans = await response.json();
       showMealPlan("vegetarian");
       highlightActiveTab("category-vegetarian");
