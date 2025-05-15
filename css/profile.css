@@ -16,6 +16,7 @@
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
+
 .profile-container {
   display: flex;
   justify-content: space-between;
@@ -50,6 +51,7 @@
   width: 150px;
   height: 40px;
 }
+
 .logoutbutton {
   background-color: #0000ff;
   color: white;
@@ -63,6 +65,25 @@
   width: 200px;
   height: 60px;
 }
+
 .logoutbutton:hover {
   outline-color: rgb(255, 136, 0);
+}
+
+@media (max-width: 899px) {
+  .profile-buttons {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 15rem;
+  }
+  .profilebutton {
+    width: 120px;
+    height: 32px;
+  }
+
+  .logoutbutton {
+    width: 160px;
+    height: 48px;
+  }
 }
