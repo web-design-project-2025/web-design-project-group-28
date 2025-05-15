@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
   </head>
   <body>
     <header>
@@ -30,16 +32,23 @@
     <section class="profile-container">
       <div id="profile">
         <h3 class="profile-1">1. Your profile</h3>
-        <h1 class="your-profile">Goal:</h1>
-        <h1 class="your-profile">Focus Area:</h1>
-        <h1 class="your-profile">Workout Place:</h1>
-        <h1 class="your-profile">Diet:</h1>
+        <h1 class="your-profile">Goal: <span id="goal-output"></span></h1>
+        <h1 class="your-profile">
+          Days per week: <span id="days-output"></span>
+        </h1>
+        <h1 class="your-profile">
+          Focus Area: <span id="focus-output"></span>
+        </h1>
 
         <h3 class="profile-2">2. General information</h3>
-        <h1 class="general-info">Gender:</h1>
-        <h1 class="general-info">Current Weight:</h1>
-        <h1 class="general-info">Current Height:</h1>
-        <h1 class="general-info">Age:</h1>
+        <h1 class="general-info">Gender: <span id="gender-output"></span></h1>
+        <h1 class="general-info">
+          Current Weight: <span id="weight-output"></span>
+        </h1>
+        <h1 class="general-info">
+          Current Height: <span id="height-output"></span>
+        </h1>
+        <h1 class="general-info">Age: <span id="age-output"></span></h1>
 
         <h3 class="profile-3">3. FAQ section</h3>
 
@@ -77,5 +86,6 @@
         </div>
       </section>
     </footer>
+    <script src="./src/display-data.js"></script>
   </body>
 </html>
