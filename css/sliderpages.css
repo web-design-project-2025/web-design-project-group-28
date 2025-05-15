@@ -6,30 +6,7 @@
   --purple: #4620f3;
 }
 
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-  position: relative;
-}
-
-.space {
-  flex: 1;
-}
-
-.header-center {
-  flex: 1;
-  text-align: center;
-  min-width: 40rem;
-  height: 100%;
-  margin: 1rem;
-}
-
-.header-profile {
-  flex: 1;
-  text-align: right;
-}
+/*header*/
 
 /*Weight*/
 
@@ -73,4 +50,14 @@
   -webkit-appearance: none;
   background-color: var(--purple);
   justify-content: center;
+}
+
+.range::-webkit-slider-thumb {
+  transform: scale(1.7);
+  background-color: var(--orange);
+  transition: 100ms ease;
+}
+
+.range::-webkit-slider-thumb:hover {
+  transform: scale(2);
 }

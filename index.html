@@ -7,34 +7,40 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/landing-page.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <script src="src/to_gender_checker.js" defer></script>
   </head>
   <body>
     <header>
       <section class="header-titles">
-        <img width="5%" src="img/logo_sweatzone.svg" alt="" />
+        <img src="img/logo_sweatzone.svg" alt="logo of sweatzone" />
         <a href="index.html"> <h2>Home</h2></a>
 
         <a href="about.html"> <h2>About us</h2></a>
         <a href="explore.html"> <h2>Explore</h2></a>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
       </section>
 
       <section class="header-profile">
-        <img width="30%" src="img/profile_icon.svg" alt="" />
+        <a class="a-profile" href="profile.html">
+          <img src="img/profile_icon.svg" alt="profile icon"
+        /></a>
       </section>
     </header>
-    
-    <section class="page">
+
+    <main class="page">
+
       <section class="content">
-        <a href="gender.html">
-          <button class="start-button">Get Started</button></a
-        >
+        <div id="toGender"></div>
 
         <div class="titles">
           <h1 class="SweatZone">The SweatZone</h1>
           <p>Get Workout and meal plans on one page.</p>
         </div>
       </section>
-    </section>
+    </main>
 
     <footer>
       <section class="footer-items">
@@ -48,7 +54,7 @@
           <p>thesweatzone@gmail.com</p>
           <p>073 439 34 43</p>
         </div>
-        <div class="footer-elements">
+        <div id="middle" class="footer-elements">
           <h2>Follow Us</h2>
           <div class="social-container">
             <img width="10%" src="img/tiktok.svg" alt="TikTok Icon" />
@@ -58,7 +64,5 @@
         </div>
       </section>
     </footer>
-
-    <script src="src/main.js"></script>
   </body>
 </html>

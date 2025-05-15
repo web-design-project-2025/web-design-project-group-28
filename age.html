@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="css/sliderpages.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <script src="src/responsive.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="header-wrapper">
-        <div class="space"></div>
-        <div class="header-center">
-          <h2>What is your age?</h2>
-        </div>
-        <div class="header-profile">
-          <img width="15%" src="img/profile_icon.svg" alt="profile icon" />
-        </div>
-      </div>
+      <section class="question-titles">
+        <a href="index.html">
+          <img src="img/logo_sweatzone.svg" alt="logo of sweatzone"
+        /></a>
+
+        <h2>What is your age?</h2>
+
+        <a href="profile.html"
+          ><img src="img/profile_icon.svg" alt="profile icon"
+        /></a>
+      </section>
     </header>
     <div id="arrows" class="arrows">
       <a href="height.html">
@@ -32,7 +38,9 @@
 
     <section class="weight-container">
       <div class="weight-page">
-        <div id="age-display" class="slider-display"><h1>16</h1></div>
+        <div id="age-display" class="slider-display">
+          <h3 id="color-changer" style="color: rgb(255, 136, 40)">16</h3>
+        </div>
         <input
           class="range"
           id="age-slider"
@@ -57,11 +65,13 @@
           <p>thesweatzone@gmail.com</p>
           <p>073 439 34 43</p>
         </div>
-        <div class="footer-elements">
+        <div id="middle" class="footer-elements">
           <h2>Follow Us</h2>
-          <img width="10%" src="img/tiktok.svg" alt="TikTok Icon" />
-          <img width="10%" src="img/facebook.svg" alt="Facebook Icon" />
-          <img width="10%" src="img/instagram.svg" alt="Instagram Icon" />
+          <div class="social-container">
+            <img width="10%" src="img/tiktok.svg" alt="TikTok Icon" />
+            <img width="10%" src="img/facebook.svg" alt="Facebook Icon" />
+            <img width="10%" src="img/instagram.svg" alt="Instagram Icon" />
+          </div>
         </div>
       </section>
     </footer>
