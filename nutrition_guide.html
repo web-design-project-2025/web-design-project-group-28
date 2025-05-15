@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nutrition Guide</title>
+  <link rel="stylesheet" href="../css/nutrition_guide.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Logo</div>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Workout Guide</a>
+      <a href="#">Nutrition Guide</a>
+    </nav>
+    <div class="profile-icon">&#128100;</div>
+  </header>
+
+  <main class="container">
+    <h1>Nutrition Guide</h1>
+    
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search food item...">
+      <button id="search-btn">Search</button>
+    </div>
+
+    <div id="results-container"></div>
+
+    <h1>Weekly Meal Plans</h1>
+
+    <div class="category-selector">
+        <button id="category-vegan" onclick="loadPlan('vegan')">Vegan</button>
+        <button id="category-vegetarian" onclick="loadPlan('vegetarian')">Vegetarian</button>
+        <button id="category-nonveg" onclick="loadPlan('non_vegetarian')">Non-Vegetarian</button>
+    </div>
+
+    <!-- Update meal-plan-content to meal-plan-output -->
+    <div id="meal-plan-output" class="meal-plan-grid">
+    <!-- Meals will be dynamically loaded here -->
+    </div>
+
+    <h2>Your Favorite Meals</h2>
+    <div id="favorite-meals" class="favorites-section">
+      <!-- Favorite meals appear here -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <div>Quick Links</div>
+      <div>Contact Us</div>
+      <div class="socials">
+        <a href="#">📷</a>
+        <a href="#">🚀</a>
+        <a href="#">🎵</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../src/nutrition_guide.js"></script>
+</body>
+</html>
