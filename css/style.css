@@ -3,7 +3,7 @@
   --orange: rgb(255, 136, 0);
   --text: rgba(255, 255, 255, 0.769);
   --title: rgba(255, 255, 255, 0.883);
-  --purple: #4620f3;
+  --purple: #6140f1;
 }
 
 * {
@@ -30,6 +30,12 @@
   100% {
     box-shadow: 0rem 0rem 0.2rem 0.2rem var(--orange);
   }
+}
+
+button {
+  border: 0;
+  border-radius: 1rem;
+  color: var(--title);
 }
 
 h1 {
@@ -68,20 +74,6 @@ a {
   margin-left: 3rem;
   margin-right: 3rem;
   font-family: "Poppins", sans-serif;
-}
-
-button {
-  background-color: rgba(34, 93, 144, 0.01);
-  backdrop-filter: blur(0.3rem);
-  box-shadow: inset 0rem 0rem 0.5rem 0.5rem rgb(10, 10, 10);
-  box-shadow: inset 0rem 0rem 0.1rem 0.1rem rgb(50, 50, 50);
-  border-radius: 5rem;
-  border: 0px;
-  width: 20rem;
-  height: 7rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  color: var(--text);
 }
 
 button:hover {
@@ -243,5 +235,59 @@ footer p {
 
 .left:hover,
 .right:hover {
+  transform: scale(1.1);
+}
+
+/*hamburger*/
+
+.three-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-lines {
+  font-size: 3rem;
+  color: var(--title);
+  transition: transform 0.3s ease;
+}
+
+.three-lines:hover {
+  transform: scale(1.2);
+}
+
+#toggle {
+  all: unset;
+  cursor: pointer;
+}
+
+#hamburger {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  z-index: 2;
+  position: absolute;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: var(--purple);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+ul a:hover {
   transform: scale(1.1);
 }

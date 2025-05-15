@@ -7,6 +7,11 @@
     box-sizing: border-box;
   }
 
+  header {
+    max-width: 100%;
+    justify-content: center;
+  }
+
   html,
   body {
     width: 100%;
@@ -116,7 +121,7 @@
   /*login and signup*/
 
   .sign-up {
-    width: 20rem;
+    width: 25rem;
     height: 30rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -127,7 +132,7 @@
   form input {
     min-width: 0;
     height: 3rem;
-    padding: 0.7rem;
+    padding: 1rem;
   }
 
   .submit {

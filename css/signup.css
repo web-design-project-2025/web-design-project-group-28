@@ -3,14 +3,8 @@
   --orange: rgb(255, 136, 0);
   --text: rgba(255, 255, 255, 0.769);
   --title: rgba(255, 255, 255, 0.883);
-  --purple: #4720f37f;
-  --svg: #2d159ab3;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  --purple: #4720f3;
+  --svg: #2d159ade;
 }
 
 a {
@@ -35,10 +29,6 @@ a {
   height: 3.5rem;
   font-size: 1.5rem;
   border-radius: 1rem;
-}
-
-header h2 {
-  font-size: 1.3rem;
 }
 
 .form-centerer {
