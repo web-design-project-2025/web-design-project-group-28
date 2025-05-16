@@ -1,91 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>How To Guide</title>
-  <link rel="stylesheet" href="../css/how_to_guide.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="logo">
-      <a href="workout-plans.html">
-        <img src="../img/logo_sweatzone.svg" alt="SweatZone Logo" class="logo-img" />
-      </a>
-    </div>
-
-    <div class="menu-toggle">&#9776;</div>
-
-    <nav>
-      <a href="workout-plans.html">Dashboard</a>
-      <a href="#">Workout Guide</a>
-      <a href="nutrition_guide.html">Nutrition Guide</a>
-    </nav>
-
-    <div class="mobile-nav" id="mobileMenu">
-      <a href="workout-plans.html">Dashboard</a>
-      <a href="#">Workout Guide</a>
-      <a href="nutrition_guide.html">Nutrition Guide</a>
-    </div>
-    
-    <div class="profile-icon">
-      <a href="profile.html">
-        <img src="../img/profile_icon.svg" alt="Profile" class="profile-img" />
-      </a>
-    </div>
-  </header>
-
-  <main class="container">
-    <div class="guide-card">
-      <h2>Instructions</h2>
-      <img id="exercise-image" src="" alt="Exercise Image" />
-      <h3 id="exercise-name"></h3>
-      <p><strong>FOCUS AREA:</strong> <span id="focus-area"></span></p>
-      <p><strong>EQUIPMENT:</strong> <span id="equipment"></span></p>
-
-      <section>
-        <h4>PREPARATION</h4>
-        <p id="preparation"></p>
-      </section>
-
-      <section>
-        <h4>EXECUTION</h4>
-        <p id="execution"></p>
-      </section>
-
-      <section>
-        <h4>Key Tips</h4>
-        <p id="key-tips"></p>
-      </section>
-
-      <button onclick="goBack()">Done</button>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-column">
-        <h4>Quick Links</h4>
-        <a href="about.html">About Us</a>
-        <a href="explore.html">Explore</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How To Guide</title>
+    <link rel="stylesheet" href="css/how_to_guide.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="workout-plans.html">
+          <img
+            src="img/logo_sweatzone.svg"
+            alt="SweatZone Logo"
+            class="logo-img"
+          />
+        </a>
       </div>
-      <div class="footer-column">
-        <h4>Contact</h4>
-        <p>thesweatzone@gmail.com</p>
-        <p>045456767</p>
+
+      <div class="menu-toggle">&#9776;</div>
+
+      <nav>
+        <a href="workout-plans.html">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="nutrition_guide.html">Nutrition Guide</a>
+      </nav>
+
+      <div class="mobile-nav" id="mobileMenu">
+        <a href="workout-plans.html">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="nutrition_guide.html">Nutrition Guide</a>
       </div>
-      <div class="footer-column">
-        <h4>Follow Us</h4>
-        <div class="social-icons">
-          <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.svg" alt="Instagram" /></a>
-          <a href="https://www.tiktok.com" target="_blank"><img src="../img/tiktok.svg" alt="TikTok" /></a>
-          <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.svg" alt="Facebook" /></a>
+
+      <div class="profile-icon">
+        <a href="profile.html">
+          <img src="img/profile_icon.svg" alt="Profile" class="profile-img" />
+        </a>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="guide-card">
+        <h2>Instructions</h2>
+        <img id="exercise-image" src="" alt="Exercise Image" />
+        <h3 id="exercise-name"></h3>
+        <p><strong>FOCUS AREA:</strong> <span id="focus-area"></span></p>
+        <p><strong>EQUIPMENT:</strong> <span id="equipment"></span></p>
+
+        <section>
+          <h4>PREPARATION</h4>
+          <p id="preparation"></p>
+        </section>
+
+        <section>
+          <h4>EXECUTION</h4>
+          <p id="execution"></p>
+        </section>
+
+        <section>
+          <h4>Key Tips</h4>
+          <p id="key-tips"></p>
+        </section>
+
+        <button onclick="goBack()">Done</button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="explore.html">Explore</a>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>thesweatzone@gmail.com</p>
+          <p>045456767</p>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="img/instagram.svg" alt="Instagram"
+            /></a>
+            <a href="https://www.tiktok.com" target="_blank"
+              ><img src="img/tiktok.svg" alt="TikTok"
+            /></a>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="img/facebook.svg" alt="Facebook"
+            /></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
-  </footer>
+      <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
+    </footer>
 
-  <script src="../src/how_to_guide.js"></script>
-</body>
+    <script src="src/how_to_guide.js"></script>
+  </body>
 </html>

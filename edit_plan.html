@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Edit Workout Plan</title>
-  <link rel="stylesheet" href="../css/edit_plan.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="logo">
-      <a href="workout-plans.html">
-        <img src="../img/logo_sweatzone.svg" alt="SweatZone Logo" class="logo-img" />
-      </a>
-    </div>
-
-    <div class="menu-toggle">&#9776;</div>
-
-    <nav>
-      <a href="workout-plans.html">Dashboard</a>
-      <a href="#">Workout Guide</a>
-      <a href="nutrition_guide.html">Nutrition Guide</a>
-    </nav>
-
-    <div class="mobile-nav" id="mobileMenu">
-      <a href="workout-plans.html">Dashboard</a>
-      <a href="#">Workout Guide</a>
-      <a href="nutrition_guide.html">Nutrition Guide</a>
-    </div>
-
-    <div class="profile-icon">
-      <a href="profile.html">
-        <img src="../img/profile_icon.svg" alt="Profile" class="profile-img" />
-      </a>
-    </div>
-  </header>
-
-  <main class="main-content">
-    <h2 id="day-title">Loading...</h2>
-    
-    <div id="exercise-list" class="exercise-list"></div>
-
-    <div class="add-section">
-      <input type="text" id="new-exercise-name" placeholder="Exercise Name" />
-      <button id="add-btn">Add Exercise</button>
-    </div>
-
-    <div class="action-buttons">
-      <button id="save-btn">Save Plan</button>
-      <button onclick="window.location.href='plan.html'">Cancel</button>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-column">
-        <h4>Quick Links</h4>
-        <a href="about.html">About Us</a>
-        <a href="explore.html">Explore</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Workout Plan</title>
+    <link rel="stylesheet" href="css/edit_plan.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="workout-plans.html">
+          <img
+            src="img/logo_sweatzone.svg"
+            alt="SweatZone Logo"
+            class="logo-img"
+          />
+        </a>
       </div>
-      <div class="footer-column">
-        <h4>Contact</h4>
-        <p>thesweatzone@gmail.com</p>
-        <p>045456767</p>
+
+      <div class="menu-toggle">&#9776;</div>
+
+      <nav>
+        <a href="workout-plans.html">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="nutrition_guide.html">Nutrition Guide</a>
+      </nav>
+
+      <div class="mobile-nav" id="mobileMenu">
+        <a href="workout-plans.html">Dashboard</a>
+        <a href="#">Workout Guide</a>
+        <a href="nutrition_guide.html">Nutrition Guide</a>
       </div>
-      <div class="footer-column">
-        <h4>Follow Us</h4>
-        <div class="social-icons">
-          <a href="https://www.instagram.com" target="_blank"><img src="../img/instagram.svg" alt="Instagram" /></a>
-          <a href="https://www.tiktok.com" target="_blank"><img src="../img/tiktok.svg" alt="TikTok" /></a>
-          <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.svg" alt="Facebook" /></a>
+
+      <div class="profile-icon">
+        <a href="profile.html">
+          <img
+            src="../img/profile_icon.svg"
+            alt="Profile"
+            class="profile-img"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <h2 id="day-title">Loading...</h2>
+
+      <div id="exercise-list" class="exercise-list"></div>
+
+      <div class="add-section">
+        <input type="text" id="new-exercise-name" placeholder="Exercise Name" />
+        <button id="add-btn">Add Exercise</button>
+      </div>
+
+      <div class="action-buttons">
+        <button id="save-btn">Save Plan</button>
+        <button onclick="window.location.href='plan.html'">Cancel</button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="explore.html">Explore</a>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>thesweatzone@gmail.com</p>
+          <p>045456767</p>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="../img/instagram.svg" alt="Instagram"
+            /></a>
+            <a href="https://www.tiktok.com" target="_blank"
+              ><img src="../img/tiktok.svg" alt="TikTok"
+            /></a>
+            <a href="https://www.facebook.com" target="_blank"
+              ><img src="../img/facebook.svg" alt="Facebook"
+            /></a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
-  </footer>
+      <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
+    </footer>
 
-  <script src="../src/edit_plan.js"></script>
-</body>
+    <script src="../src/edit_plan.js"></script>
+  </body>
 </html>

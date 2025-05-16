@@ -14,7 +14,7 @@ function updateHeader() {
     
           <section class="header-profile">
             <a class="a-profile" href="profile.html">
-              <img src="../img/profile_icon.svg" alt="profile icon"
+              <img src="img/profile_icon.svg" alt="profile icon"
             /></a>
           </section>`;
 

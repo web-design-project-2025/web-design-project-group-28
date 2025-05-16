@@ -1,105 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Workout Plan Summary</title>
-  <link rel="stylesheet" href="../css/workout-plans.css" />
-</head>
-<body>
-
-  <!-- Spinner -->
-  <div id="loader" class="loader-wrapper">
-    <div class="spinner"></div>
-  </div>
-
-  <header class="site-header">
-    <div class="header-content">
-      <div class="logo">
-        <a href="workout-plans.html">
-          <img src="../img/logo_sweatzone.svg" alt="SweatZone Logo" class="logo-img" />
-        </a>
-      </div>
-
-      <nav class="nav-links">
-        <a href="workout-plans.html">Dashboard</a>
-        <a href="#">Workout Guide</a>
-        <a href="nutrition_guide.html">Nutrition Guide</a>
-      </nav>
-
-      <div class="menu-toggle">&#9776;</div>
-
-      <div class="mobile-nav" id="mobileMenu">
-        <a href="workout-plans.html">Dashboard</a>
-        <a href="#">Workout Guide</a>
-        <a href="nutrition_guide.html">Nutrition Guide</a>
-      </div>
-
-      <div class="profile-icon">
-      <a href="profile.html">
-        <img src="../img/profile_icon.svg" alt="Profile" class="profile-img" />
-      </a>
-      </div>
-    </div>
-  </header>
-
-  <div id="content" style="display: none;">
-    <!-- Top Arrows -->
-    <div class="arrows arrows-top">
-      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
-      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Plan Summary</title>
+    <link rel="stylesheet" href="css/workout-plans.css" />
+  </head>
+  <body>
+    <!-- Spinner -->
+    <div id="loader" class="loader-wrapper">
+      <div class="spinner"></div>
     </div>
 
-    <!-- Main Section -->
-    <main class="plan-container" id="plan-container">
-      <!-- Workout plan summaries will load here -->
-    </main>
+    <header class="site-header">
+      <div class="header-content">
+        <div class="logo">
+          <a href="workout-plans.html">
+            <img
+              src="img/logo_sweatzone.svg"
+              alt="SweatZone Logo"
+              class="logo-img"
+            />
+          </a>
+        </div>
 
-    <!-- Bottom Arrows -->
-    <div class="arrows arrows-bottom">
-      <a href="day_selction.html"><img class="arrow left" src="../img/arrow_left.svg" alt="Previous" /></a>
-      <a href="plan.html"><img class="arrow right" src="../img/arrow_right.svg" alt="Next" /></a>
-    </div>
-  </div>
+        <nav class="nav-links">
+          <a href="workout-plans.html">Dashboard</a>
+          <a href="#">Workout Guide</a>
+          <a href="nutrition_guide.html">Nutrition Guide</a>
+        </nav>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-content">
-      <div class="footer-column">
-        <h4>Quick Links</h4>
-        <a href="#">About Us</a>
-        <a href="#">Explore</a>
-      </div>
-      <div class="footer-column">
-        <h4>Contact</h4>
-        <p>thesweatzone@gmail.com</p>
-        <p>045456767</p>
-      </div>
-      <div class="footer-column">
-        <h4>Follow Us</h4>
-        <div class="social-icons">
-          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer"><img src="../img/tiktok.svg" alt="TikTok Icon" /></a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="../img/facebook.svg" alt="Facebook Icon" /></a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="../img/instagram.svg" alt="Instagram Icon" /></a>
+        <div class="menu-toggle">&#9776;</div>
+
+        <div class="mobile-nav" id="mobileMenu">
+          <a href="workout-plans.html">Dashboard</a>
+          <a href="#">Workout Guide</a>
+          <a href="nutrition_guide.html">Nutrition Guide</a>
+        </div>
+
+        <div class="profile-icon">
+          <a href="profile.html">
+            <img src="img/profile_icon.svg" alt="Profile" class="profile-img" />
+          </a>
         </div>
       </div>
+    </header>
+
+    <div id="content" style="display: none">
+      <!-- Top Arrows -->
+      <div class="arrows arrows-top">
+        <a href="day_selction.html"
+          ><img class="arrow left" src="img/arrow_left.svg" alt="Previous"
+        /></a>
+        <a href="plan.html"
+          ><img class="arrow right" src="img/arrow_right.svg" alt="Next"
+        /></a>
+      </div>
+
+      <!-- Main Section -->
+      <main class="plan-container" id="plan-container">
+        <!-- Workout plan summaries will load here -->
+      </main>
+
+      <!-- Bottom Arrows -->
+      <div class="arrows arrows-bottom">
+        <a href="day_selction.html"
+          ><img class="arrow left" src="img/arrow_left.svg" alt="Previous"
+        /></a>
+        <a href="plan.html"
+          ><img class="arrow right" src="img/arrow_right.svg" alt="Next"
+        /></a>
+      </div>
     </div>
-    <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
-  </footer>
 
-  <script>
-    window.addEventListener("DOMContentLoaded", () => {
-      setTimeout(() => {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("content").style.display = "block";
-      }, 2000);
-    });
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <a href="#">About Us</a>
+          <a href="#">Explore</a>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <p>thesweatzone@gmail.com</p>
+          <p>045456767</p>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a
+              href="https://www.tiktok.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/tiktok.svg" alt="TikTok Icon"
+            /></a>
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/facebook.svg" alt="Facebook Icon"
+            /></a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/instagram.svg" alt="Instagram Icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 The Sweat Zone</div>
+    </footer>
 
-    document.querySelector('.menu-toggle').addEventListener('click', () => {
-      document.getElementById('mobileMenu').classList.toggle('show');
-    });
-  </script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("content").style.display = "block";
+        }, 2000);
+      });
 
-  <script src="../src/workout-plans.js"></script>
-</body>
+      document.querySelector(".menu-toggle").addEventListener("click", () => {
+        document.getElementById("mobileMenu").classList.toggle("show");
+      });
+    </script>
+
+    <script src="src/workout-plans.js"></script>
+  </body>
 </html>
