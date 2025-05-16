@@ -2,6 +2,7 @@
 const userEmail = localStorage.getItem("email");
 const userPassword = localStorage.getItem("password");
 
+/*used a youtube video for getting an idea for how to make the signup and login https://www.youtube.com/watch?v=bVl5_UdcAy0&t=1s*/
 console.log(userEmail);
 console.log(userPassword);
 
