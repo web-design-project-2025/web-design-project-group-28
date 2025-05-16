@@ -1,3 +1,12 @@
+:root {
+  --blue: #0000ff;
+  --orange: rgb(255, 136, 0);
+  --text: rgba(255, 255, 255, 0.769);
+  --title: rgba(255, 255, 255, 0.883);
+  --purple: #4720f3;
+  --svg: #2d159ade;
+}
+
 /*Profile page*/
 
 .general-info,
@@ -8,8 +17,7 @@
 }
 
 .profile-1,
-.profile-2,
-.profile-3 {
+.profile-2 {
   font-size: 1.2rem;
   margin-top: 1rem;
   text-align: left;
@@ -22,7 +30,6 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  padding: 1rem;
 }
 
 #profile {
@@ -39,7 +46,7 @@
 }
 
 .profilebutton {
-  background-color: #4620f3;
+  background-color: var(--purple);
   color: white;
   padding: 0.5rem 1rem;
   border: none;
