@@ -6,9 +6,9 @@ This is a website done by Vedang Chandode, Abdullah Omar Nabeel and Eugen Rideni
 
 INSTRUCTIONS:
 
-1. The user first will be redirected to the landing page, in the header the user can find links to an about us page, an explore page (were users can see workouts that are included in our website without a recomender system) and a profile page where the user can see his/her information after signing up.
+1. The user first will be redirected to the landing page, in the header the user can find links to an about us page, an explore page (where users can see workouts that are included in our website without a recommender system) and a profile page where the user can see his/her information after signing up.
 
-2. The next step is to click on the get started button to make an account, and then the user will be redirected to the setup pages where he/her can select gender, height, age weight etc. to get the information needed to generate their custom plan.
+2. The next step is to click on the get started button to make an account, and then the user will be redirected to the setup pages where his/her can select gender, height, age weight etc. to get the information needed to generate their custom plan.
 
 3. After the user has put in their information the user gets redirected to the workoutplans. First they will see a summary of each day of the week (including resting days). Here the "real" website begins so the layout changes. The header has three sections the dashboard (which is the summary), a workout guide, and a nutrition guide. I will now go through what each page does:
 
@@ -18,7 +18,7 @@ Here the user can see each day of the week and by pressing "start" on a specific
 
 Nutrition guide:
 
-Here the user gets confronted with a searchbar where he/her can search in a huge library using WGER API of different meals and food items. The user can see calorie content and more for any searched items. Below the searchbar is the meal schedule for each day that includes breakfast, lunch and dinner. The user also can filter for vegan, vegetarian or non-vegetarian to suit the their desired needs.
+Here the user gets confronted with a searchbar where his/her can search in a huge library using WGER API of different meals and food items. The user can see calorie content and more for any searched items. Below the searchbar is the meal schedule for each day that includes breakfast, lunch and dinner. The user also can filter for vegan, vegetarian or non-vegetarian to suit the their desired needs.
 
 FEATURES:
 
