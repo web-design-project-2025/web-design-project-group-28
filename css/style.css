@@ -296,6 +296,18 @@ footer p {
 
 /*drop down menu*/
 
+@keyframes menu-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
 ul {
   z-index: 2;
   position: absolute;
@@ -310,6 +322,12 @@ ul {
   border-radius: 15px;
   gap: 1rem;
   padding: 0.5rem;
+}
+
+ul {
+  animation-delay: 0ms;
+  animation-name: menu-animation;
+  animation-duration: 200ms;
 }
 
 ul a {

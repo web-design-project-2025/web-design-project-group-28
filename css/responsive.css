@@ -15,7 +15,6 @@
   html,
   body {
     width: 100%;
-    max-width: 599px;
     margin: 0 auto;
     overflow-x: hidden;
     background-attachment: fixed;
@@ -60,14 +59,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    gap: 1rem;
   }
 
   .left,
   .right {
-    width: 7rem;
-    min-width: 7rem;
+    width: 6rem;
+    min-width: 6rem;
+  }
+
+  /*landing page*/
+
+  .page {
+    justify-content: center;
   }
 
   /* Gender Page */
@@ -100,6 +103,12 @@
 
   /*slider pages*/
 
+  .weight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .range {
     margin-bottom: 2rem;
     width: 75%;
@@ -108,10 +117,6 @@
   }
   .weight-page {
     width: 75%;
-    margin-left: 5rem;
-    margin-right: 0rem;
-    padding-bottom: 0rem;
-    border-radius: 1rem;
   }
 
   /*login and signup*/
@@ -153,6 +158,12 @@
 
 .part {
   width: 15rem;
+  height: 5rem;
+}
+
+.full {
+  width: 15rem;
+  height: 5rem;
 }
 
 /*footer*/
@@ -365,6 +376,8 @@
 /*big screen*/
 
 @media (min-width: 1200px) {
+  /*gender*/
+
   .gender-icon {
     width: 200px;
     max-width: 100%;
