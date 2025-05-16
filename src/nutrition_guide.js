@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("search-input");
   const resultsContainer = document.getElementById("results-container");
   
+  // Search button logic
   searchBtn.addEventListener("click", async () => {
     const query = searchInput.value.trim();
     if (!query) {
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     resultsContainer.innerHTML = "<p>Loading...</p>";
     try {
-      const response = await fetch(`https://wger.de/api/v2/ingredient/search/?term=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://wger.de/api/v2/ingredient/search/?term=${encodeURIComponent(query)}`);      // API implementation
       const data = await response.json();
 
       if (data.suggestions.length === 0) {
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const ingredientId = data.suggestions[0].data.id;
-      const nutritionResponse = await fetch(`https://wger.de/api/v2/ingredient/${ingredientId}/`);
+      const nutritionResponse = await fetch(`https://wger.de/api/v2/ingredient/${ingredientId}/`);                      // Fetching data from the API
       const nutrition = await nutritionResponse.json();
 
       resultsContainer.innerHTML = `
@@ -133,6 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderFavorites();
   loadWeeklyMealPlans();
 
+  // Mobile Navigation code
   const menuToggle = document.querySelector(".menu-toggle");
   const nav = document.querySelector("header nav");
 

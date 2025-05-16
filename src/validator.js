@@ -5,7 +5,10 @@ const email = document.getElementById("email-input");
 const password = document.getElementById("password-input");
 const passwordRepeat = document.getElementById("repeat-password-input");
 
-/*used a youtube video for getting an idea for how to make the signup and login https://www.youtube.com/watch?v=bVl5_UdcAy0&t=1s*/
+/*
+Used a youtube video for working with this page. Used some of the code from video but tweaked it according to our needs. 
+Link to the video: https://www.youtube.com/watch?v=bVl5_UdcAy0&t=1s 
+*/
 
 form.addEventListener("submit", (e) => {
   let errors = [];

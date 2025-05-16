@@ -10,6 +10,11 @@ const errorMessage = document.getElementById("error-message");
 const email = document.getElementById("email-input");
 const password = document.getElementById("password-input");
 
+/*
+Used a youtube video for working with this page. Used some of the code from video but tweaked it according to our needs. 
+Link to the video: https://www.youtube.com/watch?v=bVl5_UdcAy0&t=1s 
+*/
+
 form.addEventListener("submit", (e) => {
   const errors = loginErrors(email, password);
 
