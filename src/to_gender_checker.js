@@ -6,7 +6,7 @@ const data = localStorage.getItem("data");
 
 if (password) {
   toGender.innerHTML = `<a href="gender.html">
-      <button class="start-button">Contniue</button></a
+      <button class="start-button">Continue</button></a
       >`;
 } else {
   toGender.innerHTML = `<a href="signup.html">
@@ -15,6 +15,6 @@ if (password) {
 } //if the user has their data and account it redirects to workoutplans
 if (data && password) {
   toGender.innerHTML = `<a href="workout-plans.html">
-      <button class="start-button">work</button></a
+      <button class="start-button">Continue</button></a
     >`;
 }

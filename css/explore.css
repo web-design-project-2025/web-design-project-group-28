@@ -1,5 +1,14 @@
 /*Explore page*/
 
+:root {
+  --blue: #0000ff;
+  --orange: rgb(255, 136, 0);
+  --text: rgba(255, 255, 255, 0.769);
+  --title: rgba(255, 255, 255, 0.883);
+  --purple: #4720f3;
+  --svg: #2d159ab3;
+}
+
 .explore-wrapper {
   display: flex;
   justify-content: center;
@@ -22,10 +31,12 @@
 }
 
 .explore-box {
-  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid transparent;
+  border-radius: 15px;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
   transition: transform 0.2s ease;
   text-align: left;
   height: auto;
@@ -40,6 +51,7 @@
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   text-align: center;
   grid-column: 1 / -1;
+  color: var(--title);
 }
 
 .explore-header {
@@ -52,6 +64,7 @@
   font-size: 0.9rem;
   margin: 0.3rem 0;
   text-align: left;
+  color: var(--text);
 }
 
 header {

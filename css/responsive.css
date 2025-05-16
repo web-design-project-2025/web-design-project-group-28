@@ -7,16 +7,20 @@
     box-sizing: border-box;
   }
 
+  header {
+    max-width: 100%;
+    justify-content: center;
+  }
+
   html,
   body {
     width: 100%;
-    max-width: 599px;
     margin: 0 auto;
     overflow-x: hidden;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-image: url(../img/image2.png);
+    background-image: url(../img/image.png);
   }
 
   /* Header */
@@ -26,10 +30,6 @@
     min-width: 30px;
     height: auto;
     margin-right: 100px;
-  }
-
-  .header-titles img {
-    display: none;
   }
 
   /* Footer */
@@ -59,14 +59,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    gap: 1rem;
   }
 
   .left,
   .right {
-    width: 7rem;
-    min-width: 7rem;
+    width: 6rem;
+    min-width: 6rem;
+  }
+
+  /*landing page*/
+
+  .page {
+    justify-content: center;
   }
 
   /* Gender Page */
@@ -76,6 +80,11 @@
     align-items: center;
     gap: 2rem;
     padding: 1rem;
+  }
+
+  .gender-button {
+    max-width: 8rem;
+    max-height: 4rem;
   }
 
   .man,
@@ -99,6 +108,12 @@
 
   /*slider pages*/
 
+  .weight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .range {
     margin-bottom: 2rem;
     width: 75%;
@@ -107,16 +122,12 @@
   }
   .weight-page {
     width: 75%;
-    margin-left: 5rem;
-    margin-right: 0rem;
-    padding-bottom: 0rem;
-    border-radius: 1rem;
   }
 
   /*login and signup*/
 
   .sign-up {
-    width: 20rem;
+    width: 25rem;
     height: 30rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -127,7 +138,7 @@
   form input {
     min-width: 0;
     height: 3rem;
-    padding: 0.7rem;
+    padding: 1rem;
   }
 
   .submit {
@@ -152,6 +163,12 @@
 
 .part {
   width: 15rem;
+  height: 5rem;
+}
+
+.full {
+  width: 15rem;
+  height: 5rem;
 }
 
 /*footer*/
@@ -182,7 +199,7 @@
   header h2 {
     white-space: nowrap;
     font-size: 1.4rem;
-    color: blue;
+    color: var(--title);
   }
 
   .header-titles img {
@@ -291,7 +308,7 @@
   header h2 {
     white-space: nowrap;
     font-size: 1.4rem;
-    color: red;
+    color: var(--title);
   }
 
   .header-titles img {
@@ -364,6 +381,8 @@
 /*big screen*/
 
 @media (min-width: 1200px) {
+  /*gender*/
+
   .gender-icon {
     width: 200px;
     max-width: 100%;
