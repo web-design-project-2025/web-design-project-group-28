@@ -82,6 +82,11 @@
     padding: 1rem;
   }
 
+  .gender-button {
+    max-width: 8rem;
+    max-height: 4rem;
+  }
+
   .man,
   .woman {
     display: flex;

@@ -9,6 +9,17 @@ header {
   align-items: center;
 }
 
+.gender-icon {
+  border: 0.4rem solid var(--purple);
+  border-radius: 1rem;
+  min-width: 15rem;
+}
+
+.gender-icon:hover {
+  border: 0.4rem solid var(--orange);
+  transition: border 300ms ease;
+}
+
 .gender-button {
   background-color: #4620f3;
   color: white;
