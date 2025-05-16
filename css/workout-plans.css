@@ -45,11 +45,14 @@ body {
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
   flex: 1;
   text-align: left;
+}
+
+.logo-img {
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -67,10 +70,21 @@ body {
 }
 
 .profile-icon {
-  font-size: 1.5rem;
   flex: 1;
   text-align: right;
-  color: white;
+}
+
+.profile-icon .profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon .profile-img:hover {
+  transform: scale(1.1);
 }
 
 .menu-toggle {
@@ -290,6 +304,11 @@ main.plan-container {
 }
 
 @media (max-width: 599px) {
+  
+  .header-content {
+    padding: 0 1rem;
+  }
+
   .arrow {
     width: 60px;
     height: 60px;

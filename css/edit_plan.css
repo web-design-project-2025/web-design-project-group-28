@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../img/3dSweatZone.png);
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   color: #333;
@@ -14,16 +16,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: white;
   flex: 1;
   text-align: left;
 }
 
+.logo-img {
+  height: 40px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Standard nav (visible on desktop) */
 nav {
   flex: 2;
   display: flex;
@@ -42,13 +49,55 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.user-icon {
-  font-size: 1.6rem;
-  color: white;
+.profile-icon {
   flex: 1;
   text-align: right;
 }
 
+.profile-icon .profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon .profile-img:hover {
+  transform: scale(1.1);
+}
+
+.menu-toggle {
+  display: none; 
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Mobile nav menu */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-nav a {
+  padding: 0.5rem 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mobile-nav.active {
+  display: flex;
+}
 
 .main-content {
   padding: 30px;
@@ -141,7 +190,6 @@ button:hover {
   display: block;
 }
 
-/* Social Icons */
 .social-icons {
   display: flex;
   gap: 1rem;
@@ -165,7 +213,15 @@ button:hover {
   font-size: 0.9rem;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
+  nav {
+    display: none; 
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -175,5 +231,10 @@ button:hover {
   .footer-column {
     margin: 1rem 0;
   }
-}
 
+  body {
+    background-size: contain; 
+    background-position: top center; 
+    background-attachment: scroll; 
+  }
+}

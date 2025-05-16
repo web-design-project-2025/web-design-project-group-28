@@ -115,4 +115,15 @@ document.addEventListener("DOMContentLoaded", () => {
       renderExercises();
     }
   });
+
+  // Attaching save button event listener (error fixed for Save Plan)
+  saveBtn.addEventListener("click", saveCustomPlan);
+
+  const menuToggle = document.querySelector(".menu-toggle");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  // Fixing hamburger toggle to use 'active' class instead of 'hidden'
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active");
+  });
 });
