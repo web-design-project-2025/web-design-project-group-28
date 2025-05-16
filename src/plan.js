@@ -1,18 +1,19 @@
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const selectedGoal = localStorage.getItem("selectedGoal");
   const daysPerWeek = localStorage.getItem("daysPerWeek");
   const planContainer = document.getElementById("plan-container");
 
   if (!selectedGoal || !daysPerWeek) {
-    planContainer.innerHTML = "<p>Please go back and select your goal and training days.</p>";
+    planContainer.innerHTML =
+      "<p>Please go back and select your goal and training days.</p>";
     return;
   }
 
   const goalKey = selectedGoal.trim().toLowerCase();
 
-  fetch("../data/workout_plans.json")
-    .then(response => response.json())
-    .then(plans => {
+  fetch("data/workout_plans.json")
+    .then((response) => response.json())
+    .then((plans) => {
       const goalPlan = plans[goalKey];
       const weeklyPlan = goalPlan?.[daysPerWeek];
 
@@ -22,8 +23,9 @@
       }
 
       // Render cards
-      planContainer.innerHTML = weeklyPlan.map((dayTitle, index) => {
-        return `
+      planContainer.innerHTML = weeklyPlan
+        .map((dayTitle, index) => {
+          return `
           <div class="plan-card">
             <div class="card-content">
               <h3>Day ${index + 1}</h3>
@@ -32,10 +34,11 @@
             <button class="start-btn" data-title="${dayTitle}">Start</button>
           </div>
         `;
-      }).join("");
+        })
+        .join("");
 
       // Attach event listeners
-      document.querySelectorAll(".start-btn").forEach(btn => {
+      document.querySelectorAll(".start-btn").forEach((btn) => {
         btn.addEventListener("click", (e) => {
           const title = e.currentTarget.dataset.title;
           localStorage.setItem("selectedWorkoutTitle", title);
@@ -43,16 +46,17 @@
         });
       });
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Error loading plan:", error);
       planContainer.innerHTML = "<p>Failed to load workout plan.</p>";
     });
 
-    // Mobile nav toggle
+  // Mobile nav toggle
   const menuToggle = document.querySelector(".menu-toggle");
   const mobileMenu = document.getElementById("mobileMenu");
 
   menuToggle.addEventListener("click", () => {
-    mobileMenu.style.display = mobileMenu.style.display === "flex" ? "none" : "flex";
+    mobileMenu.style.display =
+      mobileMenu.style.display === "flex" ? "none" : "flex";
   });
 });

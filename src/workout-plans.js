@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const goal = (localStorage.getItem("selectedGoal") || "build muscle").toLowerCase();
+  const goal = (
+    localStorage.getItem("selectedGoal") || "build muscle"
+  ).toLowerCase();
   const days = localStorage.getItem("daysPerWeek") || "6";
   const planContainer = document.getElementById("plan-container");
 
-  fetch("../data/workout_exercises.json")
-    .then(response => {
+  fetch("data/workout_exercises.json")
+    .then((response) => {
       if (!response.ok) {
         throw new Error("Failed to load workout data.");
       }
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       const goalPlans = data[goal];
       if (!goalPlans) {
         planContainer.innerHTML = `<p>No plans available for goal: <strong>${goal}</strong>.</p>`;
@@ -26,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Sort by day number (in case they are not in order)
       dailyPlans.sort((a, b) => a.day - b.day);
 
-      dailyPlans.forEach(plan => {
+      dailyPlans.forEach((plan) => {
         const card = document.createElement("div");
         card.classList.add("plan-card");
         card.innerHTML = `
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         planContainer.appendChild(card);
       });
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Error loading workout plan:", error);
       planContainer.innerHTML = `<p>There was an error loading your workout plan. Please try again later.</p>`;
     });

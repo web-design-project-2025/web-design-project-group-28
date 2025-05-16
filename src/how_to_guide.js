@@ -1,6 +1,6 @@
 // Normalizing string for comparison
 function normalize(str) {
-  return str.toLowerCase().replace(/\s+/g, '_');
+  return str.toLowerCase().replace(/\s+/g, "_");
 }
 
 // Loading the exercise data from JSON
@@ -10,7 +10,7 @@ async function loadExerciseData() {
   if (!exerciseName) return;
 
   try {
-    const response = await fetch("../data/exercise_data.json");
+    const response = await fetch("data/exercise_data.json");
     const exercises = await response.json();
 
     const matchedExercise = exercises.find(
@@ -18,26 +18,36 @@ async function loadExerciseData() {
     );
 
     if (matchedExercise) {
-      document.getElementById("exercise-name").innerText = matchedExercise["Exercise Name"];
-      document.getElementById("focus-area").innerText = matchedExercise["Focus Area"];
-      document.getElementById("equipment").innerText = matchedExercise["Equipment"];
-      document.getElementById("preparation").innerText = matchedExercise["Preparation"];
-      document.getElementById("execution").innerText = matchedExercise["Execution"];
-      document.getElementById("key-tips").innerText = matchedExercise["Key Tips"];
+      document.getElementById("exercise-name").innerText =
+        matchedExercise["Exercise Name"];
+      document.getElementById("focus-area").innerText =
+        matchedExercise["Focus Area"];
+      document.getElementById("equipment").innerText =
+        matchedExercise["Equipment"];
+      document.getElementById("preparation").innerText =
+        matchedExercise["Preparation"];
+      document.getElementById("execution").innerText =
+        matchedExercise["Execution"];
+      document.getElementById("key-tips").innerText =
+        matchedExercise["Key Tips"];
 
       const imageName = normalize(matchedExercise["Exercise Name"]);
       const imgEl = document.getElementById("exercise-image");
-      imgEl.src = `../exercise_images/${imageName}.png`;
+      imgEl.src = `exercise_images/${imageName}.png`;
       imgEl.onerror = () => {
         imgEl.onerror = null;
-        imgEl.src = "../exercise_images/placeholder.png";
+        imgEl.src = "exercise_images/placeholder.png";
       };
     } else {
-      document.querySelector(".guide-card").innerHTML = `<p>Exercise not found: ${exerciseName}</p>`;
+      document.querySelector(
+        ".guide-card"
+      ).innerHTML = `<p>Exercise not found: ${exerciseName}</p>`;
     }
   } catch (err) {
     console.error("Failed to load exercise data:", err);
-    document.querySelector(".guide-card").innerHTML = `<p>Error loading exercise data.</p>`;
+    document.querySelector(
+      ".guide-card"
+    ).innerHTML = `<p>Error loading exercise data.</p>`;
   }
 }
 

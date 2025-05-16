@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchBtn = document.getElementById("search-btn");
   const searchInput = document.getElementById("search-input");
   const resultsContainer = document.getElementById("results-container");
-  
+
   // Search button logic
   searchBtn.addEventListener("click", async () => {
     const query = searchInput.value.trim();
@@ -13,7 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     resultsContainer.innerHTML = "<p>Loading...</p>";
     try {
-      const response = await fetch(`https://wger.de/api/v2/ingredient/search/?term=${encodeURIComponent(query)}`);      // API implementation
+      const response = await fetch(
+        `https://wger.de/api/v2/ingredient/search/?term=${encodeURIComponent(
+          query
+        )}`
+      ); // API implementation
       const data = await response.json();
 
       if (data.suggestions.length === 0) {
@@ -22,7 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const ingredientId = data.suggestions[0].data.id;
-      const nutritionResponse = await fetch(`https://wger.de/api/v2/ingredient/${ingredientId}/`);                      // Fetching data from the API
+      const nutritionResponse = await fetch(
+        `https://wger.de/api/v2/ingredient/${ingredientId}/`
+      ); // Fetching data from the API
       const nutrition = await nutritionResponse.json();
 
       resultsContainer.innerHTML = `
@@ -36,13 +42,14 @@ document.addEventListener("DOMContentLoaded", () => {
       `;
     } catch (err) {
       console.error("Error fetching nutrition data:", err);
-      resultsContainer.innerHTML = "<p>Error retrieving data. Please try again.</p>";
+      resultsContainer.innerHTML =
+        "<p>Error retrieving data. Please try again.</p>";
     }
   });
 
   function addToFavorites(name, protein, carbs, fat) {
     const favorites = JSON.parse(localStorage.getItem("favoriteMeals")) || [];
-    if (!favorites.find(f => f.name === name)) {
+    if (!favorites.find((f) => f.name === name)) {
       favorites.push({ name, protein, carbs, fat });
       localStorage.setItem("favoriteMeals", JSON.stringify(favorites));
       renderFavorites();
@@ -59,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    favorites.forEach(meal => {
+    favorites.forEach((meal) => {
       favContainer.innerHTML += `
         <div class="nutrition-card">
           <h2>${meal.name}</h2>
@@ -75,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function loadWeeklyMealPlans() {
     try {
-      const response = await fetch("../data/nutrition_guide.json");
+      const response = await fetch("data/nutrition_guide.json");
       weeklyPlans = await response.json();
       showMealPlan("vegetarian");
       highlightActiveTab("category-vegetarian");
@@ -110,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function highlightActiveTab(activeId) {
     const tabs = ["category-vegan", "category-vegetarian", "category-nonveg"];
-    tabs.forEach(id => {
+    tabs.forEach((id) => {
       document.getElementById(id).classList.remove("active-tab");
     });
     document.getElementById(activeId).classList.add("active-tab");
@@ -121,10 +128,12 @@ document.addEventListener("DOMContentLoaded", () => {
     highlightActiveTab("category-vegan");
   });
 
-  document.getElementById("category-vegetarian").addEventListener("click", () => {
-    showMealPlan("vegetarian");
-    highlightActiveTab("category-vegetarian");
-  });
+  document
+    .getElementById("category-vegetarian")
+    .addEventListener("click", () => {
+      showMealPlan("vegetarian");
+      highlightActiveTab("category-vegetarian");
+    });
 
   document.getElementById("category-nonveg").addEventListener("click", () => {
     showMealPlan("non_vegetarian");

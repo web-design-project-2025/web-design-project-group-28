@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   titleEl.textContent = `Edit: ${title}`;
   let currentExercises = [];
 
-  fetch("../data/workout_plans.json")
+  fetch("data/workout_plans.json")
     .then((res) => res.json())
     .then((data) => {
       const plan = data[goal.toLowerCase()]?.[days];
