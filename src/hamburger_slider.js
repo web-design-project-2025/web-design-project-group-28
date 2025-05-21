@@ -1,4 +1,4 @@
-const currentPage = window.location.pathname;
+const currentPage = window.location.pathname.split("/").pop();
 
 function updateHeader() {
   const header = document.getElementById("inserter"); //gets the header
@@ -9,23 +9,23 @@ function updateHeader() {
 
   let currentMessage = "";
 
-  if (currentPage === "/web-design-project-group-28/gender.html") {
+  if (currentPage === "gender.html") {
     currentMessage = "What do you identify as?";
   }
 
-  if (currentPage === "/web-design-project-group-28/weight.html") {
+  if (currentPage === "weight.html") {
     currentMessage = "What is your weight?";
   }
 
-  if (currentPage === "/web-design-project-group-28/height.html") {
+  if (currentPage === "height.html") {
     currentMessage = "How tall are you?";
   }
 
-  if (currentPage === "/web-design-project-group-28/age.html") {
+  if (currentPage === "age.html") {
     currentMessage = "How old are you?";
   }
 
-  if (currentPage === "/web-design-project-group-28/part.html") {
+  if (currentPage === "part.html") {
     currentMessage = "What area would like to focus?";
   }
 

@@ -1,7 +1,8 @@
 function flipArrows() {
   const down = document.getElementById("isResponsive");
   const up = document.getElementById("arrows");
-  const currentPage = window.location.pathname;
+  const currentPage = window.location.pathname.split("/").pop();
+  console.log(currentPage);
   const isMobile = window.innerWidth < 600;
 
   //arrows html
@@ -15,7 +16,7 @@ function flipArrows() {
 
   function checkPage() {
     // checks what page the user is on and changes the arrows anchor tags
-    if (currentPage === "/web-design-project-group-28/weight.html") {
+    if (currentPage === "weight.html") {
       arrowhtml = `<a href="gender.html">
       <img class="left" src="img/arrow_left.svg" alt=""
     /></a>
@@ -24,7 +25,7 @@ function flipArrows() {
     /></a>`;
     }
 
-    if (currentPage === "/web-design-project-group-28/height.html") {
+    if (currentPage === "height.html") {
       arrowhtml = `<a href="weight.html">
         <img class="left" src="img/arrow_left.svg" alt=""
       /></a>
@@ -33,7 +34,7 @@ function flipArrows() {
       /></a>`;
     }
 
-    if (currentPage === "/web-design-project-group-28/age.html") {
+    if (currentPage === "age.html") {
       arrowhtml = `<a href="height.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
@@ -42,7 +43,7 @@ function flipArrows() {
         /></a>`;
     }
 
-    if (currentPage === "/web-design-project-group-28/part.html") {
+    if (currentPage === "part.html") {
       arrowhtml = `<a href="age.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
@@ -51,7 +52,7 @@ function flipArrows() {
         /></a>`;
     }
 
-    if (currentPage === "/web-design-project-group-28/goal.html") {
+    if (currentPage === "goal.html") {
       arrowhtml = `<a href="part.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
