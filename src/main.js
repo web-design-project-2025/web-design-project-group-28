@@ -5,7 +5,7 @@ let userData = [];
 
 async function loadUserData() {
   try {
-    const response = await fetch("../data/user.json");
+    const response = await fetch("data/user.json");
     const data = await response.json();
     userData = data;
   } catch (error) {
