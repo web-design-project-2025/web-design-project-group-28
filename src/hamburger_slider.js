@@ -9,24 +9,24 @@ function updateHeader() {
 
   let currentMessage = "";
 
-  if (currentPage === "/gender.html") {
+  if (currentPage === "/web-design-project-group-28/gender.html") {
     currentMessage = "What do you identify as?";
   }
 
-  if (currentPage === "/weight.html") {
+  if (currentPage === "/web-design-project-group-28/weight.html") {
     currentMessage = "What is your weight?";
   }
 
-  if (currentPage === "/height.html") {
+  if (currentPage === "/web-design-project-group-28/height.html") {
     currentMessage = "How tall are you?";
   }
 
-  if (currentPage === "/age.html") {
+  if (currentPage === "/web-design-project-group-28/age.html") {
     currentMessage = "How old are you?";
   }
 
-  if (currentPage === "/part.html") {
-    currentMessage = "What are would like to focus?";
+  if (currentPage === "/web-design-project-group-28/part.html") {
+    currentMessage = "What area would like to focus?";
   }
 
   //HTML for normal header

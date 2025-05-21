@@ -15,7 +15,7 @@ function flipArrows() {
 
   function checkPage() {
     // checks what page the user is on and changes the arrows anchor tags
-    if (currentPage === "/weight.html") {
+    if (currentPage === "/web-design-project-group-28/weight.html") {
       arrowhtml = `<a href="gender.html">
       <img class="left" src="img/arrow_left.svg" alt=""
     /></a>
@@ -24,7 +24,7 @@ function flipArrows() {
     /></a>`;
     }
 
-    if (currentPage === "/height.html") {
+    if (currentPage === "/web-design-project-group-28/height.html") {
       arrowhtml = `<a href="weight.html">
         <img class="left" src="img/arrow_left.svg" alt=""
       /></a>
@@ -33,7 +33,7 @@ function flipArrows() {
       /></a>`;
     }
 
-    if (currentPage === "/age.html") {
+    if (currentPage === "/web-design-project-group-28/age.html") {
       arrowhtml = `<a href="height.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
@@ -42,7 +42,7 @@ function flipArrows() {
         /></a>`;
     }
 
-    if (currentPage === "/part.html") {
+    if (currentPage === "/web-design-project-group-28/part.html") {
       arrowhtml = `<a href="age.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
@@ -51,7 +51,7 @@ function flipArrows() {
         /></a>`;
     }
 
-    if (currentPage === "/goal.html") {
+    if (currentPage === "/web-design-project-group-28/goal.html") {
       arrowhtml = `<a href="part.html">
           <img class="left" src="img/arrow_left.svg" alt=""
         /></a>
